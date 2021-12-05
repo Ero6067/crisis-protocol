@@ -1,0 +1,421 @@
+[
+  {
+    "name": "Baron Zemo",
+    "alias": "Helmut Zemo",
+    "statistics": {
+      "health": 5,
+      "speed": "L",
+      "height": 2,
+      "points": 3,
+      "defence": {
+        "physical": 3,
+        "energy": 3,
+        "mental": 2
+      }
+    },
+    "affiliation": {
+      "team1": "Cabal"
+    },
+    "superpowers": {
+      "power1": "Sword Strike",
+      "power2": "Steel Rush",
+      "power3": "Charge",
+      "power4": "Counter-Strike",
+      "power5": "Master Swordsman",
+      "power6": "Strategic Genius"
+    },
+    "set": "CP01"
+  },
+  {
+    "name": "Black Widow",
+    "alias": "Natasha Romanova",
+    "statistics": {
+      "health": 4,
+      "speed": "L",
+      "height": 2,
+      "points": 2,
+      "defence": {
+        "physical": 3,
+        "energy": 2,
+        "mental": 4
+      }
+    },
+    "affiliation": {
+      "team1": "A-Force",
+      "team2": "Avengers"
+    },
+    "superpowers": {
+      "power1": "Strike",
+      "power2": "Pistol",
+      "power3": "Mixed Technique",
+      "power4": "Counter-Strike",
+      "power5": "Martial Artist",
+      "power6": "Stealth"
+    },
+    "set": "CP01"
+  },
+  {
+    "name": "Captain America",
+    "alias": "Steve Rogers",
+    "statistics": {
+      "health": 5,
+      "speed": "M",
+      "height": 2,
+      "points": 4,
+      "defence": {
+        "physical": 4,
+        "energy": 4,
+        "mental": 3
+      }
+    },
+    "affiliation": {
+      "team1": "Avengers"
+    },
+    "superpowers": {
+      "power1": "Strike",
+      "power2": "Shield Throw",
+      "power3": "Shield Slam",
+      "power4": "A Day Unlike Any Other",
+      "power5": "Bodyguard",
+      "power6": "Vibranium Shield"
+    },
+    "set": "CP01"
+  },
+  {
+    "name": "Captain Marvel",
+    "alias": "Carol Danvers",
+    "statistics": {
+      "health": 6,
+      "speed": "M",
+      "height": 2,
+      "points": 4,
+      "defence": {
+        "physical": 3,
+        "energy": 4,
+        "mental": 3
+      }
+    },
+    "affiliation": {
+      "team1": "Avengers",
+      "team2": "A-Force"
+    },
+    "superpowers": {
+      "power1": "Strike",
+      "power2": "energy Blast",
+      "power3": "Rocket Punch",
+      "power4": "Binary Form",
+      "power5": "Danvers' Special",
+      "power6": "Energy Absorption",
+      "power7": "Flight",
+      "power8": "Immunity [Incinerate, Poison]"
+    },
+    "set": "CP01"
+  },
+  {
+    "name": "Crossbones",
+    "alias": "Brock Rumlow",
+    "statistics": {
+      "health": 6,
+      "speed": "S",
+      "height": 2,
+      "points": 3,
+      "defence": {
+        "physical": 4,
+        "energy": 2,
+        "mental": 2
+      }
+    },
+    "affiliation": {
+      "team1": "Cabal"
+    },
+    "superpowers": {
+      "power1": "Strike",
+      "power2": "Overpower",
+      "power3": "Haymaker",
+      "power4": "Inured to Pain",
+      "power5": "Aggressive"
+    },
+    "set": "CP01"
+  },
+  {
+    "name": "Doctor Octopus",
+    "alias": "Otto Octavius",
+    "statistics": {
+      "health": 5,
+      "speed": "M",
+      "height": 2,
+      "points": 3,
+      "defence": {
+        "physical": 4,
+        "energy": 3,
+        "mental": 4
+      }
+    },
+    "affiliation": {
+      "team1": "Spider-Foes"
+    },
+    "superpowers": {
+      "power1": "Strike",
+      "power2": "Arm Lasers",
+      "power3": "Ock's Clutches",
+      "power4": "Scientific Hubris",
+      "power5": "Wall Crawler"
+    },
+    "set": "CP01"
+  },
+  {
+    "name": "Iron Man",
+    "alias": "Tony Stark",
+    "statistics": {
+      "health": 5,
+      "speed": "M",
+      "height": 2,
+      "points": 3,
+      "defence": {
+        "physical": 4,
+        "energy": 3,
+        "mental": 3
+      }
+    },
+    "affiliation": {
+      "team1": "Avengers"
+    },
+    "superpowers": {
+      "power1": "Repulsor Blast",
+      "power2": "Homing Rockets",
+      "power3": "Friday AI",
+      "power4": "Invincible Iron Man",
+      "power5": "Flight"
+    },
+    "set": "CP01"
+  },
+  {
+    "name": "Red Skull",
+    "alias": "Johann Schmidt",
+    "statistics": {
+      "health": 6,
+      "speed": "M",
+      "height": 2,
+      "points": 4,
+      "defence": {
+        "physical": 4,
+        "energy": 3,
+        "mental": 3
+      }
+    },
+    "affiliation": {
+      "team1": "Cabal"
+    },
+    "superpowers": {
+      "power1": "Strike",
+      "power2": "Cosmic Blast",
+      "power3": "Unleashed The Cube",
+      "power4": "Master of Evil",
+      "power5": "Cosmic Cube",
+      "power6": "Master of the Cube",
+      "power7": "Hail Hydra"
+    },
+    "set": "CP01"
+  },
+  {
+    "name": "Ultron",
+    "alias": "Ultron",
+    "statistics": {
+      "health": 6,
+      "speed": "M",
+      "height": 3,
+      "points": 4,
+      "defence": {
+        "physical": 4,
+        "energy": 3,
+        "mental": 4
+      }
+    },
+    "affiliation": {
+      "team1": "Cabal"
+    },
+    "superpowers": {
+      "power1": "Strike",
+      "power2": "Energy Blast",
+      "power3": "Metallic Fury",
+      "power4": "Kinetic Field Generator",
+      "power5": "All Will Be Metal",
+      "power6": "Analyze and Annihilation",
+      "power7": "Flight",
+      "power8": "Immunity [Bleed, Poison]"
+    },
+    "set": "CP01"
+  },
+  {
+    "name": "Spider-Man",
+    "alias": "Peter Parker",
+    "statistics": {
+      "health": 5,
+      "speed": "L",
+      "height": 2,
+      "points": 4,
+      "defence": {
+        "physical": 3,
+        "energy": 3,
+        "mental": 3
+      }
+    },
+    "affiliation": {
+      "team1": "Web Warriors",
+      "team2": "Defenders"
+    },
+    "superpowers": {
+      "power1": "Strike",
+      "power2": "Impact Webbing",
+      "power3": "Taser Webs",
+      "power4": "Web Line",
+      "power5": "Web-A-Pult",
+      "power6": "Spider-Sense",
+      "power7": "Wall Crawler"
+    },
+    "set": "CP01"
+  },
+
+  {
+    "name": "Hulk",
+    "alias": "Bruce Banner",
+    "statistics": {
+      "health": 20,
+      "speed": "S",
+      "height": 4,
+      "points": 6,
+      "defence": {
+        "physical": 4,
+        "energy": 3,
+        "mental": 3
+      }
+    },
+    "affiliation": {
+      "team1": "Avengers",
+      "team2": "Defenders"
+    },
+    "superpowers": {
+      "power1": "Strike",
+      "power2": "Thunder Clap",
+      "power3": "Hulk Smash!",
+      "power4": "Gamma Leap",
+      "power5": "Strongest One There Is",
+      "power6": "Hulk Not Punk Banner",
+      "power7": "Inner Rage",
+      "power8": "You Won't Like Me When I Am Angry",
+      "power9": "Immunity [Poison, Stun]"
+    },
+    "set": "CP04"
+  },
+  {
+    "name": "M.O.D.O.K.",
+    "alias": "George Charleton",
+    "statistics": {
+      "health": 10,
+      "speed": "S",
+      "height": 4,
+      "points": 5,
+      "defence": {
+        "physical": 2,
+        "energy": 3,
+        "mental": 3
+      }
+    },
+    "affiliation": {
+      "team1": "Cabal",
+      "team2": "Criminal Syndicate"
+    },
+    "superpowers": {
+      "power1": "Sword Strike",
+      "power2": "Steel Rush",
+      "power3": "Charge",
+      "power4": "Counter-Strike",
+      "power5": "Master Swordsman",
+      "power6": "Strategic Genius"
+    },
+    "set": "CP05"
+  },
+  {
+    "name": "M.O.D.O.K.",
+    "alias": "George Charleton",
+    "statistics": {
+      "health": 10,
+      "speed": "S",
+      "height": 4,
+      "points": 5,
+      "defence": {
+        "physical": 2,
+        "energy": 3,
+        "mental": 3
+      }
+    },
+    "affiliation": {
+      "team1": "Cabal",
+      "team2": "Criminal Syndicate"
+    },
+    "superpowers": {
+      "power1": "Sword Strike",
+      "power2": "Steel Rush",
+      "power3": "Charge",
+      "power4": "Counter-Strike",
+      "power5": "Master Swordsman",
+      "power6": "Strategic Genius"
+    },
+    "set": "CP05"
+  },
+  {
+    "name": "Spider-Man",
+    "alias": "Miles Morales",
+    "statistics": {
+      "health": 5,
+      "speed": "M",
+      "height": 2,
+      "points": 3,
+      "defence": {
+        "physical": 3,
+        "energy": 3,
+        "mental": 3
+      }
+    },
+    "affiliation": {
+      "team1": "Web Warriors"
+    },
+    "superpowers": {
+      "power1": "Webline Kick",
+      "power2": "Venom Blast",
+      "power3": "Great Responsibility",
+      "power4": "Spider-Sense",
+      "power5": "Stealth",
+      "power6": "Wall Crawl",
+      "power7": "Web Swing"
+    },
+    "set": "CP10"
+  },
+
+  {
+    "name": "Ghost-Spider",
+    "alias": "Gwen Stacy (Earth-65)",
+    "statistics": {
+      "health": 5,
+      "speed": "L",
+      "height": 2,
+      "points": 3,
+      "defence": {
+        "physical": 3,
+        "energy": 3,
+        "mental": 3
+      },
+      "energy": 0
+    },
+    "affiliation": "Web Warriors",
+    "superpowers": {
+      "power1": "Spider-Technique",
+      "power2": "Impact Webbing",
+      "power3": "Freestyle Beatdown",
+      "power4": "Web Line",
+      "power5": "Life Saver",
+      "power6": "Wall Crawl"
+    },
+    "set": "CP10"
+  }
+]
