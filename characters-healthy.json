@@ -275,7 +275,6 @@
     },
     "set": "CP01"
   },
-
   {
     "name": "Hulk",
     "alias": "Bruce Banner",
@@ -336,32 +335,116 @@
     "set": "CP05"
   },
   {
-    "name": "M.O.D.O.K.",
-    "alias": "George Charleton",
+    "name": "Black Panther",
+    "alias": "T'Challa",
     "statistics": {
-      "health": 10,
-      "speed": "S",
-      "height": 4,
-      "points": 5,
+      "health": 6,
+      "speed": "L",
+      "height": 2,
+      "points": 4,
       "defence": {
-        "physical": 2,
+        "physical": 4,
+        "energy": 3,
+        "mental": 3
+      }
+    },
+    "affiliation": {
+      "team1": "Avengers",
+      "team2": "Wakanda"
+    },
+    "superpowers": {
+      "power1": "Strike",
+      "power2": "Kinetic Burst",
+      "power3": "King of Wakanda",
+      "power4": "Mantle of the Black Panther",
+      "power5": "Pounce",
+      "power6": "Vibranium Armor"
+    },
+    "set": "CP07"
+  },
+  {
+    "name": "Killmonger",
+    "alias": "N'Jadaka",
+    "statistics": {
+      "health": 6,
+      "speed": "M",
+      "height": 2,
+      "points": 4,
+      "defence": {
+        "physical": 4,
         "energy": 3,
         "mental": 3
       }
     },
     "affiliation": {
       "team1": "Cabal",
-      "team2": "Criminal Syndicate"
+      "team2": "Criminal Syndicate",
+      "team3": "Wakanda"
     },
     "superpowers": {
-      "power1": "Sword Strike",
-      "power2": "Steel Rush",
+      "power1": "Vibranium Weapons",
+      "power2": "Black Ops Strike",
       "power3": "Charge",
-      "power4": "Counter-Strike",
-      "power5": "Master Swordsman",
-      "power6": "Strategic Genius"
+      "power4": "Special Forces",
+      "power5": "Focused on the Kill",
+      "power6": "Kill Count"
     },
-    "set": "CP05"
+    "set": "CP07"
+  },
+  {
+    "name": "Okoye",
+    "alias": "Okoye",
+    "statistics": {
+      "health": 4,
+      "speed": "M",
+      "height": 2,
+      "points": 2,
+      "defence": {
+        "physical": 3,
+        "energy": 3,
+        "mental": 3
+      }
+    },
+    "affiliation": {
+      "team1": "A-Force",
+      "team2": "Wakanda"
+    },
+    "superpowers": {
+      "power1": "Strike",
+      "power2": "Vibranium Spear Blast",
+      "power3": "Bodyguard",
+      "power4": "General of the Dora Milaje",
+      "power5": "Martial Artist"
+    },
+    "set": "CP08"
+  },
+  {
+    "name": "Venom",
+    "alias": "Eddie Brock",
+    "statistics": {
+      "health": 7,
+      "speed": "M",
+      "height": 3,
+      "points": 4,
+      "defence": {
+        "physical": 4,
+        "energy": 2,
+        "mental": 3
+      }
+    },
+    "affiliation": {
+      "team1": "Spider-Foes",
+      "team2": "Web Warriors"
+    },
+    "superpowers": {
+      "power1": "Symbiote Tendrils",
+      "power2": "We Are Venom",
+      "power3": "Klyntar Rage",
+      "power4": "So Many Snacks",
+      "power5": "Symbiote Instincts",
+      "power6": "Wall Crawler"
+    },
+    "set": "CP09"
   },
   {
     "name": "Spider-Man",
@@ -384,14 +467,14 @@
       "power1": "Webline Kick",
       "power2": "Venom Blast",
       "power3": "Great Responsibility",
-      "power4": "Spider-Sense",
-      "power5": "Stealth",
-      "power6": "Wall Crawl",
-      "power7": "Web Swing"
+      "power4": "Web Swing",
+      "power5": "Spider-Sense",
+      "power6": "Strongest Avenger",
+      "power7": "Stealth",
+      "power8": "Wall Crawl"
     },
     "set": "CP10"
   },
-
   {
     "name": "Ghost-Spider",
     "alias": "Gwen Stacy (Earth-65)",
@@ -404,8 +487,7 @@
         "physical": 3,
         "energy": 3,
         "mental": 3
-      },
-      "energy": 0
+      }
     },
     "affiliation": "Web Warriors",
     "superpowers": {
@@ -417,5 +499,62 @@
       "power6": "Wall Crawl"
     },
     "set": "CP10"
+  },
+  {
+    "name": "Thor",
+    "alias": "Thor Odinson",
+    "statistics": {
+      "health": 6,
+      "speed": "M",
+      "height": 2,
+      "points": 5,
+      "defence": {
+        "physical": 4,
+        "energy": 4,
+        "mental": 3
+      }
+    },
+    "affiliation": {
+      "team1": "Asgardian",
+      "team2": "Avengers"
+    },
+    "superpowers": {
+      "power1": "Strike",
+      "power2": "Hammer Throw",
+      "power3": "God of Thunder",
+      "power4": "Prince of Asgard",
+      "power5": "For Asgard!",
+      "power6": "Strongest Avenger",
+      "power7": "Asgardian",
+      "power8": "Flight"
+    },
+    "set": "CP11"
+  },
+  {
+    "name": "Valkyrie",
+    "alias": "Brunhilde",
+    "statistics": {
+      "health": 6,
+      "speed": "M",
+      "height": 2,
+      "points": 3,
+      "defence": {
+        "physical": 3,
+        "energy": 3,
+        "mental": 3
+      }
+    },
+    "affiliation": {
+      "team1": "Asgardian"
+    },
+    "superpowers": {
+      "power1": "Strike",
+      "power2": "Dragon Fang",
+      "power3": "Asgardian Might",
+      "power4": "Charge",
+      "power5": "Warrior of Legend",
+      "power6": "Asgardian"
+    },
+    "set": "CP11"
   }
 ]
