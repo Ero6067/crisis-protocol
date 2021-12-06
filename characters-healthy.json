@@ -24,7 +24,8 @@
       "power5": "Master Swordsman",
       "power6": "Strategic Genius"
     },
-    "set": "CP01"
+    "base size": "35mm",
+    "expansion": "CP01"
   },
   {
     "name": "Black Widow",
@@ -52,7 +53,8 @@
       "power5": "Martial Artist",
       "power6": "Stealth"
     },
-    "set": "CP01"
+    "base size": "35mm",
+    "expansion": "CP01"
   },
   {
     "name": "Captain America",
@@ -79,7 +81,8 @@
       "power5": "Bodyguard",
       "power6": "Vibranium Shield"
     },
-    "set": "CP01"
+    "base size": "35mm",
+    "expansion": "CP01"
   },
   {
     "name": "Captain Marvel",
@@ -109,7 +112,8 @@
       "power7": "Flight",
       "power8": "Immunity [Incinerate, Poison]"
     },
-    "set": "CP01"
+    "base size": "35mm",
+    "expansion": "CP01"
   },
   {
     "name": "Crossbones",
@@ -135,7 +139,8 @@
       "power4": "Inured to Pain",
       "power5": "Aggressive"
     },
-    "set": "CP01"
+    "base size": "35mm",
+    "expansion": "CP01"
   },
   {
     "name": "Doctor Octopus",
@@ -161,7 +166,8 @@
       "power4": "Scientific Hubris",
       "power5": "Wall Crawler"
     },
-    "set": "CP01"
+    "base size": "35mm",
+    "expansion": "CP01"
   },
   {
     "name": "Iron Man",
@@ -187,7 +193,8 @@
       "power4": "Invincible Iron Man",
       "power5": "Flight"
     },
-    "set": "CP01"
+    "base size": "35mm",
+    "expansion": "CP01"
   },
   {
     "name": "Red Skull",
@@ -215,7 +222,8 @@
       "power6": "Master of the Cube",
       "power7": "Hail Hydra"
     },
-    "set": "CP01"
+    "base size": "35mm",
+    "expansion": "CP01"
   },
   {
     "name": "Ultron",
@@ -244,7 +252,8 @@
       "power7": "Flight",
       "power8": "Immunity [Bleed, Poison]"
     },
-    "set": "CP01"
+    "base size": "50mm",
+    "expansion": "CP01"
   },
   {
     "name": "Spider-Man",
@@ -273,7 +282,8 @@
       "power6": "Spider-Sense",
       "power7": "Wall Crawler"
     },
-    "set": "CP01"
+    "base size": "35mm",
+    "expansion": "CP01"
   },
   {
     "name": "Hulk",
@@ -304,7 +314,8 @@
       "power8": "You Won't Like Me When I Am Angry",
       "power9": "Immunity [Poison, Stun]"
     },
-    "set": "CP04"
+    "base size": "65mm",
+    "expansion": "CP04"
   },
   {
     "name": "M.O.D.O.K.",
@@ -332,7 +343,8 @@
       "power5": "Master Swordsman",
       "power6": "Strategic Genius"
     },
-    "set": "CP05"
+    "base size": "65mm",
+    "expansion": "CP05"
   },
   {
     "name": "Black Panther",
@@ -360,7 +372,8 @@
       "power5": "Pounce",
       "power6": "Vibranium Armor"
     },
-    "set": "CP07"
+    "base size": "35mm",
+    "expansion": "CP07"
   },
   {
     "name": "Killmonger",
@@ -389,7 +402,8 @@
       "power5": "Focused on the Kill",
       "power6": "Kill Count"
     },
-    "set": "CP07"
+    "base size": "35mm",
+    "expansion": "CP07"
   },
   {
     "name": "Okoye",
@@ -416,7 +430,8 @@
       "power4": "General of the Dora Milaje",
       "power5": "Martial Artist"
     },
-    "set": "CP08"
+    "base size": "35mm",
+    "expansion": "CP08"
   },
   {
     "name": "Venom",
@@ -444,7 +459,8 @@
       "power5": "Symbiote Instincts",
       "power6": "Wall Crawler"
     },
-    "set": "CP09"
+    "base size": "50mm",
+    "expansion": "CP09"
   },
   {
     "name": "Spider-Man",
@@ -473,7 +489,8 @@
       "power7": "Stealth",
       "power8": "Wall Crawl"
     },
-    "set": "CP10"
+    "base size": "35mm",
+    "expansion": "CP10"
   },
   {
     "name": "Ghost-Spider",
@@ -498,7 +515,8 @@
       "power5": "Life Saver",
       "power6": "Wall Crawl"
     },
-    "set": "CP10"
+    "base size": "35mm",
+    "expansion": "CP10"
   },
   {
     "name": "Thor",
@@ -528,7 +546,8 @@
       "power7": "Asgardian",
       "power8": "Flight"
     },
-    "set": "CP11"
+    "base size": "35mm",
+    "expansion": "CP11"
   },
   {
     "name": "Valkyrie",
@@ -555,6 +574,724 @@
       "power5": "Warrior of Legend",
       "power6": "Asgardian"
     },
-    "set": "CP11"
+    "base size": "35mm",
+    "expansion": "CP11"
+  },
+  {
+    "name": "Hela, Queen of Hel",
+    "alias": "Hela",
+    "statistics": {
+      "health": 6,
+      "speed": "M",
+      "height": 2,
+      "points": 4,
+      "defence": {
+        "physical": 4,
+        "energy": 4,
+        "mental": 4
+      }
+    },
+    "affiliation": {
+      "team1": "Asgardian"
+    },
+    "superpowers": {
+      "power1": "Hel Forged Blade",
+      "power2": "Claim Soul",
+      "power3": "Rain of Hel",
+      "power4": "Army of Hel",
+      "power5": "Asgardian",
+      "power6": "Goddess of Death"
+    },
+    "base size": "50mm",
+    "expansion": "CP12"
+  },
+  {
+    "name": "Loki, God of Mischief",
+    "alias": "Loki Laufeyson",
+    "statistics": {
+      "health": 5,
+      "speed": "M",
+      "height": 2,
+      "points": 4,
+      "defence": {
+        "physical": 3,
+        "energy": 3,
+        "mental": 4
+      }
+    },
+    "affiliation": {
+      "team1": "Asgardian",
+      "team2": "Cabal"
+    },
+    "superpowers": {
+      "power1": "Strike",
+      "power2": "Frost Blast",
+      "power3": "Illusions",
+      "power4": "I am a GOD!",
+      "power5": "Trickster",
+      "power6": "Asgardian",
+      "power7": "God of Mischief",
+      "power8": "Gem Bearer [Mind, Space]"
+    },
+    "base size": "35mm",
+    "expansion": "CP12"
+  },
+  {
+    "name": "Vision",
+    "alias": "Victor Shade",
+    "statistics": {
+      "health": 6,
+      "speed": "M",
+      "height": 2,
+      "points": 4,
+      "defence": {
+        "physical": 2,
+        "energy": 2,
+        "mental": 4
+      }
+    },
+    "affiliation": {
+      "team1": "Avengers"
+    },
+    "superpowers": {
+      "power1": "Solar Energy Beam",
+      "power2": "Synthezoid Avenger",
+      "power3": "Calculated Trajectory",
+      "power4": "Synthesis",
+      "power5": "Rapid Phase",
+      "power6": "Phasing",
+      "power7": "Flight",
+      "power8": "Immunity [Bleed, Poison]"
+    },
+    "base size": "35mm",
+    "expansion": "CP13"
+  },
+  {
+    "name": "Winter Soldier",
+    "alias": "James \"Bucky\" Barnes",
+    "statistics": {
+      "health": 5,
+      "speed": "M",
+      "height": 2,
+      "points": 3,
+      "defence": {
+        "physical": 3,
+        "energy": 3,
+        "mental": 2
+      }
+    },
+    "affiliation": {
+      "team1": "Unaffiliated"
+    },
+    "superpowers": {
+      "power1": "Assault Rifle",
+      "power2": "Red Fury",
+      "power3": "Hydra Tactics",
+      "power4": "Got Your Back",
+      "power5": "Spetsnaz Training"
+    },
+    "base size": "35mm",
+    "expansion": "CP13"
+  },
+  {
+    "name": "Corvus Glaive",
+    "alias": "Corvus Glaive",
+    "statistics": {
+      "health": 6,
+      "speed": "M",
+      "height": 2,
+      "points": 4,
+      "defence": {
+        "physical": 3,
+        "energy": 3,
+        "mental": 3
+      }
+    },
+    "affiliation": {
+      "team1": "Black Order"
+    },
+    "superpowers": {
+      "power1": "Strike",
+      "power2": "Atom Splitter",
+      "power3": "Death Blow",
+      "power4": "Glaive's Edge",
+      "power5": "Husband of Proxima Midnight",
+      "power6": "Glaive of Immortality",
+      "power7": "Gem Bearer [Reality, Time]"
+    },
+    "base size": "50mm",
+    "expansion": "CP15"
+  },
+  {
+    "name": "Proxima Midnight",
+    "alias": "Proxima Midnight",
+    "statistics": {
+      "health": 5,
+      "speed": "L",
+      "height": 2,
+      "points": 3,
+      "defence": {
+        "physical": 3,
+        "energy": 3,
+        "mental": 3
+      }
+    },
+    "affiliation": {
+      "team1": "Black Order"
+    },
+    "superpowers": {
+      "power1": "Strike",
+      "power2": "Spear Throw",
+      "power3": "Quantum Starburst",
+      "power4": "Martial Prowess",
+      "power5": "Wife of Corvus Glaive",
+      "power6": "Invulnerability"
+    },
+    "base size": "35mm",
+    "expansion": "CP15"
+  },
+  {
+    "name": "Gamora",
+    "alias": "Gamora",
+    "statistics": {
+      "health": 6,
+      "speed": "L",
+      "height": 2,
+      "points": 4,
+      "defence": {
+        "physical": 3,
+        "energy": 3,
+        "mental": 3
+      }
+    },
+    "affiliation": {
+      "team1": "A-Force",
+      "team2": "Guardians of the Galaxy"
+    },
+    "superpowers": {
+      "power1": "God Slayer",
+      "power2": "Cosmic Assassin",
+      "power3": "Assassin Leap",
+      "power4": "Martial Prowess",
+      "power5": "Deadliest Woman in the Galaxy",
+      "power6": "Stealth"
+    },
+    "base size": "35mm",
+    "expansion": "CP16"
+  },
+  {
+    "name": "Nebula",
+    "alias": "Nebula",
+    "statistics": {
+      "health": 4,
+      "speed": "M",
+      "height": 2,
+      "points": 2,
+      "defence": {
+        "physical": 3,
+        "energy": 3,
+        "mental": 2
+      }
+    },
+    "affiliation": {
+      "team1": "Guardians of the Galaxy"
+    },
+    "superpowers": {
+      "power1": "Strike",
+      "power2": "Blaster Pistol",
+      "power3": "Show Sword Assault",
+      "power4": "Assassin",
+      "power5": "Cybernetic Enhancements",
+      "power6": "Immunity [Bleed, Poison, Stun]"
+    },
+    "base size": "35mm",
+    "expansion": "CP16"
+  },
+  {
+    "name": "Rocket Raccoon",
+    "alias": "Rocket Raccoon",
+    "statistics": {
+      "health": 3,
+      "speed": "M",
+      "height": 1,
+      "points": 2,
+      "defence": {
+        "physical": 2,
+        "energy": 2,
+        "mental": 3
+      }
+    },
+    "affiliation": {
+      "team1": "Guardians of the Galaxy"
+    },
+    "superpowers": {
+      "power1": "Plasma Rifle",
+      "power2": "Hadron Enforcer",
+      "power3": "Booby Traps",
+      "power4": "Personal Bodyguards",
+      "power5": "Nimble",
+      "power6": "Small Stature"
+    },
+    "base size": "35mm",
+    "expansion": "CP17"
+  },
+  {
+    "name": "Groot",
+    "alias": "I Am Groot",
+    "statistics": {
+      "health": 7,
+      "speed": "S",
+      "height": 3,
+      "points": 3,
+      "defence": {
+        "physical": 4,
+        "energy": 2,
+        "mental": 3
+      }
+    },
+    "affiliation": {
+      "team1": "Guardians of the Galaxy"
+    },
+    "superpowers": {
+      "power1": "Strike",
+      "power2": "I Am Groot!",
+      "power3": "Living Plant",
+      "power4": "Tangling Vines"
+    },
+    "base size": "50mm",
+    "expansion": "CP17"
+  },
+  {
+    "name": "Star-lord",
+    "alias": "Peter Quill",
+    "statistics": {
+      "health": 6,
+      "speed": "M",
+      "height": 2,
+      "points": 3,
+      "defence": {
+        "physical": 3,
+        "energy": 3,
+        "mental": 3
+      }
+    },
+    "affiliation": {
+      "team1": "Guardians of the Galaxy"
+    },
+    "superpowers": {
+      "power1": "Elemental Gun",
+      "power2": "Full Auto",
+      "power3": "Winging It",
+      "power4": "Hit And Run",
+      "power5": "Plucky Attitude",
+      "power6": "Flight",
+      "power7": "Gem Bearer [Power]"
+    },
+    "base size": "35mm",
+    "expansion": "CP17"
+  },
+  {
+    "name": "Black Dwarf",
+    "alias": "Black Dwarf",
+    "statistics": {
+      "health": 6,
+      "speed": "S",
+      "height": 4,
+      "points": 4,
+      "defence": {
+        "physical": 4,
+        "energy": 3,
+        "mental": 3
+      }
+    },
+    "affiliation": {
+      "team1": "Black Order"
+    },
+    "superpowers": {
+      "power1": "Axe Strike",
+      "power2": "Brutal End",
+      "power3": "Black Fury",
+      "power4": "Enforced Oblivion",
+      "power5": "Intimidating Presence",
+      "power6": "Invulnerable Skin"
+    },
+    "base size": "65mm",
+    "expansion": "CP19"
+  },
+  {
+    "name": "Ebony Maw",
+    "alias": "Ebony Maw",
+    "statistics": {
+      "health": 7,
+      "speed": "M",
+      "height": 2,
+      "points": 5,
+      "defence": {
+        "physical": 2,
+        "energy": 4,
+        "mental": 6
+      }
+    },
+    "affiliation": {
+      "team1": "Black Order"
+    },
+    "superpowers": {
+      "power1": "Black Tongue",
+      "power2": "Herald of Doom",
+      "power3": "Telekinetic Powerhouse",
+      "power4": "Telekinetic Deflection",
+      "power5": "Mind over Matter",
+      "power6": "Incredible Psychic Potential",
+      "power7": "Flight",
+      "power8": "Gem Bearer [Mind, Space]"
+    },
+    "base size": "35mm",
+    "expansion": "CP19"
+  },
+  {
+    "name": "Drax the Destroyer",
+    "alias": "Drax",
+    "statistics": {
+      "health": 6,
+      "speed": "M",
+      "height": 2,
+      "points": 3,
+      "defence": {
+        "physical": 3,
+        "energy": 3,
+        "mental": 2
+      }
+    },
+    "affiliation": {
+      "team1": "Guardians of the Galaxy"
+    },
+    "superpowers": {
+      "power1": "Blades",
+      "power2": "Headbutt",
+      "power3": "Titan Killer",
+      "power4": "The Destroyer",
+      "power5": "Driven By Vengeance",
+      "power6": "I Can Take It"
+    },
+    "base size": "35mm",
+    "expansion": "CP20"
+  },
+  {
+    "name": "Ronan the Accuser",
+    "alias": "Ronan the Accuser",
+    "statistics": {
+      "health": 6,
+      "speed": "M",
+      "height": 3,
+      "points": 4,
+      "defence": {
+        "physical": 3,
+        "energy": 4,
+        "mental": 4
+      }
+    },
+    "affiliation": {
+      "team1": "Inhumans",
+      "team2": "Guardians of the Galaxy"
+    },
+    "superpowers": {
+      "power1": "Strike",
+      "power2": "Universal Weapon",
+      "power3": "Kree Justice",
+      "power4": "Judgment",
+      "power5": "The Accuser",
+      "power6": "Gem Bearer [Power]",
+      "power7": "Immunity [Poison]"
+    },
+    "base size": "50mm",
+    "expansion": "CP20"
+  },
+  {
+    "name": "Green Goblin",
+    "alias": "Norman Osborn",
+    "statistics": {
+      "health": 7,
+      "speed": "M",
+      "height": 3,
+      "points": 4,
+      "defence": {
+        "physical": 4,
+        "energy": 3,
+        "mental": 3
+      }
+    },
+    "affiliation": {
+      "team1": "Criminal Syndicate",
+      "team2": "Spider-Foes"
+    },
+    "superpowers": {
+      "power1": "Pumpkin Bombs",
+      "power2": "Night of the Goblin",
+      "power3": "Osborn Weaponry",
+      "power4": "Hit and Run",
+      "power5": "Trick or Treat",
+      "power6": "Arch Nemesis (Peter Parker)",
+      "power7": "Flight"
+    },
+    "base size": "50mm",
+    "expansion": "CP21"
+  },
+  {
+    "name": "Doctor Strange",
+    "alias": "Stephen Vincent Strange",
+    "statistics": {
+      "health": 6,
+      "speed": "M",
+      "height": 2,
+      "points": 5,
+      "defence": {
+        "physical": 3,
+        "energy": 4,
+        "mental": 4
+      }
+    },
+    "affiliation": {
+      "team1": "Convocation",
+      "team2": "Defenders",
+      "team3": "Midnight Sons"
+    },
+    "superpowers": {
+      "power1": "Bolts of Bedevilment",
+      "power2": "Crimson Bands of Cyttorak",
+      "power3": "Mystic Empowerment",
+      "power4": "Oshtur's Refuge",
+      "power5": "Hoggoth's Hoary Wisdom",
+      "power6": "Eye of Agamotto",
+      "power7": "Shield of the Seraphim",
+      "power8": "Flight",
+      "power9": "Gem Bearer [Soul, Time]"
+    },
+    "base size": "50mm",
+    "expansion": "CP23"
+  },
+  {
+    "name": "Wong",
+    "alias": "Wong",
+    "statistics": {
+      "health": 4,
+      "speed": "M",
+      "height": 2,
+      "points": 2,
+      "defence": {
+        "physical": 2,
+        "energy": 3,
+        "mental": 3
+      }
+    },
+    "affiliation": {
+      "team1": "Convocation",
+      "team2": "Defenders",
+      "team3": "Midnight Sons"
+    },
+    "superpowers": {
+      "power1": "Strike",
+      "power2": "Faithful Assistant",
+      "power3": "Meditate",
+      "power4": "The Vishanti's Blessing",
+      "power5": "Servant to the Sorcerer Supreme"
+    },
+    "base size": "35mm",
+    "expansion": "CP23"
+  },
+  {
+    "name": "Black Widow, Agent of S.H.I.E.L.D.",
+    "alias": "Natasha Romanoff",
+    "statistics": {
+      "health": 5,
+      "speed": "M",
+      "height": 2,
+      "points": 3,
+      "defence": {
+        "physical": 4,
+        "energy": 3,
+        "mental": 3
+      }
+    },
+    "affiliation": {
+      "team1": "A-Force",
+      "team2": "Avengers"
+    },
+    "superpowers": {
+      "power1": "Automatic Pistol",
+      "power2": "Tear Gas",
+      "power3": "Widow's Kiss",
+      "power4": "Interrogate",
+      "power5": "Parting Shot",
+      "power6": "Stealth"
+    },
+    "base size": "35mm",
+    "expansion": "CP24"
+  },
+  {
+    "name": "Hawkeye",
+    "alias": "Clinton Barton",
+    "statistics": {
+      "health": 5,
+      "speed": "M",
+      "height": 2,
+      "points": 3,
+      "defence": {
+        "physical": 4,
+        "energy": 3,
+        "mental": 3
+      }
+    },
+    "affiliation": {
+      "team1": "Avengers",
+      "team2": "Defenders"
+    },
+    "superpowers": {
+      "power1": "Arrow Shot",
+      "power2": "Hook Arrow",
+      "power3": "Trick Shot",
+      "power4": "Fast Draw"
+    },
+    "base size": "35mm",
+    "expansion": "CP24"
+  },
+  {
+    "name": "Thanos, The Mad Titan",
+    "alias": "Thanos",
+    "statistics": {
+      "health": 8,
+      "speed": "M",
+      "height": 3,
+      "points": 6,
+      "defence": {
+        "physical": 3,
+        "energy": 3,
+        "mental": 4
+      }
+    },
+    "affiliation": {
+      "team1": "Black Order"
+    },
+    "superpowers": {
+      "power1": "Strike",
+      "power2": "Cosmic Blast",
+      "power3": "Death's Agenda",
+      "power4": "Cosmic Portal",
+      "power5": "Death's Decree",
+      "power6": "Being of Immeasurable Power",
+      "power7": "Gem Bearer [Mind, Power, Reality, Soul, Space, Time]",
+      "power8": "Immunity [Stun]"
+    },
+    "base size": "50mm",
+    "expansion": "CP25"
+  },
+  {
+    "name": "Wasp (Normal)",
+    "alias": "Janet Van Dyne",
+    "statistics": {
+      "health": 5,
+      "speed": "M",
+      "height": 2,
+      "points": 3,
+      "defence": {
+        "physical": 3,
+        "energy": 2,
+        "mental": 3
+      }
+    },
+    "affiliation": {
+      "team1": "A-Force",
+      "team2": "Avengers"
+    },
+    "superpowers": {
+      "power1": "Size-Changing Smack Down",
+      "power2": "Change Size",
+      "power3": "Pym Discs",
+      "power4": "Pym Particle Control",
+      "power5": "Flight"
+    },
+    "base size": "35mm",
+    "expansion": "CP26"
+  },
+  {
+    "name": "Wasp (Tiny)",
+    "alias": "Janet Van Dyne",
+    "statistics": {
+      "health": 5,
+      "speed": "L",
+      "height": 1,
+      "points": 3,
+      "defence": {
+        "physical": 3,
+        "energy": 2,
+        "mental": 3
+      }
+    },
+    "affiliation": {
+      "team1": "A-Force",
+      "team2": "Avengers"
+    },
+    "superpowers": {
+      "power1": "Stinger Blast",
+      "power2": "Wasp's Fury",
+      "power3": "Change Size",
+      "power4": "Tiny Superhero",
+      "power5": "Stealth",
+      "power6": "Flight"
+    },
+    "base size": "35mm",
+    "expansion": "CP24"
+  },
+  {
+    "name": "Ant-Man (Normal)",
+    "alias": "Scott Lang",
+    "statistics": {
+      "health": 5,
+      "speed": "M",
+      "height": 2,
+      "points": 3,
+      "defence": {
+        "physical": 3,
+        "energy": 2,
+        "mental": 3
+      }
+    },
+    "affiliation": {
+      "team1": "Avengers"
+    },
+    "superpowers": {
+      "power1": "Pym Particle Punch",
+      "power2": "Bullet Ant Barrage",
+      "power3": "Change Size",
+      "power4": "Pym Particle Control"
+    },
+    "base size": "35mm",
+    "expansion": "CP24"
+  },
+  {
+    "name": "Ant-Man (Tiny)",
+    "alias": "Scott Lang",
+    "statistics": {
+      "health": 5,
+      "speed": "S",
+      "height": 1,
+      "points": 3,
+      "defence": {
+        "physical": 3,
+        "energy": 2,
+        "mental": 3
+      }
+    },
+    "affiliation": {
+      "team1": "Avengers"
+    },
+    "superpowers": {
+      "power1": "Ant-Sized Uppercut",
+      "power2": "Change Size",
+      "power3": "Hitch A Ride",
+      "power4": "Stealth",
+      "power5": "Tiny Superhero"
+    },
+    "base size": "35mm",
+    "expansion": "CP24"
   }
 ]
