@@ -1293,5 +1293,604 @@
     },
     "base size": "35mm",
     "expansion": "CP24"
+  },
+  {
+    "name": "Ghost Rider",
+    "alias": "Johnathon Blaze",
+    "statistics": {
+      "health": 8,
+      "speed": "M",
+      "height": 3,
+      "points": 5,
+      "defence": {
+        "physical": 3,
+        "energy": 4,
+        "mental": 4
+      }
+    },
+    "affiliation": {
+      "team1": "Defenders",
+      "team2": "Midnight Sons"
+    },
+    "superpowers": {
+      "power1": "Chains of Damnation",
+      "power2": "Flames of Hell",
+      "power3": "Penance Stare",
+      "power4": "Hell on Wheels",
+      "power5": "Wicked's Judgement",
+      "power6": "Spirit of Vengeance",
+      "power7": "Immunity [Bleed, Hex, Incinerate, Poison]"
+    },
+    "base size": "65mm",
+    "expansion": "CP27"
+  },
+  {
+    "name": "Enchantress",
+    "alias": "Amora",
+    "statistics": {
+      "health": 6,
+      "speed": "M",
+      "height": 2,
+      "points": 4,
+      "defence": {
+        "physical": 2,
+        "energy": 2,
+        "mental": 5
+      }
+    },
+    "affiliation": {
+      "team1": "Asgard",
+      "team2": "Cabal"
+    },
+    "superpowers": {
+      "power1": "Spurned Affection",
+      "power2": "Enthrall",
+      "power3": "Amora's Kiss",
+      "power4": "Hel Hath No Fury...",
+      "power5": "Siren's Call",
+      "power6": "Asgardian",
+      "power7": "Enchanting",
+      "power8": "Flight"
+    },
+    "base size": "50mm",
+    "expansion": "CP28"
+  },
+  {
+    "name": "Angela",
+    "alias": "Aldrif Odinsdottir",
+    "statistics": {
+      "health": 6,
+      "speed": "L",
+      "height": 2,
+      "points": 5,
+      "defence": {
+        "physical": 4,
+        "energy": 4,
+        "mental": 4
+      }
+    },
+    "affiliation": {
+      "team1": "A-Force",
+      "team2": "Asgard",
+      "team3": "Guardians of the Galaxy"
+    },
+    "superpowers": {
+      "power1": "Xiphos, the Sword of the Stars",
+      "power2": "Blades of Ichor",
+      "power3": "Heven's Wrath",
+      "power4": "Odindottir's Might",
+      "power5": "Angelic Assassin",
+      "power6": "Asgardian",
+      "power7": "Living Ribbons",
+      "power8": "Flight"
+    },
+    "base size": "50mm",
+    "expansion": "CP28"
+  },
+  {
+    "name": "Kingpin",
+    "alias": "Wilson Fisk",
+    "statistics": {
+      "health": 7,
+      "speed": "S",
+      "height": 3,
+      "points": 4,
+      "defence": {
+        "physical": 4,
+        "energy": 3,
+        "mental": 3
+      }
+    },
+    "affiliation": {
+      "team1": "Cabal",
+      "team2": "Criminal Syndicate",
+      "team3": "Spider-Foes"
+    },
+    "superpowers": {
+      "power1": "Headbutt",
+      "power2": "Cane Laser",
+      "power3": "Hail to the Kin",
+      "power4": "Illicit Network",
+      "power5": "Street-Level Negotiations",
+      "power6": "Intense Physical Conditioning",
+      "power7": "Solid Frame",
+      "power8": "Flight"
+    },
+    "base size": "50mm",
+    "expansion": "CP29"
+  },
+  {
+    "name": "Daredevil",
+    "alias": "Matt Murdock",
+    "statistics": {
+      "health": 5,
+      "speed": "L",
+      "height": 2,
+      "points": 4,
+      "defence": {
+        "physical": 3,
+        "energy": 3,
+        "mental": 3
+      }
+    },
+    "affiliation": {
+      "team1": "Defenders",
+      "team2": "Web Warriors"
+    },
+    "superpowers": {
+      "power1": "Strike",
+      "power2": "Baton Hook",
+      "power3": "Devil's Deliverance",
+      "power4": "Man Without Fear",
+      "power5": "Radar Sense",
+      "power6": "Wall Crawl"
+    },
+    "base size": "35mm",
+    "expansion": "CP30"
+  },
+  {
+    "name": "Bullseye",
+    "alias": "Benjamin Poindexter",
+    "statistics": {
+      "health": 4,
+      "speed": "M",
+      "height": 2,
+      "points": 2,
+      "defence": {
+        "physical": 3,
+        "energy": 3,
+        "mental": 2
+      }
+    },
+    "affiliation": {
+      "team1": "Cabal",
+      "team2": "Crime Syndicate"
+    },
+    "superpowers": {
+      "power1": "Throwing Knife",
+      "power2": "Pin Cushion",
+      "power3": "Hit and Run",
+      "power4": "I Never Miss",
+      "power5": "Parting Shot"
+    },
+    "base size": "35mm",
+    "expansion": "CP30"
+  },
+  {
+    "name": "Taskmaster",
+    "alias": "Anthony Masters",
+    "statistics": {
+      "health": 6,
+      "speed": "M",
+      "height": 2,
+      "points": 3,
+      "defence": {
+        "physical": 3,
+        "energy": 3,
+        "mental": 3
+      }
+    },
+    "affiliation": {
+      "team1": "Criminal Syndicate"
+    },
+    "superpowers": {
+      "power1": "Sword Strike",
+      "power2": "Shield Throw",
+      "power3": "Mnemonic Technique",
+      "power4": "Photographic Reflexes",
+      "power5": "Intuitive Pattern Recognition",
+      "power6": "Martial Artist",
+      "power7": "Rogue Agent"
+    },
+    "base size": "35mm",
+    "expansion": "CP32"
+  },
+  {
+    "name": "Punisher",
+    "alias": "Frank Castle",
+    "statistics": {
+      "health": 6,
+      "speed": "M",
+      "height": 2,
+      "points": 3,
+      "defence": {
+        "physical": 3,
+        "energy": 3,
+        "mental": 3
+      }
+    },
+    "affiliation": {
+      "team1": "Unaffiliated"
+    },
+    "superpowers": {
+      "power1": "Hip Fire",
+      "power2": "Aimed Shot",
+      "power3": "No More Second Chances",
+      "power4": "Spec Ops Training",
+      "power5": "War Zone",
+      "power6": "The Fallen"
+    },
+    "base size": "35mm",
+    "expansion": "CP32"
+  },
+  {
+    "name": "Dormammu",
+    "alias": "Dormammu",
+    "statistics": {
+      "health": 10,
+      "speed": "M",
+      "height": 5,
+      "points": 8,
+      "defence": {
+        "physical": 4,
+        "energy": 4,
+        "mental": 5
+      }
+    },
+    "affiliation": {
+      "team1": "Dark Dimension"
+    },
+    "superpowers": {
+      "power1": "Shadow Bolt",
+      "power2": "Incantation of Obliteration",
+      "power3": "Flames of the Faltine",
+      "power4": "Not of this Dimension",
+      "power5": "Feel the Power of Darkness",
+      "power6": "Master of the Realm of Darkness",
+      "power7": "Flight",
+      "power8": "Immunity [Bleed, Incinerate, Stagger]"
+    },
+    "base size": "65mm",
+    "expansion": "CP33"
+  },
+  {
+    "name": "Black Bolt",
+    "alias": "Blackagar Boltagon",
+    "statistics": {
+      "health": 5,
+      "speed": "M",
+      "height": 2,
+      "points": 5,
+      "defence": {
+        "physical": 4,
+        "energy": 4,
+        "mental": 2
+      }
+    },
+    "affiliation": {
+      "team1": "Inhumans"
+    },
+    "superpowers": {
+      "power1": "Energy Bolt",
+      "power2": "Master Punch",
+      "power3": "King of the Inhumans",
+      "power4": "Focus Power",
+      "power5": "Anti-Graviton Field",
+      "power6": "Inhuman",
+      "power7": "Flight",
+      "power8": "Immunity [Poison]"
+    },
+    "base size": "50mm",
+    "expansion": "CP34"
+  },
+  {
+    "name": "Medusa",
+    "alias": "Medusalith Amazquelin-Boltagon",
+    "statistics": {
+      "health": 6,
+      "speed": "M",
+      "height": 2,
+      "points": 4,
+      "defence": {
+        "physical": 3,
+        "energy": 3,
+        "mental": 3
+      }
+    },
+    "affiliation": {
+      "team1": "A-Force",
+      "team2": "Inhumans"
+    },
+    "superpowers": {
+      "power1": "Braid Bash",
+      "power2": "Split Ends",
+      "power3": "Hair Flip",
+      "power4": "Royal Decree",
+      "power5": "Inhuman",
+      "power6": "Living Strands",
+      "power7": "Immunity [Poison]"
+    },
+    "base size": "50mm",
+    "expansion": "CP34"
+  },
+  {
+    "name": "Crystal",
+    "alias": "Crystal Amaquelin",
+    "statistics": {
+      "health": 5,
+      "speed": "L",
+      "height": 2,
+      "points": 3,
+      "defence": {
+        "physical": 3,
+        "energy": 3,
+        "mental": 3
+      }
+    },
+    "affiliation": {
+      "team1": "A-Force",
+      "team2": "Inhumans"
+    },
+    "superpowers": {
+      "power1": "Earth-Shaker",
+      "power2": "Hurricane Blast",
+      "power3": "Hydrokinesis",
+      "power4": "Volcanic Surge",
+      "power5": "Elemental Onslaught",
+      "power6": "Elemental Empowerment",
+      "power7": "Inhuman",
+      "power8": "Flight",
+      "power9": "Immunity [Poison]"
+    },
+    "base size": "50mm",
+    "expansion": "CP35"
+  },
+  {
+    "name": "Lockjaw",
+    "alias": "LockJaw",
+    "statistics": {
+      "health": 6,
+      "speed": "S",
+      "height": 3,
+      "points": 3,
+      "defence": {
+        "physical": 3,
+        "energy": 3,
+        "mental": 3
+      }
+    },
+    "affiliation": {
+      "team1": "Inhumans"
+    },
+    "superpowers": {
+      "power1": "Bite",
+      "power2": "DROP IT!",
+      "power3": "Inter-Dimensional Bloodhound",
+      "power4": "Teleport",
+      "power5": "Inhuman",
+      "power6": "Who's a Good Boy?",
+      "power7": "Immunity [Poison]"
+    },
+    "base size": "50mm",
+    "expansion": "CP35"
+  },
+  {
+    "name": "Amazing Spider-Man",
+    "alias": "Peter Parker",
+    "statistics": {
+      "health": 6,
+      "speed": "L",
+      "height": 2,
+      "points": 5,
+      "defence": {
+        "physical": 4,
+        "energy": 4,
+        "mental": 3
+      }
+    },
+    "affiliation": {
+      "team1": "Defenders",
+      "team2": "Web Warriors"
+    },
+    "superpowers": {
+      "power1": "Spider Strike",
+      "power2": "Whatever a Spider Can",
+      "power3": "Friendly Neighborhood Spider-Team",
+      "power4": "Web Swing",
+      "power5": "Witty Banter",
+      "power6": "Masterd Spider-Sense",
+      "power7": "Wall Crawler"
+    },
+    "base size": "50mm",
+    "expansion": "CP37"
+  },
+  {
+    "name": "Black Cat",
+    "alias": "Felecia Hardy",
+    "statistics": {
+      "health": 5,
+      "speed": "L",
+      "height": 2,
+      "points": 3,
+      "defence": {
+        "physical": 3,
+        "energy": 3,
+        "mental": 3
+      }
+    },
+    "affiliation": {
+      "team1": "A-Force",
+      "team2": "Criminal Syndicate",
+      "team3": "Midnight Sons",
+      "team4": "Web Warriors"
+    },
+    "superpowers": {
+      "power1": "Cat Claws",
+      "power2": "Troublemaker",
+      "power3": "Grappling Hook",
+      "power4": "Master Cat Burglar",
+      "power5": "Bad Luck",
+      "power6": "Stealth"
+    },
+    "base size": "50mm",
+    "expansion": "CP37"
+  },
+  {
+    "name": "Captain America",
+    "alias": "Sam Wilson",
+    "statistics": {
+      "health": 5,
+      "speed": "L",
+      "height": 2,
+      "points": 3,
+      "defence": {
+        "physical": 3,
+        "energy": 3,
+        "mental": 3
+      }
+    },
+    "affiliation": {
+      "team1": "Avengers"
+    },
+    "superpowers": {
+      "power1": "Shield Throw",
+      "power2": "Redwing Assault",
+      "power3": "All New, All Different (Affiliation: Avengers)",
+      "power4": "Charge",
+      "power5": "Air Lift",
+      "power6": "Vibranium Shield",
+      "power7": "Flight"
+    },
+    "base size": "35mm",
+    "expansion": "CP38"
+  },
+  {
+    "name": "War Machine",
+    "alias": "James Rhodes",
+    "statistics": {
+      "health": 5,
+      "speed": "M",
+      "height": 2,
+      "points": 3,
+      "defence": {
+        "physical": 4,
+        "energy": 3,
+        "mental": 3
+      }
+    },
+    "affiliation": {
+      "team1": "Avengers"
+    },
+    "superpowers": {
+      "power1": "Metal Storm",
+      "power2": "Rocket Pods",
+      "power3": "Empty the Clip",
+      "power4": "Titanium Armor Plating",
+      "power5": "Flight"
+    },
+    "base size": "35mm",
+    "expansion": "CP38"
+  },
+  {
+    "name": "She-Hulk",
+    "alias": "Jennifer Walters",
+    "statistics": {
+      "health": 20,
+      "speed": "M",
+      "height": 3,
+      "points": 6,
+      "defence": {
+        "physical": 3,
+        "energy": 4,
+        "mental": 3
+      }
+    },
+    "affiliation": {
+      "team1": "A-Force",
+      "team2": "Avengers"
+    },
+    "superpowers": {
+      "power1": "Sensational Uppercut",
+      "power2": "The Defense Rests",
+      "power3": "Defenders of Arcadia (Affiliation: A-Force)",
+      "power4": "Clear the Court",
+      "power5": "Superior Weight Training",
+      "power6": "Legal Defense",
+      "power7": "Gamma Transfusion",
+      "power8": "Immunity [Poison]"
+    },
+    "base size": "50mm",
+    "expansion": "CP39"
+  },
+  {
+    "name": "Wolverine",
+    "alias": "James Logan Howlett",
+    "statistics": {
+      "health": 7,
+      "speed": "M",
+      "height": 2,
+      "points": 4,
+      "defence": {
+        "physical": 4,
+        "energy": 3,
+        "mental": 2
+      }
+    },
+    "affiliation": {
+      "team1": "Avengers",
+      "team2": "Defenders",
+      "team3": "Uncanny X-Men",
+      "team4": "X-force"
+    },
+    "superpowers": {
+      "power1": "Adamantium Slash",
+      "power2": "Berserker Barrage",
+      "power3": "The Best At What I Do...",
+      "power4": "Adamantium Skeleton",
+      "power5": "Healing Factor [2]",
+      "power6": "Immunity [Stun]"
+    },
+    "base size": "35mm",
+    "expansion": "CP40"
+  },
+  {
+    "name": "Sabretooth",
+    "alias": "Vicor Creed",
+    "statistics": {
+      "health": 6,
+      "speed": "L",
+      "height": 3,
+      "points": 4,
+      "defence": {
+        "physical": 3,
+        "energy": 3,
+        "mental": 3
+      }
+    },
+    "affiliation": {
+      "team1": "Brotherhood of Evil Mutants",
+      "team2": "Cabale",
+      "team3": "X-Force"
+    },
+    "superpowers": {
+      "power1": "Claw Slash",
+      "power2": "Savage Predator",
+      "power3": "No Mercy",
+      "power4": "Untamed Force",
+      "power5": "Aggressive",
+      "power6": "Healing Factor [1]"
+    },
+    "base size": "35mm",
+    "expansion": "CP40"
   }
 ]
