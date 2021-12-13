@@ -1879,7 +1879,7 @@
     },
     "affiliation": {
       "team1": "Brotherhood of Evil Mutants",
-      "team2": "Cabale",
+      "team2": "Cabal",
       "team3": "X-Force"
     },
     "superpowers": {
@@ -1892,5 +1892,630 @@
     },
     "base size": "35mm",
     "expansion": "CP40"
+  },
+  {
+    "name": "Cyclops",
+    "alias": "Scott Summers",
+    "statistics": {
+      "health": 6,
+      "speed": "M",
+      "height": 2,
+      "points": 4,
+      "defence": {
+        "physical": 4,
+        "energy": 3,
+        "mental": 3
+      }
+    },
+    "affiliation": {
+      "team1": "Uncanny X-Men"
+    },
+    "superpowers": {
+      "power1": "Optic Blast",
+      "power2": "Optic Devastation",
+      "power3": "X-Men Blue (Affiliation: Uncanny X-Men)",
+      "power4": "Field Leader",
+      "power5": "Hit and Run",
+      "power6": "Quick Draw"
+    },
+    "base size": "35mm",
+    "expansion": "CP41"
+  },
+  {
+    "name": "Storm",
+    "alias": "Ororo Munroe",
+    "statistics": {
+      "health": 5,
+      "speed": "M",
+      "height": 2,
+      "points": 3,
+      "defence": {
+        "physical": 3,
+        "energy": 4,
+        "mental": 3
+      }
+    },
+    "affiliation": {
+      "team1": "A-Force",
+      "team2": "Uncanny X-Men",
+      "team3": "Wakanda"
+    },
+    "superpowers": {
+      "power1": "Lightning Bolt",
+      "power2": "Ice Blizzard",
+      "power3": "Hurricane",
+      "power4": "X-Men Gold (Affiliation: Uncanny X-Men)",
+      "power5": "Eye of the Storm",
+      "power6": "Tempest",
+      "power7": "Goddess of Storms",
+      "power8": "Flight",
+      "power9": "Immunity [Shock]"
+    },
+    "base size": "35mm",
+    "expansion": "CP41"
+  },
+  {
+    "name": "Magneto",
+    "alias": "Max Eisenhardt",
+    "statistics": {
+      "health": 6,
+      "speed": "S",
+      "height": 2,
+      "points": 6,
+      "defence": {
+        "physical": 3,
+        "energy": 4,
+        "mental": 6
+      }
+    },
+    "affiliation": {
+      "team1": "Brotherhood of Mutants",
+      "team2": "Cabal"
+    },
+    "superpowers": {
+      "power1": "From the Ruins... (Affiliation: Brotherhood of Mutants)",
+      "power2": "Fatal Attraction",
+      "power3": "Force Projection",
+      "power4": "Master of Magnetism",
+      "power5": "Flight"
+    },
+    "base size": "50mm",
+    "expansion": "CP42"
+  },
+  {
+    "name": "Toad",
+    "alias": "Mortimore Toynbee",
+    "statistics": {
+      "health": 5,
+      "speed": "M",
+      "height": 2,
+      "points": 2,
+      "defence": {
+        "physical": 3,
+        "energy": 3,
+        "mental": 3
+      }
+    },
+    "affiliation": {
+      "team1": "Brotherhood of Mutants"
+    },
+    "superpowers": {
+      "power1": "Tongue Lash",
+      "power2": "Spit Acid",
+      "power3": "Finders Keepers",
+      "power4": "Hop",
+      "power5": "Slippery",
+      "power6": "Prehensile Tongue",
+      "power7": "Wall Crawler"
+    },
+    "base size": "35mm",
+    "expansion": "CP42"
+  },
+  {
+    "name": "Beast",
+    "alias": "Hank McCoy",
+    "statistics": {
+      "health": 6,
+      "speed": "M",
+      "height": 3,
+      "points": 3,
+      "defence": {
+        "physical": 4,
+        "energy": 2,
+        "mental": 3
+      }
+    },
+    "affiliation": {
+      "team1": "Avengers",
+      "team2": "Inhumans",
+      "team3": "Uncannny X-Men"
+    },
+    "superpowers": {
+      "power1": "Acrobatic Strike",
+      "power2": "Animalistic Freestyle",
+      "power3": "Baser Instincts",
+      "power4": "Stars and Garters",
+      "power5": "Disconcerting, Yet Provatative!",
+      "power6": "Wall Crawler"
+    },
+    "base size": "50mm",
+    "expansion": "CP43"
+  },
+  {
+    "name": "Mystique",
+    "alias": "Raven Darkhölme",
+    "statistics": {
+      "health": 5,
+      "speed": "L",
+      "height": 2,
+      "points": 3,
+      "defence": {
+        "physical": 3,
+        "energy": 3,
+        "mental": 3
+      }
+    },
+    "affiliation": {
+      "team1": "Brotherhood of Mutants",
+      "team2": "Cabal"
+    },
+    "superpowers": {
+      "power1": "Pistol",
+      "power2": "Espionage",
+      "power3": "Freedon Force (Affiliation: Brotherhood of Mutants)",
+      "power4": "Expert Sabotage",
+      "power5": "Martial Artist",
+      "power7": "Shapeshifter",
+      "power6": "Stealth"
+    },
+    "base size": "35mm",
+    "expansion": "CP43"
+  },
+  {
+    "name": "Deadpool",
+    "alias": "Wade Wilson",
+    "statistics": {
+      "health": 4,
+      "speed": "M",
+      "height": 2,
+      "points": 3,
+      "defence": {
+        "physical": 3,
+        "energy": 3,
+        "mental": 4
+      }
+    },
+    "affiliation": {
+      "team1": "Avengers",
+      "team2": "X-Force"
+    },
+    "superpowers": {
+      "power1": "Stab",
+      "power2": "Bang",
+      "power3": "Deodenum Poke",
+      "power4": "Merc With a Mouth",
+      "power5": "I Know Karate",
+      "power6": "Unicorns, Rainbows, and Sugar Plums Dancing Through My Head",
+      "power7": "Healing Factor [2]"
+    },
+    "base size": "35mm",
+    "expansion": "CP45"
+  },
+  {
+    "name": "Bob, Agent of Hydra",
+    "alias": "Robert Dobalina",
+    "statistics": {
+      "health": 3,
+      "speed": "M",
+      "height": 2,
+      "points": 3,
+      "defence": {
+        "physical": 2,
+        "energy": 2,
+        "mental": 2
+      }
+    },
+    "affiliation": {
+      "team1": "Cabal"
+    },
+    "superpowers": {
+      "power1": "Hydra Pistol",
+      "power2": "Excessive Violence",
+      "power3": "Hydra Tactics",
+      "power4": "Make It Spicy, Bob!",
+      "power5": "Muy Caliente"
+    },
+    "base size": "35mm",
+    "expansion": "CP45"
+  },
+  {
+    "name": "Mister Sinister",
+    "alias": "Nathaniel Essex",
+    "statistics": {
+      "health": 6,
+      "speed": "M",
+      "height": 3,
+      "points": 4,
+      "defence": {
+        "physical": 3,
+        "energy": 3,
+        "mental": 4
+      }
+    },
+    "affiliation": {
+      "team1": "Cabal"
+    },
+    "superpowers": {
+      "power1": "Strike",
+      "power2": "Genetic Splicing",
+      "power3": "Recombinant Disintegration",
+      "power4": "Engeered Perfection",
+      "power5": "Genetic Negotiation",
+      "power6": "Such Fun Little Playthings",
+      "power7": "Molecular Regeneration",
+      "power8": "DNA Database",
+      "power9": "Flight"
+    },
+    "base size": "50mm",
+    "expansion": "CP46"
+  },
+  {
+    "name": "Cable",
+    "alias": "Nathan Summers",
+    "statistics": {
+      "health": 6,
+      "speed": "S",
+      "height": 2,
+      "points": 5,
+      "defence": {
+        "physical": 3,
+        "energy": 3,
+        "mental": 4
+      }
+    },
+    "affiliation": {
+      "team1": "Avengers",
+      "team2": "Uncanny X-Men",
+      "team3": "X-Force"
+    },
+    "superpowers": {
+      "power1": "Plasma Rifle",
+      "power2": "Askani'son",
+      "power3": "Wetworks (Affiliation: X-Force)",
+      "power4": "Body Slide by One",
+      "power5": "Omega Level Threat",
+      "power6": "Telekinetic Shield",
+      "power7": "Techno-Organic Virus Suppression",
+      "power8": "Immunity [Poison]"
+    },
+    "base size": "50mm",
+    "expansion": "CP47"
+  },
+  {
+    "name": "Domino",
+    "alias": "Neena Thurman",
+    "statistics": {
+      "health": 5,
+      "speed": "M",
+      "height": 2,
+      "points": 3,
+      "defence": {
+        "physical": 3,
+        "energy": 3,
+        "mental": 3
+      }
+    },
+    "affiliation": {
+      "team1": "A-Force",
+      "team2": "Uncanny X-Men",
+      "team3": "X-Force"
+    },
+    "superpowers": {
+      "power1": "Automatic Pistols",
+      "power2": "Grenade Bounce",
+      "power3": "Lucky Shot",
+      "power4": "Probability Manipulation",
+      "power5": "Things Tend To Go My Way"
+    },
+    "base size": "35mm",
+    "expansion": "CP47"
+  },
+  {
+    "name": "Blade",
+    "alias": "Eric Brooks",
+    "statistics": {
+      "health": 6,
+      "speed": "M",
+      "height": 2,
+      "points": 4,
+      "defence": {
+        "physical": 4,
+        "energy": 3,
+        "mental": 4
+      }
+    },
+    "affiliation": {
+      "team1": "Avengers",
+      "team2": "Defenders",
+      "team3": "Midnight Sons"
+    },
+    "superpowers": {
+      "power1": "Katana",
+      "power2": "Throwing Glaive",
+      "power3": "Night of the Dhampir",
+      "power4": "Bump in the Night (Affiliation: Midnight Sons)",
+      "power5": "Half-Blood Physiology",
+      "power6": "Supernatural Sense",
+      "power7": "Vampiric Immortality"
+    },
+    "base size": "35mm",
+    "expansion": "CP48"
+  },
+  {
+    "name": "Moon Knight",
+    "alias": "Marc Spector",
+    "statistics": {
+      "health": 5,
+      "speed": "M",
+      "height": 2,
+      "points": 3,
+      "defence": {
+        "physical": 3,
+        "energy": 3,
+        "mental": 3
+      }
+    },
+    "affiliation": {
+      "team1": "Defenders",
+      "team2": "Midnight Sons",
+      "team3": "Web Warriors"
+    },
+    "superpowers": {
+      "power1": "Bo Staff",
+      "power2": "Throwing Crescents",
+      "power3": "Avatar of Khonshu",
+      "power4": "Chosen of Khonshu",
+      "power5": "Multiple Personalities ",
+      "power6": "Stealth",
+      "power7": "Wall Crawler"
+    },
+    "base size": "35mm",
+    "expansion": "CP48"
+  },
+  {
+    "name": "Luke Cage",
+    "alias": "Carl Lucas",
+    "statistics": {
+      "health": 6,
+      "speed": "M",
+      "height": 2,
+      "points": 3,
+      "defence": {
+        "physical": 4,
+        "energy": 3,
+        "mental": 3
+      }
+    },
+    "affiliation": {
+      "team1": "Avengers",
+      "team2": "Defenders"
+    },
+    "superpowers": {
+      "power1": "Power Man Punch",
+      "power2": "Sweet Christmas",
+      "power3": "Street Fighter",
+      "power4": "Too Dangerous to Ignore",
+      "power5": "Unbreakable Skin",
+      "power6": "Immunity [Bleed]"
+    },
+    "base size": "35mm",
+    "expansion": "CP49"
+  },
+  {
+    "name": "Iron Fist",
+    "alias": "Danny Rand",
+    "statistics": {
+      "health": 5,
+      "speed": "M",
+      "height": 2,
+      "points": 3,
+      "defence": {
+        "physical": 3,
+        "energy": 3,
+        "mental": 3
+      }
+    },
+    "affiliation": {
+      "team1": "Avengers",
+      "team2": "Defenders",
+      "team3": "Midnight Sons"
+    },
+    "superpowers": {
+      "power1": "Chi Strike",
+      "power2": "Flying Kick",
+      "power3": "The Iron Fist",
+      "power4": "Street Fighter",
+      "power5": "Immortal Weapon",
+      "power6": "Master Martial Artist"
+    },
+    "base size": "35mm",
+    "expansion": "CP49"
+  },
+  {
+    "name": "Mysterio",
+    "alias": "Quentin Beck",
+    "statistics": {
+      "health": 6,
+      "speed": "S",
+      "height": 2,
+      "points": 3,
+      "defence": {
+        "physical": 1,
+        "energy": 1,
+        "mental": 5
+      }
+    },
+    "affiliation": {
+      "team1": "Cabal",
+      "team2": "Criminal Syndicate",
+      "team3": "Spider-Foes"
+    },
+    "superpowers": {
+      "power1": "Hypnosis Gas",
+      "power2": "Curtain Call",
+      "power3": "Tricks and Traps",
+      "power4": "Master of Illusions",
+      "power5": "Smoke and Mirrors",
+      "power6": "Stealth",
+      "power7": "Flight"
+    },
+    "base size": "50mm",
+    "expansion": "CP50"
+  },
+  {
+    "name": "Carnage",
+    "alias": "Cletus Kasady",
+    "statistics": {
+      "health": 7,
+      "speed": "M",
+      "height": 2,
+      "points": 4,
+      "defence": {
+        "physical": 5,
+        "energy": 1,
+        "mental": 1
+      }
+    },
+    "affiliation": {
+      "team1": "Spider-Foes"
+    },
+    "superpowers": {
+      "power1": "Symbiote Tendrils",
+      "power2": "Maximum Carnage",
+      "power3": "Sadistic Glee",
+      "power4": "Paint the Town Red",
+      "power5": "Arch Nemesis [Eddie Brock]",
+      "power6": "Symbiotic Serial Killer",
+      "power7": "Wall Crawler"
+    },
+    "base size": "50mm",
+    "expansion": "CP50"
+  },
+  {
+    "name": "Hulkbuster",
+    "alias": "Tony Stark",
+    "statistics": {
+      "health": 13,
+      "speed": "M",
+      "height": 4,
+      "points": 6,
+      "defence": {
+        "physical": 4,
+        "energy": 3,
+        "mental": 3
+      }
+    },
+    "affiliation": {
+      "team1": "Avengers"
+    },
+    "superpowers": {
+      "power1": "Heavy Repulsor Blast",
+      "power2": "Meteor Punch",
+      "power3": "Hulkbusters (Affiliation: Avengers)",
+      "power4": "Hit and Run",
+      "power5": "Now I'm Mad",
+      "power6": "Built to Take It",
+      "power7": "Enhanced Support Systems [Iron Man (Hulkbuster)]"
+    },
+    "base size": "50mm",
+    "expansion": "CP52"
+  },
+  {
+    "name": "Iron Man (Hulkbuster)",
+    "alias": "Tony Stark",
+    "statistics": {
+      "health": 5,
+      "speed": "M",
+      "height": 2,
+      "points": 6,
+      "defence": {
+        "physical": 2,
+        "energy": 2,
+        "mental": 3
+      }
+    },
+    "affiliation": {
+      "team1": "Avengers"
+    },
+    "superpowers": {
+      "power1": "Rapid Repulsor Blast",
+      "power2": "Hulkbusters (Affiliation: Avengers)",
+      "power3": "Always Have a Backup",
+      "power4": "New Plan",
+      "power5": "Secondary Support Suit",
+      "power6": "Flight"
+    },
+    "base size": "35mm",
+    "expansion": "CP52"
+  },
+  {
+    "name": "Jean Grey",
+    "alias": "Jean Grey",
+    "statistics": {
+      "health": 6,
+      "speed": "M",
+      "height": 2,
+      "points": 5,
+      "defence": {
+        "physical": 3,
+        "energy": 4,
+        "mental": 5
+      }
+    },
+    "affiliation": {
+      "team1": "Uncanny X-Men"
+    },
+    "superpowers": {
+      "power1": "Psionic Bolt",
+      "power2": "Telekinetic Force",
+      "power3": "Battlefield Manipulation",
+      "power4": "Matter Transmutaion",
+      "power5": "Shield Mind",
+      "power6": "Latent Psychic Potential",
+      "power7": "Flight"
+    },
+    "base size": "35mm",
+    "expansion": "CP53"
+  },
+  {
+    "name": "Cassandra Nova",
+    "alias": "Cassandra Nova Xavier",
+    "statistics": {
+      "health": 6,
+      "speed": "M",
+      "height": 2,
+      "points": 5,
+      "defence": {
+        "physical": 2,
+        "energy": 3,
+        "mental": 4
+      }
+    },
+    "affiliation": {
+      "team1": "Cabal"
+    },
+    "superpowers": {
+      "power1": "Psionic Bolt",
+      "power2": "Mind Possession",
+      "power3": "Flesh Manipulation",
+      "power4": "Biokinesis",
+      "power5": "Psychic Distraction",
+      "power6": "Telekinetic Defelction",
+      "power7": "Telepathic Cloak",
+      "power8": "Flight",
+      "power9": "Healing Factor [1]"
+    },
+    "base size": "35mm",
+    "expansion": "CP53"
   }
 ]
