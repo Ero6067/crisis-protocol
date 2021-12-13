@@ -167,7 +167,7 @@
       "power5": "Wall Crawler"
     },
     "base size": "35mm",
-    "expansion": "CP01"
+    "expansion": ["CP01", "CPE01"]
   },
   {
     "name": "Iron Man",
@@ -283,7 +283,7 @@
       "power7": "Wall Crawler"
     },
     "base size": "35mm",
-    "expansion": "CP01"
+    "expansion": ["CP01", "CPE01"]
   },
   {
     "name": "Hulk",
@@ -487,7 +487,7 @@
       "power5": "Spider-Sense",
       "power6": "Strongest Avenger",
       "power7": "Stealth",
-      "power8": "Wall Crawl"
+      "power8": "Wall Crawler"
     },
     "base size": "35mm",
     "expansion": "CP10"
@@ -513,7 +513,7 @@
       "power3": "Freestyle Beatdown",
       "power4": "Web Line",
       "power5": "Life Saver",
-      "power6": "Wall Crawl"
+      "power6": "Wall Crawler"
     },
     "base size": "35mm",
     "expansion": "CP10"
@@ -1443,7 +1443,7 @@
       "power3": "Devil's Deliverance",
       "power4": "Man Without Fear",
       "power5": "Radar Sense",
-      "power6": "Wall Crawl"
+      "power6": "Wall Crawler"
     },
     "base size": "35mm",
     "expansion": "CP30"
@@ -2517,5 +2517,620 @@
     },
     "base size": "35mm",
     "expansion": "CP53"
+  },
+  {
+    "name": "Omega Red",
+    "alias": "Arkady Gregorivich Rossovich",
+    "statistics": {
+      "health": 6,
+      "speed": "S",
+      "height": 3,
+      "points": 4,
+      "defence": {
+        "physical": 3,
+        "energy": 3,
+        "mental": 4
+      }
+    },
+    "affiliation": {
+      "team1": "Cabal",
+      "team2": "Criminal Syndicate"
+    },
+    "superpowers": {
+      "power1": "Carbonadium Coils",
+      "power2": "Red Terror",
+      "power3": "Death Factor",
+      "power4": "Ensnare",
+      "power5": "Carbonadium Armor",
+      "power6": "Death Spores",
+      "power7": "Immunity [Poison]"
+    },
+    "base size": "50mm",
+    "expansion": "CP54"
+  },
+  {
+    "name": "Juggernaut",
+    "alias": "Cain Marko",
+    "statistics": {
+      "health": 8,
+      "speed": "S",
+      "height": 4,
+      "points": 5,
+      "defence": {
+        "physical": 4,
+        "energy": 3,
+        "mental": 5
+      }
+    },
+    "affiliation": {
+      "team1": "Brotherhood of Mutants"
+    },
+    "superpowers": {
+      "power1": "Strike",
+      "power2": "I'm the Juggernaut",
+      "power3": "Nothing Stops the Juggernaut!",
+      "power4": "Nice Punch...",
+      "power5": "Helmet",
+      "power6": "Unstoppable Momentum",
+      "power7": "Immunity [Stun]"
+    },
+    "base size": "50mm",
+    "expansion": "CP56"
+  },
+  {
+    "name": "Colossus",
+    "alias": "Piotr Rasputin",
+    "statistics": {
+      "health": 6,
+      "speed": "S",
+      "height": 3,
+      "points": 4,
+      "defence": {
+        "physical": 4,
+        "energy": 3,
+        "mental": 3
+      }
+    },
+    "affiliation": {
+      "team1": "X-Force"
+    },
+    "superpowers": {
+      "power1": "Strike",
+      "power2": "X-Slam",
+      "power3": "Playing Catch",
+      "power4": "Big Brother",
+      "power5": "Bozhe Moi",
+      "power6": "Organic Steel",
+      "power7": "Immunity [Bleed]"
+    },
+    "base size": "TBD",
+    "expansion": "CP57"
+  },
+  {
+    "name": "Magik",
+    "alias": "Illyana Rasputin",
+    "statistics": {
+      "health": 5,
+      "speed": "M",
+      "height": 2,
+      "points": 3,
+      "defence": {
+        "physical": 3,
+        "energy": 3,
+        "mental": 4
+      }
+    },
+    "affiliation": {
+      "team1": "Convocation"
+    },
+    "superpowers": {
+      "power1": "Bolts of Oshtur",
+      "power2": "Soulsword",
+      "power3": "Darkchylde",
+      "power4": "Limbo Step",
+      "power5": "Sorcerer Supreme of Limbo"
+    },
+    "base size": "TBD",
+    "expansion": "CP57"
+  },
+  {
+    "name": "Lizard",
+    "alias": "Curtis Connor",
+    "statistics": {
+      "health": 6,
+      "speed": "M",
+      "height": 3,
+      "points": 3,
+      "defence": {
+        "physical": 4,
+        "energy": 3,
+        "mental": 3
+      }
+    },
+    "affiliation": {
+      "team1": "Spider-Foes"
+    },
+    "superpowers": {
+      "power1": "Tail Whip",
+      "power2": "Cold-Blooded",
+      "power3": "Biochemical Breakthrough",
+      "power4": "Thick Hide",
+      "power5": "Healing Factor [1]",
+      "power6": "Wall Crawler"
+    },
+    "base size": "50mm",
+    "expansion": "CP58"
+  },
+  {
+    "name": "Kraven",
+    "alias": "Sergei Nikolaevich Kravinoff",
+    "statistics": {
+      "health": 5,
+      "speed": "M",
+      "height": 2,
+      "points": 3,
+      "defence": {
+        "physical": 3,
+        "energy": 3,
+        "mental": 3
+      }
+    },
+    "affiliation": {
+      "team1": "Criminal Syndicate",
+      "team2": "Spider-Foes"
+    },
+    "superpowers": {
+      "power1": "Kurri Strike",
+      "power2": "Spear Thrust",
+      "power3": "Corner the Beast",
+      "power4": "Expert Tracker",
+      "power5": "Elixer of Calypso"
+    },
+    "base size": "50mm",
+    "expansion": "CP58"
+  },
+  {
+    "name": "Gambit",
+    "alias": "Remy LeBeau",
+    "statistics": {
+      "health": 5,
+      "speed": "M",
+      "height": 2,
+      "points": 3,
+      "defence": {
+        "physical": 3,
+        "energy": 3,
+        "mental": 3
+      }
+    },
+    "affiliation": {
+      "team1": "TBD"
+    },
+    "superpowers": {
+      "power1": "Bo Staff",
+      "power2": "Kinetic Ace",
+      "power3": "52 Card Pickup",
+      "power4": "Accelerate Charge",
+      "power5": "A Little Something Extra",
+      "power6": "Enhanced Agility"
+    },
+    "base size": "TBD",
+    "expansion": "CP60"
+  },
+  {
+    "name": "Rogue",
+    "alias": "Anna Marie LeBeau",
+    "statistics": {
+      "health": 6,
+      "speed": "M",
+      "height": 2,
+      "points": 4,
+      "defence": {
+        "physical": 4,
+        "energy": 3,
+        "mental": 3
+      }
+    },
+    "affiliation": {
+      "team1": "TBD"
+    },
+    "superpowers": {
+      "power1": "Absorbing Strike",
+      "power2": "Southern Hospitality",
+      "power3": "Charge",
+      "power4": "Marvelous Strength",
+      "power5": "Mutant Absorption",
+      "power6": "Kree-Mutant Physiology",
+      "power7": "Flight",
+      "power8": "Immunity [Poison]"
+    },
+    "base size": "TBD",
+    "expansion": "CP60"
+  },
+  {
+    "name": "Sin",
+    "alias": "Sinthea Schmidt",
+    "statistics": {
+      "health": 4,
+      "speed": "M",
+      "height": 2,
+      "points": 3,
+      "defence": {
+        "physical": 3,
+        "energy": 3,
+        "mental": 4
+      }
+    },
+    "affiliation": {
+      "team1": "Criminal Syndicate",
+      "team2": "Cabal"
+    },
+    "superpowers": {
+      "power1": "Automatic Pistol",
+      "power2": "Make It Personal",
+      "power3": "Red Mayhem (Affiliation: Cabal)",
+      "power4": "Hit and Run",
+      "power5": "Partners in Crime",
+      "power6": "Heir to the Wicked",
+      "power7": "Stealth"
+    },
+    "base size": "35mm",
+    "expansion": "CP61"
+  },
+  {
+    "name": "Viper",
+    "alias": "Ophelia Sarkissian",
+    "statistics": {
+      "health": 5,
+      "speed": "L",
+      "height": 2,
+      "points": 3,
+      "defence": {
+        "physical": 3,
+        "energy": 3,
+        "mental": 3
+      }
+    },
+    "affiliation": {
+      "team1": "Cabal"
+    },
+    "superpowers": {
+      "power1": "Poisoned Blade",
+      "power2": "Assassin's Pistol",
+      "power3": "Viper Strike",
+      "power4": "Displacement Ring",
+      "power5": "Coiled Serpent",
+      "power6": "Stealth"
+    },
+    "base size": "35mm",
+    "expansion": "CP61"
+  },
+  {
+    "name": "Ms. Marvel",
+    "alias": "Kamala Khan",
+    "statistics": {
+      "health": 5,
+      "speed": "M",
+      "height": 2,
+      "points": 3,
+      "defence": {
+        "physical": 3,
+        "energy": 4,
+        "mental": 3
+      }
+    },
+    "affiliation": {
+      "team1": "Avengers",
+      "team2": "Inhumans"
+    },
+    "superpowers": {
+      "power1": "Morpho-Punch",
+      "power2": "Embiggen",
+      "power3": "Take Out The Trash",
+      "power4": "Inhuman",
+      "power5": "Immunity [Poison]"
+    },
+    "base size": "35mm",
+    "expansion": "CP62"
+  },
+  {
+    "name": "Ms. Marvel (Embiggened)",
+    "alias": "Kamala Khan",
+    "statistics": {
+      "health": 5,
+      "speed": "M",
+      "height": 4,
+      "points": 3,
+      "defence": {
+        "physical": 3,
+        "energy": 4,
+        "mental": 3
+      }
+    },
+    "affiliation": {
+      "team1": "Avengers",
+      "team2": "Inhumans"
+    },
+    "superpowers": {
+      "power1": "High Five",
+      "power2": "Inhuman",
+      "power3": "Morphogenetics",
+      "power4": "Polymorph",
+      "power5": "Immunity [Poison]"
+    },
+    "base size": "65mm",
+    "expansion": "CP62"
+  },
+  {
+    "name": "Scarlet Witch",
+    "alias": "Wanda Maximoff",
+    "statistics": {
+      "health": 6,
+      "speed": "M",
+      "height": 2,
+      "points": 5,
+      "defence": {
+        "physical": 3,
+        "energy": 4,
+        "mental": 4
+      }
+    },
+    "affiliation": {
+      "team1": "A-Force",
+      "team2": "Avengers",
+      "team3": "Defenders",
+      "team4": "Brotherhood of Mutants"
+    },
+    "superpowers": {
+      "power1": "Hex Bolt",
+      "power2": "Cruel Twist",
+      "power3": "Telekinesis",
+      "power4": "Curse",
+      "power5": "Chosen of Chthon",
+      "power6": "Hex Field",
+      "power7": "Flight"
+    },
+    "base size": "35mm",
+    "expansion": "CP63"
+  },
+  {
+    "name": "Quicksilver",
+    "alias": "Pietro Maximoff",
+    "statistics": {
+      "health": 5,
+      "speed": "L",
+      "height": 2,
+      "points": 3,
+      "defence": {
+        "physical": 3,
+        "energy": 3,
+        "mental": 3
+      }
+    },
+    "affiliation": {
+      "team1": "Avengers",
+      "team2": "Brotherhood of Mutants",
+      "team3": "Inhumans"
+    },
+    "superpowers": {
+      "power1": "Supersonic Strike",
+      "power2": "Cyclonic Vortex",
+      "power3": "Speedster",
+      "power4": "Can't Catch Me",
+      "power5": "Supersonic Reflexes",
+      "power6": "Wall Crawler"
+    },
+    "base size": "35mm",
+    "expansion": "CP63"
+  },
+  {
+    "name": "Ancient One",
+    "alias": "Ancient One",
+    "statistics": {
+      "health": 6,
+      "speed": "M",
+      "height": 2,
+      "points": 4,
+      "defence": {
+        "physical": 2,
+        "energy": 3,
+        "mental": 5
+      }
+    },
+    "affiliation": {
+      "team1": "Convocation",
+      "team2": "Defenders"
+    },
+    "superpowers": {
+      "power1": "Shards of Seraphim",
+      "power2": "Fangs of Farallah",
+      "power3": "Astral Strike",
+      "power4": "Mists of Hoggoth",
+      "power5": "Winds of Watoomb",
+      "power6": "Keeper of the Eye of Agamotto",
+      "power7": "Martial Artist"
+    },
+    "base size": "35mm",
+    "expansion": "CP64"
+  },
+  {
+    "name": "Baron Mordo",
+    "alias": "Karl Amadeus Mordo",
+    "statistics": {
+      "health": 6,
+      "speed": "M",
+      "height": 2,
+      "points": 3,
+      "defence": {
+        "physical": 2,
+        "energy": 4,
+        "mental": 4
+      }
+    },
+    "affiliation": {
+      "team1": "Cabal",
+      "team2": "Convocation"
+    },
+    "superpowers": {
+      "power1": "Staf of the Living Tribunal",
+      "power2": "Bolts of Bishru",
+      "power3": "Rains fo Raggadorr",
+      "power4": "Master of the Occult",
+      "power5": "Soul Barb",
+      "power6": "Ferocity of Cyttorak",
+      "power7": "Vaulting Boots of Valtor",
+      "power8": "Flight"
+    },
+    "base size": "35mm",
+    "expansion": "CP64"
+  },
+  {
+    "name": "Doctor Voodoo",
+    "alias": "Jericho Drumm",
+    "statistics": {
+      "health": 6,
+      "speed": "M",
+      "height": 2,
+      "points": 4,
+      "defence": {
+        "physical": 2,
+        "energy": 2,
+        "mental": 4
+      }
+    },
+    "affiliation": {
+      "team1": "Avengers",
+      "team2": "Convocation",
+      "team3": "Midnight Sons"
+    },
+    "superpowers": {
+      "power1": "Sprit Venom",
+      "power2": "Staff of Legba",
+      "power3": "Possession",
+      "power4": "Spiritual Strength",
+      "power5": "Recall Spirit",
+      "power6": "Spirit of Brother Daniel",
+      "power7": "Flight",
+      "power8": "Immunity [Hex, Incinerate]"
+    },
+    "base size": "50mm",
+    "expansion": "CP65"
+  },
+  {
+    "name": "Hood (Normal)",
+    "alias": "Parker Robbins",
+    "statistics": {
+      "health": 5,
+      "speed": "M",
+      "height": 2,
+      "points": 3,
+      "defence": {
+        "physical": 2,
+        "energy": 2,
+        "mental": 3
+      }
+    },
+    "affiliation": {
+      "team1": "Cabal",
+      "team2": "Crime Syndicate"
+    },
+    "superpowers": {
+      "power1": "Hex Shot",
+      "power2": "Dark Lightning",
+      "power3": "Black Arts",
+      "power4": "Invisibility Cloak",
+      "power5": "Possessed by Nasanti"
+    },
+    "base size": "35mm",
+    "expansion": "CP65"
+  },
+  {
+    "name": "Hood (Possessed)",
+    "alias": "Parker Robbins",
+    "statistics": {
+      "health": 5,
+      "speed": "M",
+      "height": 2,
+      "points": 3,
+      "defence": {
+        "physical": 2,
+        "energy": 2,
+        "mental": 3
+      }
+    },
+    "affiliation": {
+      "team1": "Cabal",
+      "team2": "Crime Syndicate"
+    },
+    "superpowers": {
+      "power1": "Razor Talons",
+      "power2": "Empowered Dark Lightning",
+      "power3": "Charge",
+      "power4": "Demonic Resilience",
+      "power5": "Mystic Vulnerability"
+    },
+    "base size": "35mm",
+    "expansion": "CP65"
+  },
+  {
+    "name": "Doctor Strange, Sorcerer Supreme",
+    "alias": "Stephen Vincent Strange",
+    "statistics": {
+      "health": 6,
+      "speed": "M",
+      "height": 2,
+      "points": 5,
+      "defence": {
+        "physical": 3,
+        "energy": 3,
+        "mental": 5
+      }
+    },
+    "affiliation": {
+      "team1": "Convocation",
+      "team2": "Defenders",
+      "team3": "Midnight Sons"
+    },
+    "superpowers": {
+      "power1": "Baleful Bolts of Balthakk",
+      "power2": "Deadly Daggers of Daveroth",
+      "power3": "Shining Circle of the Serphim",
+      "power4": "Scalpel of Strange",
+      "power5": "Chosen of the Vishanti",
+      "power6": "Eye of Agamotto",
+      "power7": "Mystic Armor of Strange",
+      "power8": "Flight"
+    },
+    "base size": "50mm",
+    "expansion": "CP67"
+  },
+  {
+    "name": "Clea",
+    "alias": "Clea",
+    "statistics": {
+      "health": 5,
+      "speed": "M",
+      "height": 2,
+      "points": 4,
+      "defence": {
+        "physical": 2,
+        "energy": 3,
+        "mental": 4
+      }
+    },
+    "affiliation": {
+      "team1": "Convocation",
+      "team2": "Defenders"
+    },
+    "superpowers": {
+      "power1": "Demon Claws of Denak",
+      "power2": "Icy Tendrils of Ikthalon",
+      "power3": "Descendant of the Faultine",
+      "power4": "Oshtur's Mighty Hand",
+      "power5": "Vapors of Dormammu",
+      "power6": "Immunity [Incinerate]"
+    },
+    "base size": "50mm",
+    "expansion": "CP67"
   }
 ]
