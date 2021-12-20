@@ -9,7 +9,7 @@ const HomeScreen = () => {
       <Row>
         {characters.map((character) => (
           <Col sm={12} md={6} lg={4} xl={3}>
-            {/* <Character character={character} /> */}
+            <Character character={character} />
           </Col>
         ))}
       </Row>

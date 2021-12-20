@@ -1,6 +1,6 @@
 const characters = [
   {
-    id: "1",
+    _id: "1",
     name: "Baron Zemo",
     alias: "Helmut Zemo",
     statistics: {
@@ -25,12 +25,12 @@ const characters = [
       power5: "Master Swordsman",
       power6: "Strategic Genius",
     },
-    "base size": "35mm",
+    baseType: "35mm",
     image: "images/logo.png",
     expansion: "CP01",
   },
   {
-    id: "1",
+    _id: "2",
     name: "Black Widow",
     alias: "Natasha Romanova",
     statistics: {
@@ -56,12 +56,12 @@ const characters = [
       power5: "Martial Artist",
       power6: "Stealth",
     },
-    "base size": "35mm",
+    baseType: "35mm",
     image: "images/logo.png",
     expansion: "CP01",
   },
   {
-    id: "1",
+    _id: "3",
     name: "Captain America",
     alias: "Steve Rogers",
     statistics: {
@@ -86,12 +86,12 @@ const characters = [
       power5: "Bodyguard",
       power6: "Vibranium Shield",
     },
-    "base size": "35mm",
+    baseType: "35mm",
     image: "images/logo.png",
     expansion: "CP01",
   },
   {
-    id: "1",
+    _id: "4",
     name: "Captain Marvel",
     alias: "Carol Danvers",
     statistics: {
@@ -119,12 +119,12 @@ const characters = [
       power7: "Flight",
       power8: "Immunity [Incinerate, Poison]",
     },
-    "base size": "35mm",
+    baseType: "35mm",
     image: "images/logo.png",
     expansion: "CP01",
   },
   {
-    id: "1",
+    _id: "5",
     name: "Crossbones",
     alias: "Brock Rumlow",
     statistics: {
@@ -148,12 +148,12 @@ const characters = [
       power4: "Inured to Pain",
       power5: "Aggressive",
     },
-    "base size": "35mm",
+    baseType: "35mm",
     image: "images/logo.png",
     expansion: "CP01",
   },
   {
-    id: "1",
+    _id: "6",
     name: "Doctor Octopus",
     alias: "Otto Octavius",
     statistics: {
@@ -177,12 +177,12 @@ const characters = [
       power4: "Scientific Hubris",
       power5: "Wall Crawler",
     },
-    "base size": "35mm",
+    baseType: "35mm",
     image: "images/logo.png",
     expansion: ["CP01", "CPE01"],
   },
   {
-    id: "1",
+    _id: "7",
     name: "Iron Man",
     alias: "Tony Stark",
     statistics: {
@@ -206,12 +206,12 @@ const characters = [
       power4: "Invincible Iron Man",
       power5: "Flight",
     },
-    "base size": "35mm",
+    baseType: "35mm",
     image: "images/logo.png",
     expansion: "CP01",
   },
   {
-    id: "1",
+    _id: "8",
     name: "Red Skull",
     alias: "Johann Schmidt",
     statistics: {
@@ -237,12 +237,12 @@ const characters = [
       power6: "Master of the Cube",
       power7: "Hail Hydra",
     },
-    "base size": "35mm",
+    baseType: "35mm",
     image: "images/logo.png",
     expansion: "CP01",
   },
   {
-    id: "1",
+    _id: "9",
     name: "Ultron",
     alias: "Ultron",
     statistics: {
@@ -269,12 +269,12 @@ const characters = [
       power7: "Flight",
       power8: "Immunity [Bleed, Poison]",
     },
-    "base size": "50mm",
+    baseType: "50mm",
     image: "images/logo.png",
     expansion: "CP01",
   },
   {
-    id: "1",
+    _id: "10",
     name: "Spider-Man",
     alias: "Peter Parker",
     statistics: {
@@ -301,12 +301,12 @@ const characters = [
       power6: "Spider-Sense",
       power7: "Wall Crawler",
     },
-    "base size": "35mm",
+    baseType: "35mm",
     image: "images/logo.png",
     expansion: ["CP01", "CPE01"],
   },
   {
-    id: "1",
+    _id: "11",
     name: "Hulk",
     alias: "Bruce Banner",
     statistics: {
@@ -335,12 +335,12 @@ const characters = [
       power8: "You Won't Like Me When I Am Angry",
       power9: "Immunity [Poison, Stun]",
     },
-    "base size": "65mm",
+    baseType: "65mm",
     image: "images/logo.png",
     expansion: "CP04",
   },
   {
-    id: "1",
+    _id: "12",
     name: "M.O.D.O.K.",
     alias: "George Charleton",
     statistics: {
@@ -366,12 +366,12 @@ const characters = [
       power5: "Master Swordsman",
       power6: "Strategic Genius",
     },
-    "base size": "65mm",
+    baseType: "65mm",
     image: "images/logo.png",
     expansion: "CP05",
   },
   {
-    id: "1",
+    _id: "13",
     name: "Black Panther",
     alias: "T'Challa",
     statistics: {
@@ -397,12 +397,12 @@ const characters = [
       power5: "Pounce",
       power6: "Vibranium Armor",
     },
-    "base size": "35mm",
+    baseType: "35mm",
     image: "images/logo.png",
     expansion: "CP07",
   },
   {
-    id: "1",
+    _id: "14",
     name: "Killmonger",
     alias: "N'Jadaka",
     statistics: {
@@ -429,12 +429,12 @@ const characters = [
       power5: "Focused on the Kill",
       power6: "Kill Count",
     },
-    "base size": "35mm",
+    baseType: "35mm",
     image: "images/logo.png",
     expansion: "CP07",
   },
   {
-    id: "1",
+    _id: "15",
     name: "Okoye",
     alias: "Okoye",
     statistics: {
@@ -459,12 +459,12 @@ const characters = [
       power4: "General of the Dora Milaje",
       power5: "Martial Artist",
     },
-    "base size": "35mm",
+    baseType: "35mm",
     image: "images/logo.png",
     expansion: "CP08",
   },
   {
-    id: "1",
+    _id: "16",
     name: "Venom",
     alias: "Eddie Brock",
     statistics: {
@@ -490,12 +490,12 @@ const characters = [
       power5: "Symbiote Instincts",
       power6: "Wall Crawler",
     },
-    "base size": "50mm",
+    baseType: "50mm",
     image: "images/logo.png",
     expansion: "CP09",
   },
   {
-    id: "1",
+    _id: "17",
     name: "Spider-Man",
     alias: "Miles Morales",
     statistics: {
@@ -522,12 +522,12 @@ const characters = [
       power7: "Stealth",
       power8: "Wall Crawler",
     },
-    "base size": "35mm",
+    baseType: "35mm",
     image: "images/logo.png",
     expansion: "CP10",
   },
   {
-    id: "1",
+    _id: "18",
     name: "Ghost-Spider",
     alias: "Gwen Stacy (Earth-65)",
     statistics: {
@@ -550,12 +550,12 @@ const characters = [
       power5: "Life Saver",
       power6: "Wall Crawler",
     },
-    "base size": "35mm",
+    baseType: "35mm",
     image: "images/logo.png",
     expansion: "CP10",
   },
   {
-    id: "1",
+    _id: "19",
     name: "Thor",
     alias: "Thor Odinson",
     statistics: {
@@ -583,12 +583,12 @@ const characters = [
       power7: "Asgardian",
       power8: "Flight",
     },
-    "base size": "35mm",
+    baseType: "35mm",
     image: "images/logo.png",
     expansion: "CP11",
   },
   {
-    id: "1",
+    _id: "20",
     name: "Valkyrie",
     alias: "Brunhilde",
     statistics: {
@@ -613,12 +613,12 @@ const characters = [
       power5: "Warrior of Legend",
       power6: "Asgardian",
     },
-    "base size": "35mm",
+    baseType: "35mm",
     image: "images/logo.png",
     expansion: "CP11",
   },
   {
-    id: "1",
+    _id: "21",
     name: "Hela, Queen of Hel",
     alias: "Hela",
     statistics: {
@@ -643,12 +643,12 @@ const characters = [
       power5: "Asgardian",
       power6: "Goddess of Death",
     },
-    "base size": "50mm",
+    baseType: "50mm",
     image: "images/logo.png",
     expansion: "CP12",
   },
   {
-    id: "1",
+    _id: "22",
     name: "Loki, God of Mischief",
     alias: "Loki Laufeyson",
     statistics: {
@@ -676,12 +676,12 @@ const characters = [
       power7: "God of Mischief",
       power8: "Gem Bearer [Mind, Space]",
     },
-    "base size": "35mm",
+    baseType: "35mm",
     image: "images/logo.png",
     expansion: "CP12",
   },
   {
-    id: "1",
+    _id: "23",
     name: "Vision",
     alias: "Victor Shade",
     statistics: {
@@ -708,12 +708,12 @@ const characters = [
       power7: "Flight",
       power8: "Immunity [Bleed, Poison]",
     },
-    "base size": "35mm",
+    baseType: "35mm",
     image: "images/logo.png",
     expansion: "CP13",
   },
   {
-    id: "1",
+    _id: "24",
     name: "Winter Soldier",
     alias: 'James "Bucky" Barnes',
     statistics: {
@@ -737,12 +737,12 @@ const characters = [
       power4: "Got Your Back",
       power5: "Spetsnaz Training",
     },
-    "base size": "35mm",
+    baseType: "35mm",
     image: "images/logo.png",
     expansion: "CP13",
   },
   {
-    id: "1",
+    _id: "25",
     name: "Corvus Glaive",
     alias: "Corvus Glaive",
     statistics: {
@@ -768,12 +768,12 @@ const characters = [
       power6: "Glaive of Immortality",
       power7: "Gem Bearer [Reality, Time]",
     },
-    "base size": "50mm",
+    baseType: "50mm",
     image: "images/logo.png",
     expansion: "CP15",
   },
   {
-    id: "1",
+    _id: "26",
     name: "Proxima Midnight",
     alias: "Proxima Midnight",
     statistics: {
@@ -798,12 +798,12 @@ const characters = [
       power5: "Wife of Corvus Glaive",
       power6: "Invulnerability",
     },
-    "base size": "35mm",
+    baseType: "35mm",
     image: "images/logo.png",
     expansion: "CP15",
   },
   {
-    id: "1",
+    _id: "27",
     name: "Gamora",
     alias: "Gamora",
     statistics: {
@@ -829,12 +829,12 @@ const characters = [
       power5: "Deadliest Woman in the Galaxy",
       power6: "Stealth",
     },
-    "base size": "35mm",
+    baseType: "35mm",
     image: "images/logo.png",
     expansion: "CP16",
   },
   {
-    id: "1",
+    _id: "28",
     name: "Nebula",
     alias: "Nebula",
     statistics: {
@@ -859,12 +859,12 @@ const characters = [
       power5: "Cybernetic Enhancements",
       power6: "Immunity [Bleed, Poison, Stun]",
     },
-    "base size": "35mm",
+    baseType: "35mm",
     image: "images/logo.png",
     expansion: "CP16",
   },
   {
-    id: "1",
+    _id: "29",
     name: "Rocket Raccoon",
     alias: "Rocket Raccoon",
     statistics: {
@@ -889,12 +889,12 @@ const characters = [
       power5: "Nimble",
       power6: "Small Stature",
     },
-    "base size": "35mm",
+    baseType: "35mm",
     image: "images/logo.png",
     expansion: "CP17",
   },
   {
-    id: "1",
+    _id: "30",
     name: "Groot",
     alias: "I Am Groot",
     statistics: {
@@ -917,12 +917,12 @@ const characters = [
       power3: "Living Plant",
       power4: "Tangling Vines",
     },
-    "base size": "50mm",
+    baseType: "50mm",
     image: "images/logo.png",
     expansion: "CP17",
   },
   {
-    id: "1",
+    _id: "31",
     name: "Star-lord",
     alias: "Peter Quill",
     statistics: {
@@ -948,12 +948,12 @@ const characters = [
       power6: "Flight",
       power7: "Gem Bearer [Power]",
     },
-    "base size": "35mm",
+    baseType: "35mm",
     image: "images/logo.png",
     expansion: "CP17",
   },
   {
-    id: "1",
+    _id: "32",
     name: "Black Dwarf",
     alias: "Black Dwarf",
     statistics: {
@@ -978,12 +978,12 @@ const characters = [
       power5: "Intimidating Presence",
       power6: "Invulnerable Skin",
     },
-    "base size": "65mm",
+    baseType: "65mm",
     image: "images/logo.png",
     expansion: "CP19",
   },
   {
-    id: "1",
+    _id: "33",
     name: "Ebony Maw",
     alias: "Ebony Maw",
     statistics: {
@@ -1010,12 +1010,12 @@ const characters = [
       power7: "Flight",
       power8: "Gem Bearer [Mind, Space]",
     },
-    "base size": "35mm",
+    baseType: "35mm",
     image: "images/logo.png",
     expansion: "CP19",
   },
   {
-    id: "1",
+    _id: "34",
     name: "Drax the Destroyer",
     alias: "Drax",
     statistics: {
@@ -1040,12 +1040,12 @@ const characters = [
       power5: "Driven By Vengeance",
       power6: "I Can Take It",
     },
-    "base size": "35mm",
+    baseType: "35mm",
     image: "images/logo.png",
     expansion: "CP20",
   },
   {
-    id: "1",
+    _id: "35",
     name: "Ronan the Accuser",
     alias: "Ronan the Accuser",
     statistics: {
@@ -1072,12 +1072,12 @@ const characters = [
       power6: "Gem Bearer [Power]",
       power7: "Immunity [Poison]",
     },
-    "base size": "50mm",
+    baseType: "50mm",
     image: "images/logo.png",
     expansion: "CP20",
   },
   {
-    id: "1",
+    _id: "36",
     name: "Green Goblin",
     alias: "Norman Osborn",
     statistics: {
@@ -1104,12 +1104,12 @@ const characters = [
       power6: "Arch Nemesis (Peter Parker)",
       power7: "Flight",
     },
-    "base size": "50mm",
+    baseType: "50mm",
     image: "images/logo.png",
     expansion: "CP21",
   },
   {
-    id: "1",
+    _id: "37",
     name: "Doctor Strange",
     alias: "Stephen Vincent Strange",
     statistics: {
@@ -1139,12 +1139,12 @@ const characters = [
       power8: "Flight",
       power9: "Gem Bearer [Soul, Time]",
     },
-    "base size": "50mm",
+    baseType: "50mm",
     image: "images/logo.png",
     expansion: "CP23",
   },
   {
-    id: "1",
+    _id: "38",
     name: "Wong",
     alias: "Wong",
     statistics: {
@@ -1170,12 +1170,12 @@ const characters = [
       power4: "The Vishanti's Blessing",
       power5: "Servant to the Sorcerer Supreme",
     },
-    "base size": "35mm",
+    baseType: "35mm",
     image: "images/logo.png",
     expansion: "CP23",
   },
   {
-    id: "1",
+    _id: "39",
     name: "Black Widow, Agent of S.H.I.E.L.D.",
     alias: "Natasha Romanoff",
     statistics: {
@@ -1201,12 +1201,12 @@ const characters = [
       power5: "Parting Shot",
       power6: "Stealth",
     },
-    "base size": "35mm",
+    baseType: "35mm",
     image: "images/logo.png",
     expansion: "CP24",
   },
   {
-    id: "1",
+    _id: "40",
     name: "Hawkeye",
     alias: "Clinton Barton",
     statistics: {
@@ -1230,12 +1230,12 @@ const characters = [
       power3: "Trick Shot",
       power4: "Fast Draw",
     },
-    "base size": "35mm",
+    baseType: "35mm",
     image: "images/logo.png",
     expansion: "CP24",
   },
   {
-    id: "1",
+    _id: "41",
     name: "Thanos, The Mad Titan",
     alias: "Thanos",
     statistics: {
@@ -1262,12 +1262,12 @@ const characters = [
       power7: "Gem Bearer [Mind, Power, Reality, Soul, Space, Time]",
       power8: "Immunity [Stun]",
     },
-    "base size": "50mm",
+    baseType: "50mm",
     image: "images/logo.png",
     expansion: "CP25",
   },
   {
-    id: "1",
+    _id: "42",
     name: "Wasp (Normal)",
     alias: "Janet Van Dyne",
     statistics: {
@@ -1292,12 +1292,12 @@ const characters = [
       power4: "Pym Particle Control",
       power5: "Flight",
     },
-    "base size": "35mm",
+    baseType: "35mm",
     image: "images/logo.png",
     expansion: "CP26",
   },
   {
-    id: "1",
+    _id: "43",
     name: "Wasp (Tiny)",
     alias: "Janet Van Dyne",
     statistics: {
@@ -1323,12 +1323,12 @@ const characters = [
       power5: "Stealth",
       power6: "Flight",
     },
-    "base size": "35mm",
+    baseType: "35mm",
     image: "images/logo.png",
     expansion: "CP24",
   },
   {
-    id: "1",
+    _id: "44",
     name: "Ant-Man (Normal)",
     alias: "Scott Lang",
     statistics: {
@@ -1351,12 +1351,12 @@ const characters = [
       power3: "Change Size",
       power4: "Pym Particle Control",
     },
-    "base size": "35mm",
+    baseType: "35mm",
     image: "images/logo.png",
     expansion: "CP24",
   },
   {
-    id: "1",
+    _id: "45",
     name: "Ant-Man (Tiny)",
     alias: "Scott Lang",
     statistics: {
@@ -1380,12 +1380,12 @@ const characters = [
       power4: "Stealth",
       power5: "Tiny Superhero",
     },
-    "base size": "35mm",
+    baseType: "35mm",
     image: "images/logo.png",
     expansion: "CP24",
   },
   {
-    id: "1",
+    _id: "46",
     name: "Ghost Rider",
     alias: "Johnathon Blaze",
     statistics: {
@@ -1412,12 +1412,12 @@ const characters = [
       power6: "Spirit of Vengeance",
       power7: "Immunity [Bleed, Hex, Incinerate, Poison]",
     },
-    "base size": "65mm",
+    baseType: "65mm",
     image: "images/logo.png",
     expansion: "CP27",
   },
   {
-    id: "1",
+    _id: "47",
     name: "Enchantress",
     alias: "Amora",
     statistics: {
@@ -1445,12 +1445,12 @@ const characters = [
       power7: "Enchanting",
       power8: "Flight",
     },
-    "base size": "50mm",
+    baseType: "50mm",
     image: "images/logo.png",
     expansion: "CP28",
   },
   {
-    id: "1",
+    _id: "48",
     name: "Angela",
     alias: "Aldrif Odinsdottir",
     statistics: {
@@ -1479,12 +1479,12 @@ const characters = [
       power7: "Living Ribbons",
       power8: "Flight",
     },
-    "base size": "50mm",
+    baseType: "50mm",
     image: "images/logo.png",
     expansion: "CP28",
   },
   {
-    id: "1",
+    _id: "49",
     name: "Kingpin",
     alias: "Wilson Fisk",
     statistics: {
@@ -1513,12 +1513,12 @@ const characters = [
       power7: "Solid Frame",
       power8: "Flight",
     },
-    "base size": "50mm",
+    baseType: "50mm",
     image: "images/logo.png",
     expansion: "CP29",
   },
   {
-    id: "1",
+    _id: "50",
     name: "Daredevil",
     alias: "Matt Murdock",
     statistics: {
@@ -1544,12 +1544,12 @@ const characters = [
       power5: "Radar Sense",
       power6: "Wall Crawler",
     },
-    "base size": "35mm",
+    baseType: "35mm",
     image: "images/logo.png",
     expansion: "CP30",
   },
   {
-    id: "1",
+    _id: "51",
     name: "Bullseye",
     alias: "Benjamin Poindexter",
     statistics: {
@@ -1574,12 +1574,12 @@ const characters = [
       power4: "I Never Miss",
       power5: "Parting Shot",
     },
-    "base size": "35mm",
+    baseType: "35mm",
     image: "images/logo.png",
     expansion: "CP30",
   },
   {
-    id: "1",
+    _id: "52",
     name: "Taskmaster",
     alias: "Anthony Masters",
     statistics: {
@@ -1605,12 +1605,12 @@ const characters = [
       power6: "Martial Artist",
       power7: "Rogue Agent",
     },
-    "base size": "35mm",
+    baseType: "35mm",
     image: "images/logo.png",
     expansion: "CP32",
   },
   {
-    id: "1",
+    _id: "53",
     name: "Punisher",
     alias: "Frank Castle",
     statistics: {
@@ -1635,12 +1635,12 @@ const characters = [
       power5: "War Zone",
       power6: "The Fallen",
     },
-    "base size": "35mm",
+    baseType: "35mm",
     image: "images/logo.png",
     expansion: "CP32",
   },
   {
-    id: "1",
+    _id: "54",
     name: "Dormammu",
     alias: "Dormammu",
     statistics: {
@@ -1667,12 +1667,12 @@ const characters = [
       power7: "Flight",
       power8: "Immunity [Bleed, Incinerate, Stagger]",
     },
-    "base size": "65mm",
+    baseType: "65mm",
     image: "images/logo.png",
     expansion: "CP33",
   },
   {
-    id: "1",
+    _id: "55",
     name: "Black Bolt",
     alias: "Blackagar Boltagon",
     statistics: {
@@ -1699,12 +1699,12 @@ const characters = [
       power7: "Flight",
       power8: "Immunity [Poison]",
     },
-    "base size": "50mm",
+    baseType: "50mm",
     image: "images/logo.png",
     expansion: "CP34",
   },
   {
-    id: "1",
+    _id: "56",
     name: "Medusa",
     alias: "Medusalith Amazquelin-Boltagon",
     statistics: {
@@ -1731,12 +1731,12 @@ const characters = [
       power6: "Living Strands",
       power7: "Immunity [Poison]",
     },
-    "base size": "50mm",
+    baseType: "50mm",
     image: "images/logo.png",
     expansion: "CP34",
   },
   {
-    id: "1",
+    _id: "57",
     name: "Crystal",
     alias: "Crystal Amaquelin",
     statistics: {
@@ -1765,12 +1765,12 @@ const characters = [
       power8: "Flight",
       power9: "Immunity [Poison]",
     },
-    "base size": "50mm",
+    baseType: "50mm",
     image: "images/logo.png",
     expansion: "CP35",
   },
   {
-    id: "1",
+    _id: "58",
     name: "Lockjaw",
     alias: "LockJaw",
     statistics: {
@@ -1796,12 +1796,12 @@ const characters = [
       power6: "Who's a Good Boy?",
       power7: "Immunity [Poison]",
     },
-    "base size": "50mm",
+    baseType: "50mm",
     image: "images/logo.png",
     expansion: "CP35",
   },
   {
-    id: "1",
+    _id: "59",
     name: "Amazing Spider-Man",
     alias: "Peter Parker",
     statistics: {
@@ -1828,12 +1828,12 @@ const characters = [
       power6: "Masterd Spider-Sense",
       power7: "Wall Crawler",
     },
-    "base size": "50mm",
+    baseType: "50mm",
     image: "images/logo.png",
     expansion: "CP37",
   },
   {
-    id: "1",
+    _id: "60",
     name: "Black Cat",
     alias: "Felecia Hardy",
     statistics: {
@@ -1861,12 +1861,12 @@ const characters = [
       power5: "Bad Luck",
       power6: "Stealth",
     },
-    "base size": "50mm",
+    baseType: "50mm",
     image: "images/logo.png",
     expansion: "CP37",
   },
   {
-    id: "1",
+    _id: "61",
     name: "Captain America",
     alias: "Sam Wilson",
     statistics: {
@@ -1892,12 +1892,12 @@ const characters = [
       power6: "Vibranium Shield",
       power7: "Flight",
     },
-    "base size": "35mm",
+    baseType: "35mm",
     image: "images/logo.png",
     expansion: "CP38",
   },
   {
-    id: "1",
+    _id: "62",
     name: "War Machine",
     alias: "James Rhodes",
     statistics: {
@@ -1921,12 +1921,12 @@ const characters = [
       power4: "Titanium Armor Plating",
       power5: "Flight",
     },
-    "base size": "35mm",
+    baseType: "35mm",
     image: "images/logo.png",
     expansion: "CP38",
   },
   {
-    id: "1",
+    _id: "63",
     name: "She-Hulk",
     alias: "Jennifer Walters",
     statistics: {
@@ -1954,12 +1954,12 @@ const characters = [
       power7: "Gamma Transfusion",
       power8: "Immunity [Poison]",
     },
-    "base size": "50mm",
+    baseType: "50mm",
     image: "images/logo.png",
     expansion: "CP39",
   },
   {
-    id: "1",
+    _id: "64",
     name: "Wolverine",
     alias: "James Logan Howlett",
     statistics: {
@@ -1987,12 +1987,12 @@ const characters = [
       power5: "Healing Factor [2]",
       power6: "Immunity [Stun]",
     },
-    "base size": "35mm",
+    baseType: "35mm",
     image: "images/logo.png",
     expansion: "CP40",
   },
   {
-    id: "1",
+    _id: "65",
     name: "Sabretooth",
     alias: "Vicor Creed",
     statistics: {
@@ -2019,12 +2019,12 @@ const characters = [
       power5: "Aggressive",
       power6: "Healing Factor [1]",
     },
-    "base size": "35mm",
+    baseType: "35mm",
     image: "images/logo.png",
     expansion: "CP40",
   },
   {
-    id: "1",
+    _id: "66",
     name: "Cyclops",
     alias: "Scott Summers",
     statistics: {
@@ -2049,12 +2049,12 @@ const characters = [
       power5: "Hit and Run",
       power6: "Quick Draw",
     },
-    "base size": "35mm",
+    baseType: "35mm",
     image: "images/logo.png",
     expansion: "CP41",
   },
   {
-    id: "1",
+    _id: "67",
     name: "Storm",
     alias: "Ororo Munroe",
     statistics: {
@@ -2084,12 +2084,12 @@ const characters = [
       power8: "Flight",
       power9: "Immunity [Shock]",
     },
-    "base size": "35mm",
+    baseType: "35mm",
     image: "images/logo.png",
     expansion: "CP41",
   },
   {
-    id: "1",
+    _id: "68",
     name: "Magneto",
     alias: "Max Eisenhardt",
     statistics: {
@@ -2114,12 +2114,12 @@ const characters = [
       power4: "Master of Magnetism",
       power5: "Flight",
     },
-    "base size": "50mm",
+    baseType: "50mm",
     image: "images/logo.png",
     expansion: "CP42",
   },
   {
-    id: "1",
+    _id: "69",
     name: "Toad",
     alias: "Mortimore Toynbee",
     statistics: {
@@ -2145,12 +2145,12 @@ const characters = [
       power6: "Prehensile Tongue",
       power7: "Wall Crawler",
     },
-    "base size": "35mm",
+    baseType: "35mm",
     image: "images/logo.png",
     expansion: "CP42",
   },
   {
-    id: "1",
+    _id: "70",
     name: "Beast",
     alias: "Hank McCoy",
     statistics: {
@@ -2177,12 +2177,12 @@ const characters = [
       power5: "Disconcerting, Yet Provatative!",
       power6: "Wall Crawler",
     },
-    "base size": "50mm",
+    baseType: "50mm",
     image: "images/logo.png",
     expansion: "CP43",
   },
   {
-    id: "1",
+    _id: "71",
     name: "Mystique",
     alias: "Raven Darkhölme",
     statistics: {
@@ -2209,12 +2209,12 @@ const characters = [
       power7: "Shapeshifter",
       power6: "Stealth",
     },
-    "base size": "35mm",
+    baseType: "35mm",
     image: "images/logo.png",
     expansion: "CP43",
   },
   {
-    id: "1",
+    _id: "72",
     name: "Deadpool",
     alias: "Wade Wilson",
     statistics: {
@@ -2241,12 +2241,12 @@ const characters = [
       power6: "Unicorns, Rainbows, and Sugar Plums Dancing Through My Head",
       power7: "Healing Factor [2]",
     },
-    "base size": "35mm",
+    baseType: "35mm",
     image: "images/logo.png",
     expansion: "CP45",
   },
   {
-    id: "1",
+    _id: "73",
     name: "Bob, Agent of Hydra",
     alias: "Robert Dobalina",
     statistics: {
@@ -2270,12 +2270,12 @@ const characters = [
       power4: "Make It Spicy, Bob!",
       power5: "Muy Caliente",
     },
-    "base size": "35mm",
+    baseType: "35mm",
     image: "images/logo.png",
     expansion: "CP45",
   },
   {
-    id: "1",
+    _id: "74",
     name: "Mister Sinister",
     alias: "Nathaniel Essex",
     statistics: {
@@ -2303,12 +2303,12 @@ const characters = [
       power8: "DNA Database",
       power9: "Flight",
     },
-    "base size": "50mm",
+    baseType: "50mm",
     image: "images/logo.png",
     expansion: "CP46",
   },
   {
-    id: "1",
+    _id: "75",
     name: "Cable",
     alias: "Nathan Summers",
     statistics: {
@@ -2337,12 +2337,12 @@ const characters = [
       power7: "Techno-Organic Virus Suppression",
       power8: "Immunity [Poison]",
     },
-    "base size": "50mm",
+    baseType: "50mm",
     image: "images/logo.png",
     expansion: "CP47",
   },
   {
-    id: "1",
+    _id: "76",
     name: "Domino",
     alias: "Neena Thurman",
     statistics: {
@@ -2368,12 +2368,12 @@ const characters = [
       power4: "Probability Manipulation",
       power5: "Things Tend To Go My Way",
     },
-    "base size": "35mm",
+    baseType: "35mm",
     image: "images/logo.png",
     expansion: "CP47",
   },
   {
-    id: "1",
+    _id: "77",
     name: "Blade",
     alias: "Eric Brooks",
     statistics: {
@@ -2401,12 +2401,12 @@ const characters = [
       power6: "Supernatural Sense",
       power7: "Vampiric Immortality",
     },
-    "base size": "35mm",
+    baseType: "35mm",
     image: "images/logo.png",
     expansion: "CP48",
   },
   {
-    id: "1",
+    _id: "78",
     name: "Moon Knight",
     alias: "Marc Spector",
     statistics: {
@@ -2434,12 +2434,12 @@ const characters = [
       power6: "Stealth",
       power7: "Wall Crawler",
     },
-    "base size": "35mm",
+    baseType: "35mm",
     image: "images/logo.png",
     expansion: "CP48",
   },
   {
-    id: "1",
+    _id: "79",
     name: "Luke Cage",
     alias: "Carl Lucas",
     statistics: {
@@ -2465,12 +2465,12 @@ const characters = [
       power5: "Unbreakable Skin",
       power6: "Immunity [Bleed]",
     },
-    "base size": "35mm",
+    baseType: "35mm",
     image: "images/logo.png",
     expansion: "CP49",
   },
   {
-    id: "1",
+    _id: "80",
     name: "Iron Fist",
     alias: "Danny Rand",
     statistics: {
@@ -2497,12 +2497,12 @@ const characters = [
       power5: "Immortal Weapon",
       power6: "Master Martial Artist",
     },
-    "base size": "35mm",
+    baseType: "35mm",
     image: "images/logo.png",
     expansion: "CP49",
   },
   {
-    id: "1",
+    _id: "81",
     name: "Mysterio",
     alias: "Quentin Beck",
     statistics: {
@@ -2530,12 +2530,12 @@ const characters = [
       power6: "Stealth",
       power7: "Flight",
     },
-    "base size": "50mm",
+    baseType: "50mm",
     image: "images/logo.png",
     expansion: "CP50",
   },
   {
-    id: "1",
+    _id: "82",
     name: "Carnage",
     alias: "Cletus Kasady",
     statistics: {
@@ -2561,12 +2561,12 @@ const characters = [
       power6: "Symbiotic Serial Killer",
       power7: "Wall Crawler",
     },
-    "base size": "50mm",
+    baseType: "50mm",
     image: "images/logo.png",
     expansion: "CP50",
   },
   {
-    id: "1",
+    _id: "83",
     name: "Hulkbuster",
     alias: "Tony Stark",
     statistics: {
@@ -2592,12 +2592,12 @@ const characters = [
       power6: "Built to Take It",
       power7: "Enhanced Support Systems [Iron Man (Hulkbuster)]",
     },
-    "base size": "50mm",
+    baseType: "50mm",
     image: "images/logo.png",
     expansion: "CP52",
   },
   {
-    id: "1",
+    _id: "84",
     name: "Iron Man (Hulkbuster)",
     alias: "Tony Stark",
     statistics: {
@@ -2622,12 +2622,12 @@ const characters = [
       power5: "Secondary Support Suit",
       power6: "Flight",
     },
-    "base size": "35mm",
+    baseType: "35mm",
     image: "images/logo.png",
     expansion: "CP52",
   },
   {
-    id: "1",
+    _id: "85",
     name: "Jean Grey",
     alias: "Jean Grey",
     statistics: {
@@ -2653,12 +2653,12 @@ const characters = [
       power6: "Latent Psychic Potential",
       power7: "Flight",
     },
-    "base size": "35mm",
+    baseType: "35mm",
     image: "images/logo.png",
     expansion: "CP53",
   },
   {
-    id: "1",
+    _id: "86",
     name: "Cassandra Nova",
     alias: "Cassandra Nova Xavier",
     statistics: {
@@ -2686,12 +2686,12 @@ const characters = [
       power8: "Flight",
       power9: "Healing Factor [1]",
     },
-    "base size": "35mm",
+    baseType: "35mm",
     image: "images/logo.png",
     expansion: "CP53",
   },
   {
-    id: "1",
+    _id: "87",
     name: "Omega Red",
     alias: "Arkady Gregorivich Rossovich",
     statistics: {
@@ -2718,12 +2718,12 @@ const characters = [
       power6: "Death Spores",
       power7: "Immunity [Poison]",
     },
-    "base size": "50mm",
+    baseType: "50mm",
     image: "images/logo.png",
     expansion: "CP54",
   },
   {
-    id: "1",
+    _id: "88",
     name: "Juggernaut",
     alias: "Cain Marko",
     statistics: {
@@ -2749,12 +2749,12 @@ const characters = [
       power6: "Unstoppable Momentum",
       power7: "Immunity [Stun]",
     },
-    "base size": "50mm",
+    baseType: "50mm",
     image: "images/logo.png",
     expansion: "CP56",
   },
   {
-    id: "1",
+    _id: "89",
     name: "Colossus",
     alias: "Piotr Rasputin",
     statistics: {
@@ -2780,12 +2780,12 @@ const characters = [
       power6: "Organic Steel",
       power7: "Immunity [Bleed]",
     },
-    "base size": "TBD",
+    baseType: "TBD",
     image: "images/logo.png",
     expansion: "CP57",
   },
   {
-    id: "1",
+    _id: "90",
     name: "Magik",
     alias: "Illyana Rasputin",
     statistics: {
@@ -2809,12 +2809,12 @@ const characters = [
       power4: "Limbo Step",
       power5: "Sorcerer Supreme of Limbo",
     },
-    "base size": "TBD",
+    baseType: "TBD",
     image: "images/logo.png",
     expansion: "CP57",
   },
   {
-    id: "1",
+    _id: "91",
     name: "Lizard",
     alias: "Curtis Connor",
     statistics: {
@@ -2839,12 +2839,12 @@ const characters = [
       power5: "Healing Factor [1]",
       power6: "Wall Crawler",
     },
-    "base size": "50mm",
+    baseType: "50mm",
     image: "images/logo.png",
     expansion: "CP58",
   },
   {
-    id: "1",
+    _id: "92",
     name: "Kraven",
     alias: "Sergei Nikolaevich Kravinoff",
     statistics: {
@@ -2869,12 +2869,12 @@ const characters = [
       power4: "Expert Tracker",
       power5: "Elixer of Calypso",
     },
-    "base size": "50mm",
+    baseType: "50mm",
     image: "images/logo.png",
     expansion: "CP58",
   },
   {
-    id: "1",
+    _id: "93",
     name: "Gambit",
     alias: "Remy LeBeau",
     statistics: {
@@ -2899,12 +2899,12 @@ const characters = [
       power5: "A Little Something Extra",
       power6: "Enhanced Agility",
     },
-    "base size": "TBD",
+    baseType: "TBD",
     image: "images/logo.png",
     expansion: "CP60",
   },
   {
-    id: "1",
+    _id: "94",
     name: "Rogue",
     alias: "Anna Marie LeBeau",
     statistics: {
@@ -2931,12 +2931,12 @@ const characters = [
       power7: "Flight",
       power8: "Immunity [Poison]",
     },
-    "base size": "TBD",
+    baseType: "TBD",
     image: "images/logo.png",
     expansion: "CP60",
   },
   {
-    id: "1",
+    _id: "95",
     name: "Sin",
     alias: "Sinthea Schmidt",
     statistics: {
@@ -2963,12 +2963,12 @@ const characters = [
       power6: "Heir to the Wicked",
       power7: "Stealth",
     },
-    "base size": "35mm",
+    baseType: "35mm",
     image: "images/logo.png",
     expansion: "CP61",
   },
   {
-    id: "1",
+    _id: "96",
     name: "Viper",
     alias: "Ophelia Sarkissian",
     statistics: {
@@ -2993,12 +2993,12 @@ const characters = [
       power5: "Coiled Serpent",
       power6: "Stealth",
     },
-    "base size": "35mm",
+    baseType: "35mm",
     image: "images/logo.png",
     expansion: "CP61",
   },
   {
-    id: "1",
+    _id: "97",
     name: "Ms. Marvel",
     alias: "Kamala Khan",
     statistics: {
@@ -3023,12 +3023,12 @@ const characters = [
       power4: "Inhuman",
       power5: "Immunity [Poison]",
     },
-    "base size": "35mm",
+    baseType: "35mm",
     image: "images/logo.png",
     expansion: "CP62",
   },
   {
-    id: "1",
+    _id: "98",
     name: "Ms. Marvel (Embiggened)",
     alias: "Kamala Khan",
     statistics: {
@@ -3053,12 +3053,12 @@ const characters = [
       power4: "Polymorph",
       power5: "Immunity [Poison]",
     },
-    "base size": "65mm",
+    baseType: "65mm",
     image: "images/logo.png",
     expansion: "CP62",
   },
   {
-    id: "1",
+    _id: "99",
     name: "Scarlet Witch",
     alias: "Wanda Maximoff",
     statistics: {
@@ -3087,12 +3087,12 @@ const characters = [
       power6: "Hex Field",
       power7: "Flight",
     },
-    "base size": "35mm",
+    baseType: "35mm",
     image: "images/logo.png",
     expansion: "CP63",
   },
   {
-    id: "1",
+    _id: "100",
     name: "Quicksilver",
     alias: "Pietro Maximoff",
     statistics: {
@@ -3119,12 +3119,12 @@ const characters = [
       power5: "Supersonic Reflexes",
       power6: "Wall Crawler",
     },
-    "base size": "35mm",
+    baseType: "35mm",
     image: "images/logo.png",
     expansion: "CP63",
   },
   {
-    id: "1",
+    _id: "101",
     name: "Ancient One",
     alias: "Ancient One",
     statistics: {
@@ -3151,12 +3151,12 @@ const characters = [
       power6: "Keeper of the Eye of Agamotto",
       power7: "Martial Artist",
     },
-    "base size": "35mm",
+    baseType: "35mm",
     image: "images/logo.png",
     expansion: "CP64",
   },
   {
-    id: "1",
+    _id: "102",
     name: "Baron Mordo",
     alias: "Karl Amadeus Mordo",
     statistics: {
@@ -3184,12 +3184,12 @@ const characters = [
       power7: "Vaulting Boots of Valtor",
       power8: "Flight",
     },
-    "base size": "35mm",
+    baseType: "35mm",
     image: "images/logo.png",
     expansion: "CP64",
   },
   {
-    id: "1",
+    _id: "103",
     name: "Doctor Voodoo",
     alias: "Jericho Drumm",
     statistics: {
@@ -3218,12 +3218,12 @@ const characters = [
       power7: "Flight",
       power8: "Immunity [Hex, Incinerate]",
     },
-    "base size": "50mm",
+    baseType: "50mm",
     image: "images/logo.png",
     expansion: "CP65",
   },
   {
-    id: "1",
+    _id: "104",
     name: "Hood (Normal)",
     alias: "Parker Robbins",
     statistics: {
@@ -3248,12 +3248,12 @@ const characters = [
       power4: "Invisibility Cloak",
       power5: "Possessed by Nasanti",
     },
-    "base size": "35mm",
+    baseType: "35mm",
     image: "images/logo.png",
     expansion: "CP65",
   },
   {
-    id: "1",
+    _id: "105",
     name: "Hood (Possessed)",
     alias: "Parker Robbins",
     statistics: {
@@ -3278,12 +3278,12 @@ const characters = [
       power4: "Demonic Resilience",
       power5: "Mystic Vulnerability",
     },
-    "base size": "35mm",
+    baseType: "35mm",
     image: "images/logo.png",
     expansion: "CP65",
   },
   {
-    id: "1",
+    _id: "106",
     name: "Doctor Strange, Sorcerer Supreme",
     alias: "Stephen Vincent Strange",
     statistics: {
@@ -3312,12 +3312,12 @@ const characters = [
       power7: "Mystic Armor of Strange",
       power8: "Flight",
     },
-    "base size": "50mm",
+    baseType: "50mm",
     image: "images/logo.png",
     expansion: "CP67",
   },
   {
-    id: "1",
+    _id: "107",
     name: "Clea",
     alias: "Clea",
     statistics: {
@@ -3343,7 +3343,7 @@ const characters = [
       power5: "Vapors of Dormammu",
       power6: "Immunity [Incinerate]",
     },
-    "base size": "50mm",
+    baseType: "50mm",
     image: "images/logo.png",
     expansion: "CP67",
   },
