@@ -44,6 +44,7 @@ const characters = [
         mental: 4,
       },
     },
+
     affiliation: {
       team1: "A-Force",
       team2: "Avengers",
