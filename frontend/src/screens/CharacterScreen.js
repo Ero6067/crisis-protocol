@@ -3,10 +3,10 @@ import {
   Row,
   Col,
   Image,
-  ListGroup,
   Card,
   Button,
   ListGroupItem,
+  ListGroup,
 } from "react-bootstrap";
 import characters from "../characters";
 
@@ -24,17 +24,19 @@ const CharacterScreen = () => {
           <Image src={`../${character.image}`} alt={character.name} fluid />
         </Col>
         <Col md={6}>
-          <ListGroupItem variant="flush">
-            <h2>{character.name}</h2>
-            <div>{character.alias}</div>
-            <div>{character.expansion}</div>
-          </ListGroupItem>
-          <ListGroupItem>
-            <h3>Affiliation</h3>
-            {Object.values(character.affiliation).map((affiliations) => {
-              return <div>{affiliations}</div>;
-            })}
-          </ListGroupItem>
+          <ListGroup variant="flush">
+            <ListGroupItem>
+              <h2>{character.name}</h2>
+              <div>{character.alias}</div>
+              <div>{character.expansion}</div>
+            </ListGroupItem>
+            <ListGroupItem>
+              <h3>Affiliation</h3>
+              {Object.values(character.affiliation).map((affiliations) => {
+                return <div>{affiliations}</div>;
+              })}
+            </ListGroupItem>
+          </ListGroup>
         </Col>
       </Row>
     </>
