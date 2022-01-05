@@ -18,9 +18,27 @@ const characters = [
     affiliation: {
       team1: "Cabal",
     },
+    attacks: {
+      attack1: {
+        name: "Sword Strike",
+        range: 2,
+        damage: 5,
+        cost: 0,
+        type: "Physical",
+        text: "After this attack is resolved, this character gains power equal to the damage dealt",
+        special: {
+          special1: {
+            wildcardcost: "1",
+            skullcost: "",
+            critcost: "",
+            keyword: "Bleed",
+            text: "Bleed: After this attack is resolved, the target character gains the Bleed special condition",
+          },
+        },
+      },
+    },
     superpowers: {
-      power1: "Sword Strike",
-      power2: "Steel Rush",
+      attack2: "Steel Rush",
       power3: "Charge",
       power4: "Counter-Strike",
       power5: "Master Swordsman",
@@ -50,9 +68,10 @@ const characters = [
       team1: "A-Force",
       team2: "Avengers",
     },
+    attacks: {},
+    power1: "Strike",
+    power2: "Pistol",
     superpowers: {
-      power1: "Strike",
-      power2: "Pistol",
       power3: "Mixed Technique",
       power4: "Counter-Strike",
       power5: "Martial Artist",
@@ -81,6 +100,7 @@ const characters = [
     affiliation: {
       team1: "Avengers",
     },
+    attacks: {},
     superpowers: {
       power1: "Strike",
       power2: "Shield Throw",
@@ -113,6 +133,7 @@ const characters = [
       team1: "Avengers",
       team2: "A-Force",
     },
+    attacks: {},
     superpowers: {
       power1: "Strike",
       power2: "energy Blast",
@@ -146,6 +167,7 @@ const characters = [
     affiliation: {
       team1: "Cabal",
     },
+    attacks: {},
     superpowers: {
       power1: "Strike",
       power2: "Overpower",
@@ -176,6 +198,7 @@ const characters = [
     affiliation: {
       team1: "Spider-Foes",
     },
+    attacks: {},
     superpowers: {
       power1: "Strike",
       power2: "Arm Lasers",
@@ -206,6 +229,7 @@ const characters = [
     affiliation: {
       team1: "Avengers",
     },
+    attacks: {},
     superpowers: {
       power1: "Repulsor Blast",
       power2: "Homing Rockets",
@@ -236,6 +260,7 @@ const characters = [
     affiliation: {
       team1: "Cabal",
     },
+    attacks: {},
     superpowers: {
       power1: "Strike",
       power2: "Cosmic Blast",
@@ -268,6 +293,7 @@ const characters = [
     affiliation: {
       team1: "Cabal",
     },
+    attacks: {},
     superpowers: {
       power1: "Strike",
       power2: "Energy Blast",
@@ -302,6 +328,7 @@ const characters = [
       team1: "Web Warriors",
       team2: "Defenders",
     },
+    attacks: {},
     superpowers: {
       power1: "Strike",
       power2: "Impact Webbing",
@@ -335,6 +362,7 @@ const characters = [
       team1: "Avengers",
       team2: "Defenders",
     },
+    attacks: {},
     superpowers: {
       power1: "Strike",
       power2: "Thunder Clap",
@@ -370,6 +398,7 @@ const characters = [
       team1: "Cabal",
       team2: "Criminal Syndicate",
     },
+    attacks: {},
     superpowers: {
       power1: "Sword Strike",
       power2: "Steel Rush",
@@ -402,6 +431,7 @@ const characters = [
       team1: "Avengers",
       team2: "Wakanda",
     },
+    attacks: {},
     superpowers: {
       power1: "Strike",
       power2: "Kinetic Burst",
@@ -435,6 +465,7 @@ const characters = [
       team2: "Criminal Syndicate",
       team3: "Wakanda",
     },
+    attacks: {},
     superpowers: {
       power1: "Vibranium Weapons",
       power2: "Black Ops Strike",
@@ -467,6 +498,7 @@ const characters = [
       team1: "A-Force",
       team2: "Wakanda",
     },
+    attacks: {},
     superpowers: {
       power1: "Strike",
       power2: "Vibranium Spear Blast",
@@ -498,6 +530,7 @@ const characters = [
       team1: "A-Force",
       team2: "Wakanda",
     },
+    attacks: {},
     superpowers: {
       power1: "Panther Gauntlets",
       power2: "Sonic Crush",
@@ -529,6 +562,7 @@ const characters = [
       team1: "Spider-Foes",
       team2: "Web Warriors",
     },
+    attacks: {},
     superpowers: {
       power1: "Symbiote Tendrils",
       power2: "We Are Venom",
@@ -560,6 +594,7 @@ const characters = [
     affiliation: {
       team1: "Web Warriors",
     },
+    attacks: {},
     superpowers: {
       power1: "Webline Kick",
       power2: "Venom Blast",
@@ -593,6 +628,7 @@ const characters = [
     affiliation: {
       team1: "Web Warriors",
     },
+    attacks: {},
     superpowers: {
       power1: "Spider-Technique",
       power2: "Impact Webbing",
@@ -625,6 +661,7 @@ const characters = [
       team1: "Asgardian",
       team2: "Avengers",
     },
+    attacks: {},
     superpowers: {
       power1: "Strike",
       power2: "Hammer Throw",
@@ -658,6 +695,7 @@ const characters = [
     affiliation: {
       team1: "Asgardian",
     },
+    attacks: {},
     superpowers: {
       power1: "Strike",
       power2: "Dragon Fang",
@@ -689,6 +727,7 @@ const characters = [
     affiliation: {
       team1: "Asgardian",
     },
+    attacks: {},
     superpowers: {
       power1: "Hel Forged Blade",
       power2: "Claim Soul",
@@ -721,6 +760,7 @@ const characters = [
       team1: "Asgardian",
       team2: "Cabal",
     },
+    attacks: {},
     superpowers: {
       power1: "Strike",
       power2: "Frost Blast",
@@ -754,6 +794,7 @@ const characters = [
     affiliation: {
       team1: "Avengers",
     },
+    attacks: {},
     superpowers: {
       power1: "Solar Energy Beam",
       power2: "Synthezoid Avenger",
@@ -787,6 +828,7 @@ const characters = [
     affiliation: {
       team1: "Unaffiliated",
     },
+    attacks: {},
     superpowers: {
       power1: "Assault Rifle",
       power2: "Red Fury",
@@ -817,6 +859,7 @@ const characters = [
     affiliation: {
       team1: "Black Order",
     },
+    attacks: {},
     superpowers: {
       power1: "Strike",
       power2: "Atom Splitter",
@@ -849,6 +892,7 @@ const characters = [
     affiliation: {
       team1: "Black Order",
     },
+    attacks: {},
     superpowers: {
       power1: "Strike",
       power2: "Spear Throw",
@@ -881,6 +925,7 @@ const characters = [
       team1: "A-Force",
       team2: "Guardians of the Galaxy",
     },
+    attacks: {},
     superpowers: {
       power1: "God Slayer",
       power2: "Cosmic Assassin",
@@ -912,6 +957,7 @@ const characters = [
     affiliation: {
       team1: "Guardians of the Galaxy",
     },
+    attacks: {},
     superpowers: {
       power1: "Strike",
       power2: "Blaster Pistol",
@@ -943,6 +989,7 @@ const characters = [
     affiliation: {
       team1: "Guardians of the Galaxy",
     },
+    attacks: {},
     superpowers: {
       power1: "Plasma Rifle",
       power2: "Hadron Enforcer",
@@ -974,6 +1021,7 @@ const characters = [
     affiliation: {
       team1: "Guardians of the Galaxy",
     },
+    attacks: {},
     superpowers: {
       power1: "Strike",
       power2: "I Am Groot!",
@@ -1003,6 +1051,7 @@ const characters = [
     affiliation: {
       team1: "Guardians of the Galaxy",
     },
+    attacks: {},
     superpowers: {
       power1: "Elemental Gun",
       power2: "Full Auto",
@@ -1035,6 +1084,7 @@ const characters = [
     affiliation: {
       team1: "Black Order",
     },
+    attacks: {},
     superpowers: {
       power1: "Axe Strike",
       power2: "Brutal End",
@@ -1066,6 +1116,7 @@ const characters = [
     affiliation: {
       team1: "Black Order",
     },
+    attacks: {},
     superpowers: {
       power1: "Black Tongue",
       power2: "Herald of Doom",
@@ -1099,6 +1150,7 @@ const characters = [
     affiliation: {
       team1: "Guardians of the Galaxy",
     },
+    attacks: {},
     superpowers: {
       power1: "Blades",
       power2: "Headbutt",
@@ -1131,6 +1183,7 @@ const characters = [
       team1: "Inhumans",
       team2: "Guardians of the Galaxy",
     },
+    attacks: {},
     superpowers: {
       power1: "Strike",
       power2: "Universal Weapon",
@@ -1164,6 +1217,7 @@ const characters = [
       team1: "Criminal Syndicate",
       team2: "Spider-Foes",
     },
+    attacks: {},
     superpowers: {
       power1: "Pumpkin Bombs",
       power2: "Night of the Goblin",
@@ -1198,6 +1252,7 @@ const characters = [
       team2: "Defenders",
       team3: "Midnight Sons",
     },
+    attacks: {},
     superpowers: {
       power1: "Bolts of Bedevilment",
       power2: "Crimson Bands of Cyttorak",
@@ -1234,6 +1289,7 @@ const characters = [
       team2: "Defenders",
       team3: "Midnight Sons",
     },
+    attacks: {},
     superpowers: {
       power1: "Strike",
       power2: "Faithful Assistant",
@@ -1265,6 +1321,7 @@ const characters = [
       team1: "A-Force",
       team2: "Avengers",
     },
+    attacks: {},
     superpowers: {
       power1: "Automatic Pistol",
       power2: "Tear Gas",
@@ -1297,6 +1354,7 @@ const characters = [
       team1: "Avengers",
       team2: "Defenders",
     },
+    attacks: {},
     superpowers: {
       power1: "Arrow Shot",
       power2: "Hook Arrow",
@@ -1326,6 +1384,7 @@ const characters = [
     affiliation: {
       team1: "Black Order",
     },
+    attacks: {},
     superpowers: {
       power1: "Strike",
       power2: "Cosmic Blast",
@@ -1360,6 +1419,7 @@ const characters = [
       team1: "A-Force",
       team2: "Avengers",
     },
+    attacks: {},
     superpowers: {
       power1: "Size-Changing Smack Down",
       power2: "Change Size",
@@ -1391,6 +1451,7 @@ const characters = [
       team1: "A-Force",
       team2: "Avengers",
     },
+    attacks: {},
     superpowers: {
       power1: "Stinger Blast",
       power2: "Wasp's Fury",
@@ -1422,6 +1483,7 @@ const characters = [
     affiliation: {
       team1: "Avengers",
     },
+    attacks: {},
     superpowers: {
       power1: "Pym Particle Punch",
       power2: "Bullet Ant Barrage",
@@ -1451,6 +1513,7 @@ const characters = [
     affiliation: {
       team1: "Avengers",
     },
+    attacks: {},
     superpowers: {
       power1: "Ant-Sized Uppercut",
       power2: "Change Size",
@@ -1482,6 +1545,7 @@ const characters = [
       team1: "Defenders",
       team2: "Midnight Sons",
     },
+    attacks: {},
     superpowers: {
       power1: "Chains of Damnation",
       power2: "Flames of Hell",
@@ -1515,6 +1579,7 @@ const characters = [
       team1: "Asgard",
       team2: "Cabal",
     },
+    attacks: {},
     superpowers: {
       power1: "Spurned Affection",
       power2: "Enthrall",
@@ -1550,6 +1615,7 @@ const characters = [
       team2: "Asgard",
       team3: "Guardians of the Galaxy",
     },
+    attacks: {},
     superpowers: {
       power1: "Xiphos, the Sword of the Stars",
       power2: "Blades of Ichor",
@@ -1585,6 +1651,7 @@ const characters = [
       team2: "Criminal Syndicate",
       team3: "Spider-Foes",
     },
+    attacks: {},
     superpowers: {
       power1: "Headbutt",
       power2: "Cane Laser",
@@ -1619,6 +1686,7 @@ const characters = [
       team1: "Defenders",
       team2: "Web Warriors",
     },
+    attacks: {},
     superpowers: {
       power1: "Strike",
       power2: "Baton Hook",
@@ -1651,6 +1719,7 @@ const characters = [
       team1: "Cabal",
       team2: "Crime Syndicate",
     },
+    attacks: {},
     superpowers: {
       power1: "Throwing Knife",
       power2: "Pin Cushion",
@@ -1681,6 +1750,7 @@ const characters = [
     affiliation: {
       team1: "Criminal Syndicate",
     },
+    attacks: {},
     superpowers: {
       power1: "Sword Strike",
       power2: "Shield Throw",
@@ -1713,6 +1783,7 @@ const characters = [
     affiliation: {
       team1: "Unaffiliated",
     },
+    attacks: {},
     superpowers: {
       power1: "Hip Fire",
       power2: "Aimed Shot",
@@ -1744,6 +1815,7 @@ const characters = [
     affiliation: {
       team1: "Dark Dimension",
     },
+    attacks: {},
     superpowers: {
       power1: "Shadow Bolt",
       power2: "Incantation of Obliteration",
@@ -1777,6 +1849,7 @@ const characters = [
     affiliation: {
       team1: "Inhumans",
     },
+    attacks: {},
     superpowers: {
       power1: "Energy Bolt",
       power2: "Master Punch",
@@ -1811,6 +1884,7 @@ const characters = [
       team1: "A-Force",
       team2: "Inhumans",
     },
+    attacks: {},
     superpowers: {
       power1: "Braid Bash",
       power2: "Split Ends",
@@ -1844,6 +1918,7 @@ const characters = [
       team1: "A-Force",
       team2: "Inhumans",
     },
+    attacks: {},
     superpowers: {
       power1: "Earth-Shaker",
       power2: "Hurricane Blast",
@@ -1878,6 +1953,7 @@ const characters = [
     affiliation: {
       team1: "Inhumans",
     },
+    attacks: {},
     superpowers: {
       power1: "Bite",
       power2: "DROP IT!",
@@ -1911,6 +1987,7 @@ const characters = [
       team1: "Defenders",
       team2: "Web Warriors",
     },
+    attacks: {},
     superpowers: {
       power1: "Spider Strike",
       power2: "Whatever a Spider Can",
@@ -1946,6 +2023,7 @@ const characters = [
       team3: "Midnight Sons",
       team4: "Web Warriors",
     },
+    attacks: {},
     superpowers: {
       power1: "Cat Claws",
       power2: "Troublemaker",
@@ -1977,6 +2055,7 @@ const characters = [
     affiliation: {
       team1: "Avengers",
     },
+    attacks: {},
     superpowers: {
       power1: "Shield Throw",
       power2: "Redwing Assault",
@@ -2009,6 +2088,7 @@ const characters = [
     affiliation: {
       team1: "Avengers",
     },
+    attacks: {},
     superpowers: {
       power1: "Metal Storm",
       power2: "Rocket Pods",
@@ -2040,6 +2120,7 @@ const characters = [
       team1: "A-Force",
       team2: "Avengers",
     },
+    attacks: {},
     superpowers: {
       power1: "Sensational Uppercut",
       power2: "The Defense Rests",
@@ -2076,6 +2157,7 @@ const characters = [
       team3: "Uncanny X-Men",
       team4: "X-force",
     },
+    attacks: {},
     superpowers: {
       power1: "Adamantium Slash",
       power2: "Berserker Barrage",
@@ -2109,6 +2191,7 @@ const characters = [
       team2: "Cabal",
       team3: "X-Force",
     },
+    attacks: {},
     superpowers: {
       power1: "Claw Slash",
       power2: "Savage Predator",
@@ -2140,6 +2223,7 @@ const characters = [
     affiliation: {
       team1: "Uncanny X-Men",
     },
+    attacks: {},
     superpowers: {
       power1: "Optic Blast",
       power2: "Optic Devastation",
@@ -2173,6 +2257,7 @@ const characters = [
       team2: "Uncanny X-Men",
       team3: "Wakanda",
     },
+    attacks: {},
     superpowers: {
       power1: "Lightning Bolt",
       power2: "Ice Blizzard",
@@ -2208,6 +2293,7 @@ const characters = [
       team1: "Brotherhood of Mutants",
       team2: "Cabal",
     },
+    attacks: {},
     superpowers: {
       power1: "From the Ruins... (Affiliation: Brotherhood of Mutants)",
       power2: "Fatal Attraction",
@@ -2238,6 +2324,7 @@ const characters = [
     affiliation: {
       team1: "Brotherhood of Mutants",
     },
+    attacks: {},
     superpowers: {
       power1: "Tongue Lash",
       power2: "Spit Acid",
@@ -2272,6 +2359,7 @@ const characters = [
       team2: "Inhumans",
       team3: "Uncannny X-Men",
     },
+    attacks: {},
     superpowers: {
       power1: "Acrobatic Strike",
       power2: "Animalistic Freestyle",
@@ -2304,6 +2392,7 @@ const characters = [
       team1: "Brotherhood of Mutants",
       team2: "Cabal",
     },
+    attacks: {},
     superpowers: {
       power1: "Pistol",
       power2: "Espionage",
@@ -2337,6 +2426,7 @@ const characters = [
       team1: "Avengers",
       team2: "X-Force",
     },
+    attacks: {},
     superpowers: {
       power1: "Stab",
       power2: "Bang",
@@ -2369,6 +2459,7 @@ const characters = [
     affiliation: {
       team1: "Cabal",
     },
+    attacks: {},
     superpowers: {
       power1: "Hydra Pistol",
       power2: "Excessive Violence",
@@ -2399,6 +2490,7 @@ const characters = [
     affiliation: {
       team1: "Cabal",
     },
+    attacks: {},
     superpowers: {
       power1: "Strike",
       power2: "Genetic Splicing",
@@ -2435,6 +2527,7 @@ const characters = [
       team2: "Uncanny X-Men",
       team3: "X-Force",
     },
+    attacks: {},
     superpowers: {
       power1: "Plasma Rifle",
       power2: "Askani'son",
@@ -2470,6 +2563,7 @@ const characters = [
       team2: "Uncanny X-Men",
       team3: "X-Force",
     },
+    attacks: {},
     superpowers: {
       power1: "Automatic Pistols",
       power2: "Grenade Bounce",
@@ -2502,6 +2596,7 @@ const characters = [
       team2: "Defenders",
       team3: "Midnight Sons",
     },
+    attacks: {},
     superpowers: {
       power1: "Katana",
       power2: "Throwing Glaive",
@@ -2536,6 +2631,7 @@ const characters = [
       team2: "Midnight Sons",
       team3: "Web Warriors",
     },
+    attacks: {},
     superpowers: {
       power1: "Bo Staff",
       power2: "Throwing Crescents",
@@ -2569,6 +2665,7 @@ const characters = [
       team1: "Avengers",
       team2: "Defenders",
     },
+    attacks: {},
     superpowers: {
       power1: "Power Man Punch",
       power2: "Sweet Christmas",
@@ -2602,6 +2699,7 @@ const characters = [
       team2: "Defenders",
       team3: "Midnight Sons",
     },
+    attacks: {},
     superpowers: {
       power1: "Chi Strike",
       power2: "Flying Kick",
@@ -2635,6 +2733,7 @@ const characters = [
       team2: "Criminal Syndicate",
       team3: "Spider-Foes",
     },
+    attacks: {},
     superpowers: {
       power1: "Hypnosis Gas",
       power2: "Curtain Call",
@@ -2667,6 +2766,7 @@ const characters = [
     affiliation: {
       team1: "Spider-Foes",
     },
+    attacks: {},
     superpowers: {
       power1: "Symbiote Tendrils",
       power2: "Maximum Carnage",
@@ -2699,6 +2799,7 @@ const characters = [
     affiliation: {
       team1: "Avengers",
     },
+    attacks: {},
     superpowers: {
       power1: "Heavy Repulsor Blast",
       power2: "Meteor Punch",
@@ -2731,6 +2832,7 @@ const characters = [
     affiliation: {
       team1: "Avengers",
     },
+    attacks: {},
     superpowers: {
       power1: "Rapid Repulsor Blast",
       power2: "Hulkbusters (Affiliation: Avengers)",
@@ -2762,6 +2864,7 @@ const characters = [
     affiliation: {
       team1: "Uncanny X-Men",
     },
+    attacks: {},
     superpowers: {
       power1: "Psionic Bolt",
       power2: "Telekinetic Force",
@@ -2794,6 +2897,7 @@ const characters = [
     affiliation: {
       team1: "Cabal",
     },
+    attacks: {},
     superpowers: {
       power1: "Psionic Bolt",
       power2: "Mind Possession",
@@ -2829,6 +2933,7 @@ const characters = [
       team1: "Cabal",
       team2: "Criminal Syndicate",
     },
+    attacks: {},
     superpowers: {
       power1: "Carbonadium Coils",
       power2: "Red Terror",
@@ -2861,6 +2966,7 @@ const characters = [
     affiliation: {
       team1: "Brotherhood of Mutants",
     },
+    attacks: {},
     superpowers: {
       power1: "Strike",
       power2: "I'm the Juggernaut",
@@ -2893,6 +2999,7 @@ const characters = [
     affiliation: {
       team1: "X-Force",
     },
+    attacks: {},
     superpowers: {
       power1: "Strike",
       power2: "X-Slam",
@@ -2925,6 +3032,7 @@ const characters = [
     affiliation: {
       team1: "Convocation",
     },
+    attacks: {},
     superpowers: {
       power1: "Bolts of Oshtur",
       power2: "Soulsword",
@@ -2955,6 +3063,7 @@ const characters = [
     affiliation: {
       team1: "Spider-Foes",
     },
+    attacks: {},
     superpowers: {
       power1: "Tail Whip",
       power2: "Cold-Blooded",
@@ -2987,6 +3096,7 @@ const characters = [
       team1: "Criminal Syndicate",
       team2: "Spider-Foes",
     },
+    attacks: {},
     superpowers: {
       power1: "Kurri Strike",
       power2: "Spear Thrust",
@@ -3017,6 +3127,7 @@ const characters = [
     affiliation: {
       team1: "TBD",
     },
+    attacks: {},
     superpowers: {
       power1: "Bo Staff",
       power2: "Kinetic Ace",
@@ -3048,6 +3159,7 @@ const characters = [
     affiliation: {
       team1: "TBD",
     },
+    attacks: {},
     superpowers: {
       power1: "Absorbing Strike",
       power2: "Southern Hospitality",
@@ -3082,6 +3194,7 @@ const characters = [
       team1: "Criminal Syndicate",
       team2: "Cabal",
     },
+    attacks: {},
     superpowers: {
       power1: "Automatic Pistol",
       power2: "Make It Personal",
@@ -3114,6 +3227,7 @@ const characters = [
     affiliation: {
       team1: "Cabal",
     },
+    attacks: {},
     superpowers: {
       power1: "Poisoned Blade",
       power2: "Assassin's Pistol",
@@ -3146,6 +3260,7 @@ const characters = [
       team1: "Avengers",
       team2: "Inhumans",
     },
+    attacks: {},
     superpowers: {
       power1: "Morpho-Punch",
       power2: "Embiggen",
@@ -3177,6 +3292,7 @@ const characters = [
       team1: "Avengers",
       team2: "Inhumans",
     },
+    attacks: {},
     superpowers: {
       power1: "High Five",
       power2: "Inhuman",
@@ -3210,6 +3326,7 @@ const characters = [
       team3: "Defenders",
       team4: "Brotherhood of Mutants",
     },
+    attacks: {},
     superpowers: {
       power1: "Hex Bolt",
       power2: "Cruel Twist",
@@ -3244,6 +3361,7 @@ const characters = [
       team2: "Brotherhood of Mutants",
       team3: "Inhumans",
     },
+    attacks: {},
     superpowers: {
       power1: "Supersonic Strike",
       power2: "Cyclonic Vortex",
@@ -3276,6 +3394,7 @@ const characters = [
       team1: "Convocation",
       team2: "Defenders",
     },
+    attacks: {},
     superpowers: {
       power1: "Shards of Seraphim",
       power2: "Fangs of Farallah",
@@ -3309,6 +3428,7 @@ const characters = [
       team1: "Cabal",
       team2: "Convocation",
     },
+    attacks: {},
     superpowers: {
       power1: "Staf of the Living Tribunal",
       power2: "Bolts of Bishru",
@@ -3344,6 +3464,7 @@ const characters = [
       team2: "Convocation",
       team3: "Midnight Sons",
     },
+    attacks: {},
     superpowers: {
       power1: "Sprit Venom",
       power2: "Staff of Legba",
@@ -3378,6 +3499,7 @@ const characters = [
       team1: "Cabal",
       team2: "Crime Syndicate",
     },
+    attacks: {},
     superpowers: {
       power1: "Hex Shot",
       power2: "Dark Lightning",
@@ -3409,6 +3531,7 @@ const characters = [
       team1: "Cabal",
       team2: "Crime Syndicate",
     },
+    attacks: {},
     superpowers: {
       power1: "Razor Talons",
       power2: "Empowered Dark Lightning",
@@ -3441,6 +3564,7 @@ const characters = [
       team2: "Defenders",
       team3: "Midnight Sons",
     },
+    attacks: {},
     superpowers: {
       power1: "Baleful Bolts of Balthakk",
       power2: "Deadly Daggers of Daveroth",
@@ -3475,6 +3599,7 @@ const characters = [
       team1: "Convocation",
       team2: "Defenders",
     },
+    attacks: {},
     superpowers: {
       power1: "Demon Claws of Denak",
       power2: "Icy Tendrils of Ikthalon",
