@@ -8,12 +8,13 @@ const characters = [
       speed: "L",
       height: 2,
       points: 3,
-      defence: {
-        physical: 3,
-        energy: 3,
-        mental: 2,
-      },
     },
+    defence: {
+      physical: 3,
+      energy: 3,
+      mystic: 2,
+    },
+
     affiliation: {
       team1: "Cabal",
     },
@@ -38,11 +39,11 @@ const characters = [
       speed: "L",
       height: 2,
       points: 2,
-      defence: {
-        physical: 3,
-        energy: 2,
-        mental: 4,
-      },
+    },
+    defence: {
+      physical: 3,
+      energy: 2,
+      mystic: 4,
     },
 
     affiliation: {
@@ -70,12 +71,13 @@ const characters = [
       speed: "M",
       height: 2,
       points: 4,
-      defence: {
-        physical: 4,
-        energy: 4,
-        mental: 3,
-      },
     },
+    defence: {
+      physical: 4,
+      energy: 4,
+      mystic: 3,
+    },
+
     affiliation: {
       team1: "Avengers",
     },
@@ -100,12 +102,13 @@ const characters = [
       speed: "M",
       height: 2,
       points: 4,
-      defence: {
-        physical: 3,
-        energy: 4,
-        mental: 3,
-      },
     },
+    defence: {
+      physical: 3,
+      energy: 4,
+      mystic: 3,
+    },
+
     affiliation: {
       team1: "Avengers",
       team2: "A-Force",
@@ -133,12 +136,13 @@ const characters = [
       speed: "S",
       height: 2,
       points: 3,
-      defence: {
-        physical: 4,
-        energy: 2,
-        mental: 2,
-      },
     },
+    defence: {
+      physical: 4,
+      energy: 2,
+      mystic: 2,
+    },
+
     affiliation: {
       team1: "Cabal",
     },
@@ -162,12 +166,13 @@ const characters = [
       speed: "M",
       height: 2,
       points: 3,
-      defence: {
-        physical: 4,
-        energy: 3,
-        mental: 4,
-      },
     },
+    defence: {
+      physical: 4,
+      energy: 3,
+      mystic: 4,
+    },
+
     affiliation: {
       team1: "Spider-Foes",
     },
@@ -191,12 +196,13 @@ const characters = [
       speed: "M",
       height: 2,
       points: 3,
-      defence: {
-        physical: 4,
-        energy: 3,
-        mental: 3,
-      },
     },
+    defence: {
+      physical: 4,
+      energy: 3,
+      mystic: 3,
+    },
+
     affiliation: {
       team1: "Avengers",
     },
@@ -220,12 +226,13 @@ const characters = [
       speed: "M",
       height: 2,
       points: 4,
-      defence: {
-        physical: 4,
-        energy: 3,
-        mental: 3,
-      },
     },
+    defence: {
+      physical: 4,
+      energy: 3,
+      mystic: 3,
+    },
+
     affiliation: {
       team1: "Cabal",
     },
@@ -251,12 +258,13 @@ const characters = [
       speed: "M",
       height: 3,
       points: 4,
-      defence: {
-        physical: 4,
-        energy: 3,
-        mental: 4,
-      },
     },
+    defence: {
+      physical: 4,
+      energy: 3,
+      mystic: 4,
+    },
+
     affiliation: {
       team1: "Cabal",
     },
@@ -283,12 +291,13 @@ const characters = [
       speed: "L",
       height: 2,
       points: 4,
-      defence: {
-        physical: 3,
-        energy: 3,
-        mental: 3,
-      },
     },
+    defence: {
+      physical: 3,
+      energy: 3,
+      mystic: 3,
+    },
+
     affiliation: {
       team1: "Web Warriors",
       team2: "Defenders",
@@ -315,12 +324,13 @@ const characters = [
       speed: "S",
       height: 4,
       points: 6,
-      defence: {
-        physical: 4,
-        energy: 3,
-        mental: 3,
-      },
     },
+    defence: {
+      physical: 4,
+      energy: 3,
+      mystic: 3,
+    },
+
     affiliation: {
       team1: "Avengers",
       team2: "Defenders",
@@ -349,12 +359,13 @@ const characters = [
       speed: "S",
       height: 4,
       points: 5,
-      defence: {
-        physical: 2,
-        energy: 3,
-        mental: 3,
-      },
     },
+    defence: {
+      physical: 2,
+      energy: 3,
+      mystic: 3,
+    },
+
     affiliation: {
       team1: "Cabal",
       team2: "Criminal Syndicate",
@@ -380,12 +391,13 @@ const characters = [
       speed: "L",
       height: 2,
       points: 4,
-      defence: {
-        physical: 4,
-        energy: 3,
-        mental: 3,
-      },
     },
+    defence: {
+      physical: 4,
+      energy: 3,
+      mystic: 3,
+    },
+
     affiliation: {
       team1: "Avengers",
       team2: "Wakanda",
@@ -411,12 +423,13 @@ const characters = [
       speed: "M",
       height: 2,
       points: 4,
-      defence: {
-        physical: 4,
-        energy: 3,
-        mental: 3,
-      },
     },
+    defence: {
+      physical: 4,
+      energy: 3,
+      mystic: 3,
+    },
+
     affiliation: {
       team1: "Cabal",
       team2: "Criminal Syndicate",
@@ -443,12 +456,13 @@ const characters = [
       speed: "M",
       height: 2,
       points: 2,
-      defence: {
-        physical: 3,
-        energy: 3,
-        mental: 3,
-      },
     },
+    defence: {
+      physical: 3,
+      energy: 3,
+      mystic: 3,
+    },
+
     affiliation: {
       team1: "A-Force",
       team2: "Wakanda",
@@ -473,12 +487,13 @@ const characters = [
       speed: "M",
       height: 2,
       points: 3,
-      defence: {
-        physical: 3,
-        energy: 3,
-        mental: 3,
-      },
     },
+    defence: {
+      physical: 3,
+      energy: 3,
+      mystic: 3,
+    },
+
     affiliation: {
       team1: "A-Force",
       team2: "Wakanda",
@@ -503,12 +518,13 @@ const characters = [
       speed: "M",
       height: 3,
       points: 4,
-      defence: {
-        physical: 4,
-        energy: 2,
-        mental: 3,
-      },
     },
+    defence: {
+      physical: 4,
+      energy: 2,
+      mystic: 3,
+    },
+
     affiliation: {
       team1: "Spider-Foes",
       team2: "Web Warriors",
@@ -534,12 +550,13 @@ const characters = [
       speed: "M",
       height: 2,
       points: 3,
-      defence: {
-        physical: 3,
-        energy: 3,
-        mental: 3,
-      },
     },
+    defence: {
+      physical: 3,
+      energy: 3,
+      mystic: 3,
+    },
+
     affiliation: {
       team1: "Web Warriors",
     },
@@ -566,12 +583,13 @@ const characters = [
       speed: "L",
       height: 2,
       points: 3,
-      defence: {
-        physical: 3,
-        energy: 3,
-        mental: 3,
-      },
     },
+    defence: {
+      physical: 3,
+      energy: 3,
+      mystic: 3,
+    },
+
     affiliation: {
       team1: "Web Warriors",
     },
@@ -596,12 +614,13 @@ const characters = [
       speed: "M",
       height: 2,
       points: 5,
-      defence: {
-        physical: 4,
-        energy: 4,
-        mental: 3,
-      },
     },
+    defence: {
+      physical: 4,
+      energy: 4,
+      mystic: 3,
+    },
+
     affiliation: {
       team1: "Asgardian",
       team2: "Avengers",
@@ -629,12 +648,13 @@ const characters = [
       speed: "M",
       height: 2,
       points: 3,
-      defence: {
-        physical: 3,
-        energy: 3,
-        mental: 3,
-      },
     },
+    defence: {
+      physical: 3,
+      energy: 3,
+      mystic: 3,
+    },
+
     affiliation: {
       team1: "Asgardian",
     },
@@ -659,12 +679,13 @@ const characters = [
       speed: "M",
       height: 2,
       points: 4,
-      defence: {
-        physical: 4,
-        energy: 4,
-        mental: 4,
-      },
     },
+    defence: {
+      physical: 4,
+      energy: 4,
+      mystic: 4,
+    },
+
     affiliation: {
       team1: "Asgardian",
     },
@@ -689,12 +710,13 @@ const characters = [
       speed: "M",
       height: 2,
       points: 4,
-      defence: {
-        physical: 3,
-        energy: 3,
-        mental: 4,
-      },
     },
+    defence: {
+      physical: 3,
+      energy: 3,
+      mystic: 4,
+    },
+
     affiliation: {
       team1: "Asgardian",
       team2: "Cabal",
@@ -722,12 +744,13 @@ const characters = [
       speed: "M",
       height: 2,
       points: 4,
-      defence: {
-        physical: 2,
-        energy: 2,
-        mental: 4,
-      },
     },
+    defence: {
+      physical: 2,
+      energy: 2,
+      mystic: 4,
+    },
+
     affiliation: {
       team1: "Avengers",
     },
@@ -754,12 +777,13 @@ const characters = [
       speed: "M",
       height: 2,
       points: 3,
-      defence: {
-        physical: 3,
-        energy: 3,
-        mental: 2,
-      },
     },
+    defence: {
+      physical: 3,
+      energy: 3,
+      mystic: 2,
+    },
+
     affiliation: {
       team1: "Unaffiliated",
     },
@@ -783,12 +807,13 @@ const characters = [
       speed: "M",
       height: 2,
       points: 4,
-      defence: {
-        physical: 3,
-        energy: 3,
-        mental: 3,
-      },
     },
+    defence: {
+      physical: 3,
+      energy: 3,
+      mystic: 3,
+    },
+
     affiliation: {
       team1: "Black Order",
     },
@@ -814,12 +839,13 @@ const characters = [
       speed: "L",
       height: 2,
       points: 3,
-      defence: {
-        physical: 3,
-        energy: 3,
-        mental: 3,
-      },
     },
+    defence: {
+      physical: 3,
+      energy: 3,
+      mystic: 3,
+    },
+
     affiliation: {
       team1: "Black Order",
     },
@@ -844,12 +870,13 @@ const characters = [
       speed: "L",
       height: 2,
       points: 4,
-      defence: {
-        physical: 3,
-        energy: 3,
-        mental: 3,
-      },
     },
+    defence: {
+      physical: 3,
+      energy: 3,
+      mystic: 3,
+    },
+
     affiliation: {
       team1: "A-Force",
       team2: "Guardians of the Galaxy",
@@ -875,12 +902,13 @@ const characters = [
       speed: "M",
       height: 2,
       points: 2,
-      defence: {
-        physical: 3,
-        energy: 3,
-        mental: 2,
-      },
     },
+    defence: {
+      physical: 3,
+      energy: 3,
+      mystic: 2,
+    },
+
     affiliation: {
       team1: "Guardians of the Galaxy",
     },
@@ -905,12 +933,13 @@ const characters = [
       speed: "M",
       height: 1,
       points: 2,
-      defence: {
-        physical: 2,
-        energy: 2,
-        mental: 3,
-      },
     },
+    defence: {
+      physical: 2,
+      energy: 2,
+      mystic: 3,
+    },
+
     affiliation: {
       team1: "Guardians of the Galaxy",
     },
@@ -935,12 +964,13 @@ const characters = [
       speed: "S",
       height: 3,
       points: 3,
-      defence: {
-        physical: 4,
-        energy: 2,
-        mental: 3,
-      },
     },
+    defence: {
+      physical: 4,
+      energy: 2,
+      mystic: 3,
+    },
+
     affiliation: {
       team1: "Guardians of the Galaxy",
     },
@@ -963,12 +993,13 @@ const characters = [
       speed: "M",
       height: 2,
       points: 3,
-      defence: {
-        physical: 3,
-        energy: 3,
-        mental: 3,
-      },
     },
+    defence: {
+      physical: 3,
+      energy: 3,
+      mystic: 3,
+    },
+
     affiliation: {
       team1: "Guardians of the Galaxy",
     },
@@ -994,12 +1025,13 @@ const characters = [
       speed: "S",
       height: 4,
       points: 4,
-      defence: {
-        physical: 4,
-        energy: 3,
-        mental: 3,
-      },
     },
+    defence: {
+      physical: 4,
+      energy: 3,
+      mystic: 3,
+    },
+
     affiliation: {
       team1: "Black Order",
     },
@@ -1024,12 +1056,13 @@ const characters = [
       speed: "M",
       height: 2,
       points: 5,
-      defence: {
-        physical: 2,
-        energy: 4,
-        mental: 6,
-      },
     },
+    defence: {
+      physical: 2,
+      energy: 4,
+      mystic: 6,
+    },
+
     affiliation: {
       team1: "Black Order",
     },
@@ -1056,12 +1089,13 @@ const characters = [
       speed: "M",
       height: 2,
       points: 3,
-      defence: {
-        physical: 3,
-        energy: 3,
-        mental: 2,
-      },
     },
+    defence: {
+      physical: 3,
+      energy: 3,
+      mystic: 2,
+    },
+
     affiliation: {
       team1: "Guardians of the Galaxy",
     },
@@ -1086,12 +1120,13 @@ const characters = [
       speed: "M",
       height: 3,
       points: 4,
-      defence: {
-        physical: 3,
-        energy: 4,
-        mental: 4,
-      },
     },
+    defence: {
+      physical: 3,
+      energy: 4,
+      mystic: 4,
+    },
+
     affiliation: {
       team1: "Inhumans",
       team2: "Guardians of the Galaxy",
@@ -1118,12 +1153,13 @@ const characters = [
       speed: "M",
       height: 3,
       points: 4,
-      defence: {
-        physical: 4,
-        energy: 3,
-        mental: 3,
-      },
     },
+    defence: {
+      physical: 4,
+      energy: 3,
+      mystic: 3,
+    },
+
     affiliation: {
       team1: "Criminal Syndicate",
       team2: "Spider-Foes",
@@ -1150,12 +1186,13 @@ const characters = [
       speed: "M",
       height: 2,
       points: 5,
-      defence: {
-        physical: 3,
-        energy: 4,
-        mental: 4,
-      },
     },
+    defence: {
+      physical: 3,
+      energy: 4,
+      mystic: 4,
+    },
+
     affiliation: {
       team1: "Convocation",
       team2: "Defenders",
@@ -1185,12 +1222,13 @@ const characters = [
       speed: "M",
       height: 2,
       points: 2,
-      defence: {
-        physical: 2,
-        energy: 3,
-        mental: 3,
-      },
     },
+    defence: {
+      physical: 2,
+      energy: 3,
+      mystic: 3,
+    },
+
     affiliation: {
       team1: "Convocation",
       team2: "Defenders",
@@ -1216,12 +1254,13 @@ const characters = [
       speed: "M",
       height: 2,
       points: 3,
-      defence: {
-        physical: 4,
-        energy: 3,
-        mental: 3,
-      },
     },
+    defence: {
+      physical: 4,
+      energy: 3,
+      mystic: 3,
+    },
+
     affiliation: {
       team1: "A-Force",
       team2: "Avengers",
@@ -1247,12 +1286,13 @@ const characters = [
       speed: "M",
       height: 2,
       points: 3,
-      defence: {
-        physical: 4,
-        energy: 3,
-        mental: 3,
-      },
     },
+    defence: {
+      physical: 4,
+      energy: 3,
+      mystic: 3,
+    },
+
     affiliation: {
       team1: "Avengers",
       team2: "Defenders",
@@ -1276,12 +1316,13 @@ const characters = [
       speed: "M",
       height: 3,
       points: 6,
-      defence: {
-        physical: 3,
-        energy: 3,
-        mental: 4,
-      },
     },
+    defence: {
+      physical: 3,
+      energy: 3,
+      mystic: 4,
+    },
+
     affiliation: {
       team1: "Black Order",
     },
@@ -1308,12 +1349,13 @@ const characters = [
       speed: "M",
       height: 2,
       points: 3,
-      defence: {
-        physical: 3,
-        energy: 2,
-        mental: 3,
-      },
     },
+    defence: {
+      physical: 3,
+      energy: 2,
+      mystic: 3,
+    },
+
     affiliation: {
       team1: "A-Force",
       team2: "Avengers",
@@ -1338,12 +1380,13 @@ const characters = [
       speed: "L",
       height: 1,
       points: 3,
-      defence: {
-        physical: 3,
-        energy: 2,
-        mental: 3,
-      },
     },
+    defence: {
+      physical: 3,
+      energy: 2,
+      mystic: 3,
+    },
+
     affiliation: {
       team1: "A-Force",
       team2: "Avengers",
@@ -1358,7 +1401,7 @@ const characters = [
     },
     baseType: "35mm",
     image: "images/home/CP26_Wasp.png",
-    expansion: "CP24",
+    expansion: "CP26",
   },
   {
     _id: "45",
@@ -1369,12 +1412,13 @@ const characters = [
       speed: "M",
       height: 2,
       points: 3,
-      defence: {
-        physical: 3,
-        energy: 2,
-        mental: 3,
-      },
     },
+    defence: {
+      physical: 3,
+      energy: 2,
+      mystic: 3,
+    },
+
     affiliation: {
       team1: "Avengers",
     },
@@ -1386,7 +1430,7 @@ const characters = [
     },
     baseType: "35mm",
     image: "images/home/CP26_AntMan.png",
-    expansion: "CP24",
+    expansion: "CP26",
   },
   {
     _id: "46",
@@ -1397,12 +1441,13 @@ const characters = [
       speed: "S",
       height: 1,
       points: 3,
-      defence: {
-        physical: 3,
-        energy: 2,
-        mental: 3,
-      },
     },
+    defence: {
+      physical: 3,
+      energy: 2,
+      mystic: 3,
+    },
+
     affiliation: {
       team1: "Avengers",
     },
@@ -1415,7 +1460,7 @@ const characters = [
     },
     baseType: "35mm",
     image: "images/home/CP26_AntMan.png",
-    expansion: "CP24",
+    expansion: "CP26",
   },
   {
     _id: "47",
@@ -1426,12 +1471,13 @@ const characters = [
       speed: "M",
       height: 3,
       points: 5,
-      defence: {
-        physical: 3,
-        energy: 4,
-        mental: 4,
-      },
     },
+    defence: {
+      physical: 3,
+      energy: 4,
+      mystic: 4,
+    },
+
     affiliation: {
       team1: "Defenders",
       team2: "Midnight Sons",
@@ -1458,12 +1504,13 @@ const characters = [
       speed: "M",
       height: 2,
       points: 4,
-      defence: {
-        physical: 2,
-        energy: 2,
-        mental: 5,
-      },
     },
+    defence: {
+      physical: 2,
+      energy: 2,
+      mystic: 5,
+    },
+
     affiliation: {
       team1: "Asgard",
       team2: "Cabal",
@@ -1491,12 +1538,13 @@ const characters = [
       speed: "L",
       height: 2,
       points: 5,
-      defence: {
-        physical: 4,
-        energy: 4,
-        mental: 4,
-      },
     },
+    defence: {
+      physical: 4,
+      energy: 4,
+      mystic: 4,
+    },
+
     affiliation: {
       team1: "A-Force",
       team2: "Asgard",
@@ -1525,12 +1573,13 @@ const characters = [
       speed: "S",
       height: 3,
       points: 4,
-      defence: {
-        physical: 4,
-        energy: 3,
-        mental: 3,
-      },
     },
+    defence: {
+      physical: 4,
+      energy: 3,
+      mystic: 3,
+    },
+
     affiliation: {
       team1: "Cabal",
       team2: "Criminal Syndicate",
@@ -1559,12 +1608,13 @@ const characters = [
       speed: "L",
       height: 2,
       points: 4,
-      defence: {
-        physical: 3,
-        energy: 3,
-        mental: 3,
-      },
     },
+    defence: {
+      physical: 3,
+      energy: 3,
+      mystic: 3,
+    },
+
     affiliation: {
       team1: "Defenders",
       team2: "Web Warriors",
@@ -1590,12 +1640,13 @@ const characters = [
       speed: "M",
       height: 2,
       points: 2,
-      defence: {
-        physical: 3,
-        energy: 3,
-        mental: 2,
-      },
     },
+    defence: {
+      physical: 3,
+      energy: 3,
+      mystic: 2,
+    },
+
     affiliation: {
       team1: "Cabal",
       team2: "Crime Syndicate",
@@ -1620,12 +1671,13 @@ const characters = [
       speed: "M",
       height: 2,
       points: 3,
-      defence: {
-        physical: 3,
-        energy: 3,
-        mental: 3,
-      },
     },
+    defence: {
+      physical: 3,
+      energy: 3,
+      mystic: 3,
+    },
+
     affiliation: {
       team1: "Criminal Syndicate",
     },
@@ -1651,12 +1703,13 @@ const characters = [
       speed: "M",
       height: 2,
       points: 3,
-      defence: {
-        physical: 3,
-        energy: 3,
-        mental: 3,
-      },
     },
+    defence: {
+      physical: 3,
+      energy: 3,
+      mystic: 3,
+    },
+
     affiliation: {
       team1: "Unaffiliated",
     },
@@ -1681,12 +1734,13 @@ const characters = [
       speed: "M",
       height: 5,
       points: 8,
-      defence: {
-        physical: 4,
-        energy: 4,
-        mental: 5,
-      },
     },
+    defence: {
+      physical: 4,
+      energy: 4,
+      mystic: 5,
+    },
+
     affiliation: {
       team1: "Dark Dimension",
     },
@@ -1713,12 +1767,13 @@ const characters = [
       speed: "M",
       height: 2,
       points: 5,
-      defence: {
-        physical: 4,
-        energy: 4,
-        mental: 2,
-      },
     },
+    defence: {
+      physical: 4,
+      energy: 4,
+      mystic: 2,
+    },
+
     affiliation: {
       team1: "Inhumans",
     },
@@ -1745,12 +1800,13 @@ const characters = [
       speed: "M",
       height: 2,
       points: 4,
-      defence: {
-        physical: 3,
-        energy: 3,
-        mental: 3,
-      },
     },
+    defence: {
+      physical: 3,
+      energy: 3,
+      mystic: 3,
+    },
+
     affiliation: {
       team1: "A-Force",
       team2: "Inhumans",
@@ -1777,12 +1833,13 @@ const characters = [
       speed: "L",
       height: 2,
       points: 3,
-      defence: {
-        physical: 3,
-        energy: 3,
-        mental: 3,
-      },
     },
+    defence: {
+      physical: 3,
+      energy: 3,
+      mystic: 3,
+    },
+
     affiliation: {
       team1: "A-Force",
       team2: "Inhumans",
@@ -1811,12 +1868,13 @@ const characters = [
       speed: "S",
       height: 3,
       points: 3,
-      defence: {
-        physical: 3,
-        energy: 3,
-        mental: 3,
-      },
     },
+    defence: {
+      physical: 3,
+      energy: 3,
+      mystic: 3,
+    },
+
     affiliation: {
       team1: "Inhumans",
     },
@@ -1842,12 +1900,13 @@ const characters = [
       speed: "L",
       height: 2,
       points: 5,
-      defence: {
-        physical: 4,
-        energy: 4,
-        mental: 3,
-      },
     },
+    defence: {
+      physical: 4,
+      energy: 4,
+      mystic: 3,
+    },
+
     affiliation: {
       team1: "Defenders",
       team2: "Web Warriors",
@@ -1874,12 +1933,13 @@ const characters = [
       speed: "L",
       height: 2,
       points: 3,
-      defence: {
-        physical: 3,
-        energy: 3,
-        mental: 3,
-      },
     },
+    defence: {
+      physical: 3,
+      energy: 3,
+      mystic: 3,
+    },
+
     affiliation: {
       team1: "A-Force",
       team2: "Criminal Syndicate",
@@ -1907,12 +1967,13 @@ const characters = [
       speed: "L",
       height: 2,
       points: 3,
-      defence: {
-        physical: 3,
-        energy: 3,
-        mental: 3,
-      },
     },
+    defence: {
+      physical: 3,
+      energy: 3,
+      mystic: 3,
+    },
+
     affiliation: {
       team1: "Avengers",
     },
@@ -1938,12 +1999,13 @@ const characters = [
       speed: "M",
       height: 2,
       points: 3,
-      defence: {
-        physical: 4,
-        energy: 3,
-        mental: 3,
-      },
     },
+    defence: {
+      physical: 4,
+      energy: 3,
+      mystic: 3,
+    },
+
     affiliation: {
       team1: "Avengers",
     },
@@ -1967,12 +2029,13 @@ const characters = [
       speed: "M",
       height: 3,
       points: 6,
-      defence: {
-        physical: 3,
-        energy: 4,
-        mental: 3,
-      },
     },
+    defence: {
+      physical: 3,
+      energy: 4,
+      mystic: 3,
+    },
+
     affiliation: {
       team1: "A-Force",
       team2: "Avengers",
@@ -2000,12 +2063,13 @@ const characters = [
       speed: "M",
       height: 2,
       points: 4,
-      defence: {
-        physical: 4,
-        energy: 3,
-        mental: 2,
-      },
     },
+    defence: {
+      physical: 4,
+      energy: 3,
+      mystic: 2,
+    },
+
     affiliation: {
       team1: "Avengers",
       team2: "Defenders",
@@ -2033,12 +2097,13 @@ const characters = [
       speed: "L",
       height: 3,
       points: 4,
-      defence: {
-        physical: 3,
-        energy: 3,
-        mental: 3,
-      },
     },
+    defence: {
+      physical: 3,
+      energy: 3,
+      mystic: 3,
+    },
+
     affiliation: {
       team1: "Brotherhood of Evil Mutants",
       team2: "Cabal",
@@ -2065,12 +2130,13 @@ const characters = [
       speed: "M",
       height: 2,
       points: 4,
-      defence: {
-        physical: 4,
-        energy: 3,
-        mental: 3,
-      },
     },
+    defence: {
+      physical: 4,
+      energy: 3,
+      mystic: 3,
+    },
+
     affiliation: {
       team1: "Uncanny X-Men",
     },
@@ -2095,12 +2161,13 @@ const characters = [
       speed: "M",
       height: 2,
       points: 3,
-      defence: {
-        physical: 3,
-        energy: 4,
-        mental: 3,
-      },
     },
+    defence: {
+      physical: 3,
+      energy: 4,
+      mystic: 3,
+    },
+
     affiliation: {
       team1: "A-Force",
       team2: "Uncanny X-Men",
@@ -2130,12 +2197,13 @@ const characters = [
       speed: "S",
       height: 2,
       points: 6,
-      defence: {
-        physical: 3,
-        energy: 4,
-        mental: 6,
-      },
     },
+    defence: {
+      physical: 3,
+      energy: 4,
+      mystic: 6,
+    },
+
     affiliation: {
       team1: "Brotherhood of Mutants",
       team2: "Cabal",
@@ -2160,12 +2228,13 @@ const characters = [
       speed: "M",
       height: 2,
       points: 2,
-      defence: {
-        physical: 3,
-        energy: 3,
-        mental: 3,
-      },
     },
+    defence: {
+      physical: 3,
+      energy: 3,
+      mystic: 3,
+    },
+
     affiliation: {
       team1: "Brotherhood of Mutants",
     },
@@ -2191,12 +2260,13 @@ const characters = [
       speed: "M",
       height: 3,
       points: 3,
-      defence: {
-        physical: 4,
-        energy: 2,
-        mental: 3,
-      },
     },
+    defence: {
+      physical: 4,
+      energy: 2,
+      mystic: 3,
+    },
+
     affiliation: {
       team1: "Avengers",
       team2: "Inhumans",
@@ -2223,12 +2293,13 @@ const characters = [
       speed: "L",
       height: 2,
       points: 3,
-      defence: {
-        physical: 3,
-        energy: 3,
-        mental: 3,
-      },
     },
+    defence: {
+      physical: 3,
+      energy: 3,
+      mystic: 3,
+    },
+
     affiliation: {
       team1: "Brotherhood of Mutants",
       team2: "Cabal",
@@ -2255,12 +2326,13 @@ const characters = [
       speed: "M",
       height: 2,
       points: 3,
-      defence: {
-        physical: 3,
-        energy: 3,
-        mental: 4,
-      },
     },
+    defence: {
+      physical: 3,
+      energy: 3,
+      mystic: 4,
+    },
+
     affiliation: {
       team1: "Avengers",
       team2: "X-Force",
@@ -2287,12 +2359,13 @@ const characters = [
       speed: "M",
       height: 2,
       points: 3,
-      defence: {
-        physical: 2,
-        energy: 2,
-        mental: 2,
-      },
     },
+    defence: {
+      physical: 2,
+      energy: 2,
+      mystic: 2,
+    },
+
     affiliation: {
       team1: "Cabal",
     },
@@ -2316,12 +2389,13 @@ const characters = [
       speed: "M",
       height: 3,
       points: 4,
-      defence: {
-        physical: 3,
-        energy: 3,
-        mental: 4,
-      },
     },
+    defence: {
+      physical: 3,
+      energy: 3,
+      mystic: 4,
+    },
+
     affiliation: {
       team1: "Cabal",
     },
@@ -2349,12 +2423,13 @@ const characters = [
       speed: "S",
       height: 2,
       points: 5,
-      defence: {
-        physical: 3,
-        energy: 3,
-        mental: 4,
-      },
     },
+    defence: {
+      physical: 3,
+      energy: 3,
+      mystic: 4,
+    },
+
     affiliation: {
       team1: "Avengers",
       team2: "Uncanny X-Men",
@@ -2383,12 +2458,13 @@ const characters = [
       speed: "M",
       height: 2,
       points: 3,
-      defence: {
-        physical: 3,
-        energy: 3,
-        mental: 3,
-      },
     },
+    defence: {
+      physical: 3,
+      energy: 3,
+      mystic: 3,
+    },
+
     affiliation: {
       team1: "A-Force",
       team2: "Uncanny X-Men",
@@ -2414,12 +2490,13 @@ const characters = [
       speed: "M",
       height: 2,
       points: 4,
-      defence: {
-        physical: 4,
-        energy: 3,
-        mental: 4,
-      },
     },
+    defence: {
+      physical: 4,
+      energy: 3,
+      mystic: 4,
+    },
+
     affiliation: {
       team1: "Avengers",
       team2: "Defenders",
@@ -2447,12 +2524,13 @@ const characters = [
       speed: "M",
       height: 2,
       points: 3,
-      defence: {
-        physical: 3,
-        energy: 3,
-        mental: 3,
-      },
     },
+    defence: {
+      physical: 3,
+      energy: 3,
+      mystic: 3,
+    },
+
     affiliation: {
       team1: "Defenders",
       team2: "Midnight Sons",
@@ -2480,12 +2558,13 @@ const characters = [
       speed: "M",
       height: 2,
       points: 3,
-      defence: {
-        physical: 4,
-        energy: 3,
-        mental: 3,
-      },
     },
+    defence: {
+      physical: 4,
+      energy: 3,
+      mystic: 3,
+    },
+
     affiliation: {
       team1: "Avengers",
       team2: "Defenders",
@@ -2511,12 +2590,13 @@ const characters = [
       speed: "M",
       height: 2,
       points: 3,
-      defence: {
-        physical: 3,
-        energy: 3,
-        mental: 3,
-      },
     },
+    defence: {
+      physical: 3,
+      energy: 3,
+      mystic: 3,
+    },
+
     affiliation: {
       team1: "Avengers",
       team2: "Defenders",
@@ -2543,12 +2623,13 @@ const characters = [
       speed: "S",
       height: 2,
       points: 3,
-      defence: {
-        physical: 1,
-        energy: 1,
-        mental: 5,
-      },
     },
+    defence: {
+      physical: 1,
+      energy: 1,
+      mystic: 5,
+    },
+
     affiliation: {
       team1: "Cabal",
       team2: "Criminal Syndicate",
@@ -2576,12 +2657,13 @@ const characters = [
       speed: "M",
       height: 2,
       points: 4,
-      defence: {
-        physical: 5,
-        energy: 1,
-        mental: 1,
-      },
     },
+    defence: {
+      physical: 5,
+      energy: 1,
+      mystic: 1,
+    },
+
     affiliation: {
       team1: "Spider-Foes",
     },
@@ -2607,12 +2689,13 @@ const characters = [
       speed: "M",
       height: 4,
       points: 6,
-      defence: {
-        physical: 4,
-        energy: 3,
-        mental: 3,
-      },
     },
+    defence: {
+      physical: 4,
+      energy: 3,
+      mystic: 3,
+    },
+
     affiliation: {
       team1: "Avengers",
     },
@@ -2638,12 +2721,13 @@ const characters = [
       speed: "M",
       height: 2,
       points: 6,
-      defence: {
-        physical: 2,
-        energy: 2,
-        mental: 3,
-      },
     },
+    defence: {
+      physical: 2,
+      energy: 2,
+      mystic: 3,
+    },
+
     affiliation: {
       team1: "Avengers",
     },
@@ -2668,12 +2752,13 @@ const characters = [
       speed: "M",
       height: 2,
       points: 5,
-      defence: {
-        physical: 3,
-        energy: 4,
-        mental: 5,
-      },
     },
+    defence: {
+      physical: 3,
+      energy: 4,
+      mystic: 5,
+    },
+
     affiliation: {
       team1: "Uncanny X-Men",
     },
@@ -2699,12 +2784,13 @@ const characters = [
       speed: "M",
       height: 2,
       points: 5,
-      defence: {
-        physical: 2,
-        energy: 3,
-        mental: 4,
-      },
     },
+    defence: {
+      physical: 2,
+      energy: 3,
+      mystic: 4,
+    },
+
     affiliation: {
       team1: "Cabal",
     },
@@ -2732,12 +2818,13 @@ const characters = [
       speed: "S",
       height: 3,
       points: 4,
-      defence: {
-        physical: 3,
-        energy: 3,
-        mental: 4,
-      },
     },
+    defence: {
+      physical: 3,
+      energy: 3,
+      mystic: 4,
+    },
+
     affiliation: {
       team1: "Cabal",
       team2: "Criminal Syndicate",
@@ -2764,12 +2851,13 @@ const characters = [
       speed: "S",
       height: 4,
       points: 5,
-      defence: {
-        physical: 4,
-        energy: 3,
-        mental: 5,
-      },
     },
+    defence: {
+      physical: 4,
+      energy: 3,
+      mystic: 5,
+    },
+
     affiliation: {
       team1: "Brotherhood of Mutants",
     },
@@ -2795,12 +2883,13 @@ const characters = [
       speed: "S",
       height: 3,
       points: 4,
-      defence: {
-        physical: 4,
-        energy: 3,
-        mental: 3,
-      },
     },
+    defence: {
+      physical: 4,
+      energy: 3,
+      mystic: 3,
+    },
+
     affiliation: {
       team1: "X-Force",
     },
@@ -2826,12 +2915,13 @@ const characters = [
       speed: "M",
       height: 2,
       points: 3,
-      defence: {
-        physical: 3,
-        energy: 3,
-        mental: 4,
-      },
     },
+    defence: {
+      physical: 3,
+      energy: 3,
+      mystic: 4,
+    },
+
     affiliation: {
       team1: "Convocation",
     },
@@ -2855,12 +2945,13 @@ const characters = [
       speed: "M",
       height: 3,
       points: 3,
-      defence: {
-        physical: 4,
-        energy: 3,
-        mental: 3,
-      },
     },
+    defence: {
+      physical: 4,
+      energy: 3,
+      mystic: 3,
+    },
+
     affiliation: {
       team1: "Spider-Foes",
     },
@@ -2885,12 +2976,13 @@ const characters = [
       speed: "M",
       height: 2,
       points: 3,
-      defence: {
-        physical: 3,
-        energy: 3,
-        mental: 3,
-      },
     },
+    defence: {
+      physical: 3,
+      energy: 3,
+      mystic: 3,
+    },
+
     affiliation: {
       team1: "Criminal Syndicate",
       team2: "Spider-Foes",
@@ -2915,12 +3007,13 @@ const characters = [
       speed: "M",
       height: 2,
       points: 3,
-      defence: {
-        physical: 3,
-        energy: 3,
-        mental: 3,
-      },
     },
+    defence: {
+      physical: 3,
+      energy: 3,
+      mystic: 3,
+    },
+
     affiliation: {
       team1: "TBD",
     },
@@ -2945,12 +3038,13 @@ const characters = [
       speed: "M",
       height: 2,
       points: 4,
-      defence: {
-        physical: 4,
-        energy: 3,
-        mental: 3,
-      },
     },
+    defence: {
+      physical: 4,
+      energy: 3,
+      mystic: 3,
+    },
+
     affiliation: {
       team1: "TBD",
     },
@@ -2977,12 +3071,13 @@ const characters = [
       speed: "M",
       height: 2,
       points: 3,
-      defence: {
-        physical: 3,
-        energy: 3,
-        mental: 4,
-      },
     },
+    defence: {
+      physical: 3,
+      energy: 3,
+      mystic: 4,
+    },
+
     affiliation: {
       team1: "Criminal Syndicate",
       team2: "Cabal",
@@ -3009,12 +3104,13 @@ const characters = [
       speed: "L",
       height: 2,
       points: 3,
-      defence: {
-        physical: 3,
-        energy: 3,
-        mental: 3,
-      },
     },
+    defence: {
+      physical: 3,
+      energy: 3,
+      mystic: 3,
+    },
+
     affiliation: {
       team1: "Cabal",
     },
@@ -3039,12 +3135,13 @@ const characters = [
       speed: "M",
       height: 2,
       points: 3,
-      defence: {
-        physical: 3,
-        energy: 4,
-        mental: 3,
-      },
     },
+    defence: {
+      physical: 3,
+      energy: 4,
+      mystic: 3,
+    },
+
     affiliation: {
       team1: "Avengers",
       team2: "Inhumans",
@@ -3069,12 +3166,13 @@ const characters = [
       speed: "M",
       height: 4,
       points: 3,
-      defence: {
-        physical: 3,
-        energy: 4,
-        mental: 3,
-      },
     },
+    defence: {
+      physical: 3,
+      energy: 4,
+      mystic: 3,
+    },
+
     affiliation: {
       team1: "Avengers",
       team2: "Inhumans",
@@ -3099,12 +3197,13 @@ const characters = [
       speed: "M",
       height: 2,
       points: 5,
-      defence: {
-        physical: 3,
-        energy: 4,
-        mental: 4,
-      },
     },
+    defence: {
+      physical: 3,
+      energy: 4,
+      mystic: 4,
+    },
+
     affiliation: {
       team1: "A-Force",
       team2: "Avengers",
@@ -3133,12 +3232,13 @@ const characters = [
       speed: "L",
       height: 2,
       points: 3,
-      defence: {
-        physical: 3,
-        energy: 3,
-        mental: 3,
-      },
     },
+    defence: {
+      physical: 3,
+      energy: 3,
+      mystic: 3,
+    },
+
     affiliation: {
       team1: "Avengers",
       team2: "Brotherhood of Mutants",
@@ -3165,12 +3265,13 @@ const characters = [
       speed: "M",
       height: 2,
       points: 4,
-      defence: {
-        physical: 2,
-        energy: 3,
-        mental: 5,
-      },
     },
+    defence: {
+      physical: 2,
+      energy: 3,
+      mystic: 5,
+    },
+
     affiliation: {
       team1: "Convocation",
       team2: "Defenders",
@@ -3197,12 +3298,13 @@ const characters = [
       speed: "M",
       height: 2,
       points: 3,
-      defence: {
-        physical: 2,
-        energy: 4,
-        mental: 4,
-      },
     },
+    defence: {
+      physical: 2,
+      energy: 4,
+      mystic: 4,
+    },
+
     affiliation: {
       team1: "Cabal",
       team2: "Convocation",
@@ -3230,12 +3332,13 @@ const characters = [
       speed: "M",
       height: 2,
       points: 4,
-      defence: {
-        physical: 2,
-        energy: 2,
-        mental: 4,
-      },
     },
+    defence: {
+      physical: 2,
+      energy: 2,
+      mystic: 4,
+    },
+
     affiliation: {
       team1: "Avengers",
       team2: "Convocation",
@@ -3264,12 +3367,13 @@ const characters = [
       speed: "M",
       height: 2,
       points: 3,
-      defence: {
-        physical: 2,
-        energy: 2,
-        mental: 3,
-      },
     },
+    defence: {
+      physical: 2,
+      energy: 2,
+      mystic: 3,
+    },
+
     affiliation: {
       team1: "Cabal",
       team2: "Crime Syndicate",
@@ -3294,12 +3398,13 @@ const characters = [
       speed: "M",
       height: 2,
       points: 3,
-      defence: {
-        physical: 2,
-        energy: 2,
-        mental: 3,
-      },
     },
+    defence: {
+      physical: 2,
+      energy: 2,
+      mystic: 3,
+    },
+
     affiliation: {
       team1: "Cabal",
       team2: "Crime Syndicate",
@@ -3324,12 +3429,13 @@ const characters = [
       speed: "M",
       height: 2,
       points: 5,
-      defence: {
-        physical: 3,
-        energy: 3,
-        mental: 5,
-      },
     },
+    defence: {
+      physical: 3,
+      energy: 3,
+      mystic: 5,
+    },
+
     affiliation: {
       team1: "Convocation",
       team2: "Defenders",
@@ -3358,12 +3464,13 @@ const characters = [
       speed: "M",
       height: 2,
       points: 4,
-      defence: {
-        physical: 2,
-        energy: 3,
-        mental: 4,
-      },
     },
+    defence: {
+      physical: 2,
+      energy: 3,
+      mystic: 4,
+    },
+
     affiliation: {
       team1: "Convocation",
       team2: "Defenders",

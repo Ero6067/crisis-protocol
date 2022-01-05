@@ -17,3 +17,13 @@ main {
 .regular {
   font-weight: 400;
 }
+.border-blue {
+  border: dotted blue 1em;
+}
+
+.border-green {
+}
+
+.offwhite {
+  color: #ddd;
+}

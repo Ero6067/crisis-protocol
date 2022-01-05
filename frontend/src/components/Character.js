@@ -12,13 +12,13 @@ const character = ({ character }) => {
           to={`/character/${character._id}`}
           className="text-decoration-none"
         >
-          <Card.Title as="div" className="bold">
+          <Card.Title as="div" className="bold offwhite">
             <strong>{character.name}</strong>
           </Card.Title>
         </Link>
 
         <Card.Text as="div">
-          <div className=" regular">{character.expansion}</div>
+          <div className="regular offwhite">{character.expansion}</div>
         </Card.Text>
       </Card.Body>
     </Card>
