@@ -132,7 +132,7 @@ const characters = [
         name: "Mixed Technique",
         range: 2,
         damage: 4,
-        cost: 0,
+        cost: 2,
         type: "Physical",
         text: "If this attack deals damage, after this attack is resolved, the character gains the Stagger special condition",
         special: {
@@ -211,11 +211,7 @@ const characters = [
         damage: 5,
         cost: 0,
         type: "Physical",
-        text: {
-          line1: "After this attack is resolved, this character gains 1 power.",
-          line2:
-            "This attack ignores LOS, and the defending character does not benefit from Cover.",
-        },
+        text: `After this attack is resolved, this character gains 1 power. This attack ignores LOS, and the defending character does not benefit from Cover.`,
         special: {
           special1: {
             wildcardcost: "1",
@@ -232,10 +228,7 @@ const characters = [
         damage: 6,
         cost: 2,
         type: "Physical",
-        text: {
-          line1:
-            "If the target character is Size 3 or less, after this attack is resolved, it may be thrown Small.",
-        },
+        text: "If the target character is Size 3 or less, after this attack is resolved, it may be thrown Small.",
       },
     },
     superpowers: {

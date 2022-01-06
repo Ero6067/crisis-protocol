@@ -18,7 +18,7 @@ main {
   font-weight: 400;
 }
 .border-blue {
-  border: dotted blue 1em;
+  border: dotted blue;
 }
 
 .border-green {
@@ -26,4 +26,8 @@ main {
 
 .offwhite {
   color: #ddd;
+}
+
+.bg-default {
+  background-color: black;
 }
