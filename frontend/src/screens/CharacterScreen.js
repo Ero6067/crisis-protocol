@@ -32,7 +32,6 @@ const CharacterScreen = () => {
                   <h2 className="mb-0">{character.name}</h2>
                   <div>{character.alias}</div>
                 </Col>
-                <Col>Points: {character.statistics.height}</Col>
               </Row>
             </ListGroupItem>
             <ListGroupItem>
@@ -55,16 +54,20 @@ const CharacterScreen = () => {
                   <i class="fas fa-arrows-alt-v"></i>{" "}
                   {character.statistics.height}
                 </Col>
+                <Col>
+                  <i class="fas fa-dna"></i>
+                  {character.statistics.height}
+                </Col>
               </Row>
             </ListGroupItem>
             <ListGroupItem>
               <h3>Defence</h3>
               <Row>
-                <Col>
+                <Col md={3}>
                   <i class="fas fa-fist-raised"></i>{" "}
                   {character.defence.physical}
                 </Col>
-                <Col>
+                <Col md={3}>
                   <i class="fas fa-atom"></i> {character.defence.energy}
                 </Col>
                 <Col>
@@ -76,7 +79,7 @@ const CharacterScreen = () => {
               return (
                 <ListGroupItem>
                   <Row>
-                    <Col md={8}>
+                    <Col md={6}>
                       {att.type === "Physical" ? (
                         <i class="fas fa-fist-raised"></i>
                       ) : att.type === "Energy" ? (
@@ -84,7 +87,7 @@ const CharacterScreen = () => {
                       ) : (
                         <i class="fas fa-eye"></i>
                       )}
-                      {att.name}
+                      {" " + att.name}
                     </Col>
 
                     <Col className="">
