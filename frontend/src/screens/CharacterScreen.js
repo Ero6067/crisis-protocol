@@ -40,6 +40,7 @@ const CharacterScreen = () => {
                 return <div>{affiliations}</div>;
               })}
             </ListGroupItem>
+            {/* Statistics */}
             <ListGroupItem>
               <h3>Statistics</h3>
               <Row>
@@ -60,14 +61,15 @@ const CharacterScreen = () => {
                 </Col>
               </Row>
             </ListGroupItem>
+            {/* Defence */}
             <ListGroupItem>
               <h3>Defence</h3>
               <Row>
-                <Col md={3}>
+                <Col>
                   <i class="fas fa-fist-raised"></i>{" "}
                   {character.defence.physical}
                 </Col>
-                <Col md={3}>
+                <Col>
                   <i class="fas fa-atom"></i> {character.defence.energy}
                 </Col>
                 <Col>
@@ -91,16 +93,13 @@ const CharacterScreen = () => {
                     </Col>
 
                     <Col className="">
-                      <i class="fas fa-crosshairs"></i>
-                      {att.range}
+                      <i class="fas fa-crosshairs"></i> {att.range}
                     </Col>
                     <Col className="">
-                      <i class="fas fa-dumbbell"></i>
-                      {att.damage}
+                      <i class="fas fa-dumbbell"></i> {att.damage}
                     </Col>
                     <Col className="">
-                      <i class="fas fa-sun"></i>
-                      {att.cost}
+                      <i class="fas fa-sun"></i> {att.cost}
                     </Col>
                   </Row>
                   {att.text ? <ul className="my-1">{att.text}</ul> : ""}

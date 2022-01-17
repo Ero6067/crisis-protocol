@@ -15,9 +15,7 @@ const characters = [
       mystic: 2,
     },
 
-    affiliation: {
-      team1: "Cabal",
-    },
+    affiliation: ["Cabal"],
     attacks: {
       attack1: {
         name: "Sword Strike",
@@ -25,16 +23,20 @@ const characters = [
         damage: 5,
         cost: 0,
         type: "Physical",
-        text: "After this attack is resolved, this character gains power equal to the damage dealt",
-        special: {
-          special1: {
+        attackDesc: [
+          [
+            "After this attack is resolved, this character gains power equal to the damage dealt",
+          ],
+        ],
+        special: [
+          {
             wildcardcost: "1",
             skullcost: "",
             critcost: "",
             keyword: "Bleed",
-            text: "Bleed: After this attack is resolved, the target character gains the Bleed special condition",
+            url: "/api/condition/bleed",
           },
-        },
+        ],
       },
       attack2: {
         name: "Steel Rush",
@@ -42,16 +44,18 @@ const characters = [
         damage: 6,
         cost: 2,
         type: "Physical",
-        text: "After this attack is resolved, this character may advance [Medium]",
-        special: {
-          special1: {
+        attackDesc: [
+          "After this attack is resolved, this character may advance [Medium]",
+        ],
+        special: [
+          {
             wildcardcost: "1",
             skullcost: "",
             critcost: "",
             keyword: "Bleed",
             text: "Bleed: After this attack is resolved, the target character gains the Bleed special condition",
           },
-        },
+        ],
       },
     },
     superpowers: {
@@ -99,10 +103,7 @@ const characters = [
       mystic: 4,
     },
 
-    affiliation: {
-      team1: "A-Force",
-      team2: "Avengers",
-    },
+    affiliation: ["A-Force", "Avengers"],
     attacks: {
       attack1: {
         name: "Strike",
@@ -110,16 +111,18 @@ const characters = [
         damage: 4,
         cost: 0,
         type: "Energy",
-        text: "After this attack is resolved, this character gains power equal to the damage dealt",
-        special: {
-          special1: {
+        attackDesc: [
+          "After this attack is resolved, this character gains power equal to the damage dealt",
+        ],
+        special: [
+          {
             wildcardcost: "1",
             skullcost: "",
             critcost: "",
             keyword: "Widow's Sting",
             text: "Bleed: After this attack is resolved, the target character loses 1 [Power]",
           },
-        },
+        ],
       },
       attack2: {
         name: "Pistol",
@@ -134,16 +137,18 @@ const characters = [
         damage: 4,
         cost: 2,
         type: "Physical",
-        text: "If this attack deals damage, after this attack is resolved, the character gains the Stagger special condition",
-        special: {
-          special1: {
+        attackDesc: [
+          "If this attack deals damage, after this attack is resolved, the character gains the Stagger special condition",
+        ],
+        special: [
+          {
             wildcardcost: "1",
             skullcost: "",
             critcost: "",
             keyword: "Elusive",
             text: "Elusive: After this attack is resolved, this character may advance [Small]",
           },
-        },
+        ],
       },
     },
     superpowers: {
@@ -184,9 +189,7 @@ const characters = [
       mystic: 3,
     },
 
-    affiliation: {
-      team1: "Avengers",
-    },
+    affiliation: ["Avengers"],
     attacks: {
       attack1: {
         name: "Strike",
@@ -194,16 +197,18 @@ const characters = [
         damage: 5,
         cost: 0,
         type: "Physical",
-        text: "After this attack is resolved, this character gains power equal to the damage dealt",
-        special: {
-          special1: {
+        attackDesc: [
+          "After this attack is resolved, this character gains power equal to the damage dealt",
+        ],
+        special: [
+          {
             wildcardcost: "1",
             skullcost: "",
             critcost: "",
             keyword: "Push",
             text: "Push: If target character is Size 3 or less, before damage is dealt, it may be pushed away from this character [Small]",
           },
-        },
+        ],
       },
       attack2: {
         name: "Shield Throw",
@@ -211,16 +216,19 @@ const characters = [
         damage: 5,
         cost: 0,
         type: "Physical",
-        text: `After this attack is resolved, this character gains 1 power. This attack ignores LOS, and the defending character does not benefit from Cover.`,
-        special: {
-          special1: {
+        attackDesc: [
+          "After this attack is resolved, this character gains 1 power. This attack ignores LOS, and the defending character does not benefit from Cover.",
+          "This attack ignores LOS, and the defending character does not benefit from Cover",
+        ],
+        special: [
+          {
             wildcardcost: "1",
             skullcost: "",
             critcost: "",
             keyword: "Ricochet",
             text: "Ricochet: After this attack is resolved, this character may make an additional Shield Throw attack. This attack must target another character within [Range 3] of the original target character and may be any distance from this character. This additional attack does not have the Ricochet special rule",
           },
-        },
+        ],
       },
       attack3: {
         name: "Shield Slam",
@@ -228,30 +236,33 @@ const characters = [
         damage: 6,
         cost: 2,
         type: "Physical",
-        text: "If the target character is Size 3 or less, after this attack is resolved, it may be thrown Small.",
+        attackDesc: [
+          "If the target character is Size 3 or less, after this attack is resolved, it may be thrown Small.",
+        ],
       },
-    },
-    superpowers: {
-      superpower1: {
-        name: "A Day Unlike Any Other",
-        type: "Leadership",
-        text: "Each turn you may reduce the power cost of the first superpower used by each allied character by 1, to a minimum of 1.",
-      },
-      superpower2: {
-        name: "Bodyguard",
-        type: "Reactive",
-        text: "When another allied character within Rang 2 is targeted by an attack, this character may use this superpower. This character becomes the target of the attack regardless of range or LOS.",
-      },
-      superpower3: {
-        name: "Vibranium Shield",
-        type: "Reactive",
-        text: "When this character is targeted by a Physical or Energy attack, it may use this superpower. Add two dice to this character's defence roll against that attack.",
+      superpowers: {
+        superpower1: {
+          name: "A Day Unlike Any Other",
+          type: "Leadership",
+          text: "Each turn you may reduce the power cost of the first superpower used by each allied character by 1, to a minimum of 1.",
+        },
+        superpower2: {
+          name: "Bodyguard",
+          type: "Reactive",
+          text: "When another allied character within Rang 2 is targeted by an attack, this character may use this superpower. This character becomes the target of the attack regardless of range or LOS.",
+        },
+        superpower3: {
+          name: "Vibranium Shield",
+          type: "Reactive",
+          text: "When this character is targeted by a Physical or Energy attack, it may use this superpower. Add two dice to this character's defence roll against that attack.",
+        },
       },
     },
     baseType: "35mm",
     image: "images/home/CP01_CapAmerica.jpg",
     expansion: "CP01",
   },
+
   {
     _id: "4",
     name: "Captain Marvel",
@@ -268,10 +279,7 @@ const characters = [
       mystic: 3,
     },
 
-    affiliation: {
-      team1: "Avengers",
-      team2: "A-Force",
-    },
+    affiliation: ["Avengers", "A-Force"],
     attacks: {},
     superpowers: {
       power1: "Strike",
@@ -303,9 +311,7 @@ const characters = [
       mystic: 2,
     },
 
-    affiliation: {
-      team1: "Cabal",
-    },
+    affiliation: ["Cabal"],
     attacks: {},
     superpowers: {
       power1: "Strike",
@@ -334,9 +340,7 @@ const characters = [
       mystic: 4,
     },
 
-    affiliation: {
-      team1: "Spider-Foes",
-    },
+    affiliation: ["Spider-Foes"],
     attacks: {},
     superpowers: {
       power1: "Strike",
@@ -365,9 +369,7 @@ const characters = [
       mystic: 3,
     },
 
-    affiliation: {
-      team1: "Avengers",
-    },
+    affiliation: ["Avengers"],
     attacks: {},
     superpowers: {
       power1: "Repulsor Blast",
@@ -396,9 +398,7 @@ const characters = [
       mystic: 3,
     },
 
-    affiliation: {
-      team1: "Cabal",
-    },
+    affiliation: ["Cabal"],
     attacks: {},
     superpowers: {
       power1: "Strike",
@@ -429,9 +429,7 @@ const characters = [
       mystic: 4,
     },
 
-    affiliation: {
-      team1: "Cabal",
-    },
+    affiliation: ["Cabal"],
     attacks: {},
     superpowers: {
       power1: "Strike",
@@ -463,10 +461,7 @@ const characters = [
       mystic: 3,
     },
 
-    affiliation: {
-      team1: "Web Warriors",
-      team2: "Defenders",
-    },
+    affiliation: ["Web Warriors", "Defenders"],
     attacks: {},
     superpowers: {
       power1: "Strike",
@@ -497,10 +492,7 @@ const characters = [
       mystic: 3,
     },
 
-    affiliation: {
-      team1: "Avengers",
-      team2: "Defenders",
-    },
+    affiliation: ["Avengers", "Defenders"],
     attacks: {},
     superpowers: {
       power1: "Strike",
@@ -533,10 +525,7 @@ const characters = [
       mystic: 3,
     },
 
-    affiliation: {
-      team1: "Cabal",
-      team2: "Criminal Syndicate",
-    },
+    affiliation: ["Cabal", "Criminal Syndicate"],
     attacks: {},
     superpowers: {
       power1: "Sword Strike",
@@ -566,10 +555,7 @@ const characters = [
       mystic: 3,
     },
 
-    affiliation: {
-      team1: "Avengers",
-      team2: "Wakanda",
-    },
+    affiliation: ["Avengers", "Wakanda"],
     attacks: {},
     superpowers: {
       power1: "Strike",
@@ -599,11 +585,7 @@ const characters = [
       mystic: 3,
     },
 
-    affiliation: {
-      team1: "Cabal",
-      team2: "Criminal Syndicate",
-      team3: "Wakanda",
-    },
+    affiliation: ["Cabal", "Criminal Syndicate", "Wakanda"],
     attacks: {},
     superpowers: {
       power1: "Vibranium Weapons",
@@ -633,10 +615,7 @@ const characters = [
       mystic: 3,
     },
 
-    affiliation: {
-      team1: "A-Force",
-      team2: "Wakanda",
-    },
+    affiliation: ["A-Force", "Wakanda"],
     attacks: {},
     superpowers: {
       power1: "Strike",
@@ -665,10 +644,7 @@ const characters = [
       mystic: 3,
     },
 
-    affiliation: {
-      team1: "A-Force",
-      team2: "Wakanda",
-    },
+    affiliation: ["A-Force", "Wakanda"],
     attacks: {},
     superpowers: {
       power1: "Panther Gauntlets",
@@ -697,10 +673,7 @@ const characters = [
       mystic: 3,
     },
 
-    affiliation: {
-      team1: "Spider-Foes",
-      team2: "Web Warriors",
-    },
+    affiliation: ["Spider-Foes", "Web Warriors"],
     attacks: {},
     superpowers: {
       power1: "Symbiote Tendrils",
@@ -730,9 +703,7 @@ const characters = [
       mystic: 3,
     },
 
-    affiliation: {
-      team1: "Web Warriors",
-    },
+    affiliation: ["Web Warriors"],
     attacks: {},
     superpowers: {
       power1: "Webline Kick",
@@ -764,9 +735,7 @@ const characters = [
       mystic: 3,
     },
 
-    affiliation: {
-      team1: "Web Warriors",
-    },
+    affiliation: ["Web Warriors"],
     attacks: {},
     superpowers: {
       power1: "Spider-Technique",
@@ -796,10 +765,7 @@ const characters = [
       mystic: 3,
     },
 
-    affiliation: {
-      team1: "Asgardian",
-      team2: "Avengers",
-    },
+    affiliation: ["Asgardian", "Avengers"],
     attacks: {},
     superpowers: {
       power1: "Strike",
@@ -831,9 +797,7 @@ const characters = [
       mystic: 3,
     },
 
-    affiliation: {
-      team1: "Asgardian",
-    },
+    affiliation: ["Asgardian"],
     attacks: {},
     superpowers: {
       power1: "Strike",
@@ -863,9 +827,7 @@ const characters = [
       mystic: 4,
     },
 
-    affiliation: {
-      team1: "Asgardian",
-    },
+    affiliation: ["Asgardian"],
     attacks: {},
     superpowers: {
       power1: "Hel Forged Blade",
@@ -895,10 +857,7 @@ const characters = [
       mystic: 4,
     },
 
-    affiliation: {
-      team1: "Asgardian",
-      team2: "Cabal",
-    },
+    affiliation: ["Asgardian", "Cabal"],
     attacks: {},
     superpowers: {
       power1: "Strike",
@@ -930,9 +889,7 @@ const characters = [
       mystic: 4,
     },
 
-    affiliation: {
-      team1: "Avengers",
-    },
+    affiliation: ["Avengers"],
     attacks: {},
     superpowers: {
       power1: "Solar Energy Beam",
@@ -964,9 +921,7 @@ const characters = [
       mystic: 2,
     },
 
-    affiliation: {
-      team1: "Unaffiliated",
-    },
+    affiliation: ["Unaffiliated"],
     attacks: {},
     superpowers: {
       power1: "Assault Rifle",
@@ -995,9 +950,7 @@ const characters = [
       mystic: 3,
     },
 
-    affiliation: {
-      team1: "Black Order",
-    },
+    affiliation: ["Black Order"],
     attacks: {},
     superpowers: {
       power1: "Strike",
@@ -1028,9 +981,7 @@ const characters = [
       mystic: 3,
     },
 
-    affiliation: {
-      team1: "Black Order",
-    },
+    affiliation: ["Black Order"],
     attacks: {},
     superpowers: {
       power1: "Strike",
@@ -1060,10 +1011,7 @@ const characters = [
       mystic: 3,
     },
 
-    affiliation: {
-      team1: "A-Force",
-      team2: "Guardians of the Galaxy",
-    },
+    affiliation: ["A-Force", "Guardians of the Galaxy"],
     attacks: {},
     superpowers: {
       power1: "God Slayer",
@@ -1093,9 +1041,7 @@ const characters = [
       mystic: 2,
     },
 
-    affiliation: {
-      team1: "Guardians of the Galaxy",
-    },
+    affiliation: ["Guardians of the Galaxy"],
     attacks: {},
     superpowers: {
       power1: "Strike",
@@ -1125,9 +1071,7 @@ const characters = [
       mystic: 3,
     },
 
-    affiliation: {
-      team1: "Guardians of the Galaxy",
-    },
+    affiliation: ["Guardians of the Galaxy"],
     attacks: {},
     superpowers: {
       power1: "Plasma Rifle",
@@ -1157,9 +1101,7 @@ const characters = [
       mystic: 3,
     },
 
-    affiliation: {
-      team1: "Guardians of the Galaxy",
-    },
+    affiliation: ["Guardians of the Galaxy"],
     attacks: {},
     superpowers: {
       power1: "Strike",
@@ -1187,9 +1129,7 @@ const characters = [
       mystic: 3,
     },
 
-    affiliation: {
-      team1: "Guardians of the Galaxy",
-    },
+    affiliation: ["Guardians of the Galaxy"],
     attacks: {},
     superpowers: {
       power1: "Elemental Gun",
@@ -1202,7 +1142,7 @@ const characters = [
     },
     baseType: "35mm",
     image: "images/home/CP18_Starlord.jpg",
-    expansion: "CP17",
+    expansion: "CP18",
   },
   {
     _id: "33",
@@ -1220,9 +1160,7 @@ const characters = [
       mystic: 3,
     },
 
-    affiliation: {
-      team1: "Black Order",
-    },
+    affiliation: ["Black Order"],
     attacks: {},
     superpowers: {
       power1: "Axe Strike",
@@ -1252,9 +1190,7 @@ const characters = [
       mystic: 6,
     },
 
-    affiliation: {
-      team1: "Black Order",
-    },
+    affiliation: ["Black Order"],
     attacks: {},
     superpowers: {
       power1: "Black Tongue",
@@ -1286,9 +1222,7 @@ const characters = [
       mystic: 2,
     },
 
-    affiliation: {
-      team1: "Guardians of the Galaxy",
-    },
+    affiliation: ["Guardians of the Galaxy"],
     attacks: {},
     superpowers: {
       power1: "Blades",
@@ -1318,10 +1252,7 @@ const characters = [
       mystic: 4,
     },
 
-    affiliation: {
-      team1: "Inhumans",
-      team2: "Guardians of the Galaxy",
-    },
+    affiliation: ["Inhumans", "Guardians of the Galaxy"],
     attacks: {},
     superpowers: {
       power1: "Strike",
@@ -1352,10 +1283,7 @@ const characters = [
       mystic: 3,
     },
 
-    affiliation: {
-      team1: "Criminal Syndicate",
-      team2: "Spider-Foes",
-    },
+    affiliation: ["Criminal Syndicate", "Spider-Foes"],
     attacks: {},
     superpowers: {
       power1: "Pumpkin Bombs",
@@ -1372,8 +1300,8 @@ const characters = [
   },
   {
     _id: "38",
-    name: 'Doctor St"range"',
-    alias: 'Stephen Vincent St"range"',
+    name: "Doctor Strange",
+    alias: "Stephen Vincent Strange",
     statistics: {
       health: 6,
       speed: "M",
@@ -1386,11 +1314,7 @@ const characters = [
       mystic: 4,
     },
 
-    affiliation: {
-      team1: "Convocation",
-      team2: "Defenders",
-      team3: "Midnight Sons",
-    },
+    affiliation: ["Convocation", "Defenders", "Midnight Sons"],
     attacks: {},
     superpowers: {
       power1: "Bolts of Bedevilment",
@@ -1404,7 +1328,7 @@ const characters = [
       power9: "Gem Bearer [Soul, Time]",
     },
     baseType: "50mm",
-    image: 'images/home/CP23_DoctorSt"range".png',
+    image: "images/home/CP23_DoctorStrange.png",
     expansion: "CP23",
   },
   {
@@ -1423,11 +1347,7 @@ const characters = [
       mystic: 3,
     },
 
-    affiliation: {
-      team1: "Convocation",
-      team2: "Defenders",
-      team3: "Midnight Sons",
-    },
+    affiliation: ["Convocation", "Defenders", "Midnight Sons"],
     attacks: {},
     superpowers: {
       power1: "Strike",
@@ -1456,10 +1376,7 @@ const characters = [
       mystic: 3,
     },
 
-    affiliation: {
-      team1: "A-Force",
-      team2: "Avengers",
-    },
+    affiliation: ["A-Force", "Avengers"],
     attacks: {},
     superpowers: {
       power1: "Automatic Pistol",
@@ -1489,10 +1406,7 @@ const characters = [
       mystic: 3,
     },
 
-    affiliation: {
-      team1: "Avengers",
-      team2: "Defenders",
-    },
+    affiliation: ["Avengers", "Defenders"],
     attacks: {},
     superpowers: {
       power1: "Arrow Shot",
@@ -1520,9 +1434,7 @@ const characters = [
       mystic: 4,
     },
 
-    affiliation: {
-      team1: "Black Order",
-    },
+    affiliation: ["Black Order"],
     attacks: {},
     superpowers: {
       power1: "Strike",
@@ -1554,10 +1466,7 @@ const characters = [
       mystic: 3,
     },
 
-    affiliation: {
-      team1: "A-Force",
-      team2: "Avengers",
-    },
+    affiliation: ["A-Force", "Avengers"],
     attacks: {},
     superpowers: {
       power1: "Size-Changing Smack Down",
@@ -1586,10 +1495,7 @@ const characters = [
       mystic: 3,
     },
 
-    affiliation: {
-      team1: "A-Force",
-      team2: "Avengers",
-    },
+    affiliation: ["A-Force", "Avengers"],
     attacks: {},
     superpowers: {
       power1: "Stinger Blast",
@@ -1619,9 +1525,7 @@ const characters = [
       mystic: 3,
     },
 
-    affiliation: {
-      team1: "Avengers",
-    },
+    affiliation: ["Avengers"],
     attacks: {},
     superpowers: {
       power1: "Pym Particle Punch",
@@ -1649,9 +1553,7 @@ const characters = [
       mystic: 3,
     },
 
-    affiliation: {
-      team1: "Avengers",
-    },
+    affiliation: ["Avengers"],
     attacks: {},
     superpowers: {
       power1: "Ant-Sized Uppercut",
@@ -1680,10 +1582,7 @@ const characters = [
       mystic: 4,
     },
 
-    affiliation: {
-      team1: "Defenders",
-      team2: "Midnight Sons",
-    },
+    affiliation: ["Defenders", "Midnight Sons"],
     attacks: {},
     superpowers: {
       power1: "Chains of Damnation",
@@ -1714,10 +1613,7 @@ const characters = [
       mystic: 5,
     },
 
-    affiliation: {
-      team1: "Asgard",
-      team2: "Cabal",
-    },
+    affiliation: ["Asgard", "Cabal"],
     attacks: {},
     superpowers: {
       power1: "Spurned Affection",
@@ -1749,11 +1645,7 @@ const characters = [
       mystic: 4,
     },
 
-    affiliation: {
-      team1: "A-Force",
-      team2: "Asgard",
-      team3: "Guardians of the Galaxy",
-    },
+    affiliation: ["A-Force", "Asgard", "Guardians of the Galaxy"],
     attacks: {},
     superpowers: {
       power1: "Xiphos, the Sword of the Stars",
@@ -1785,11 +1677,7 @@ const characters = [
       mystic: 3,
     },
 
-    affiliation: {
-      team1: "Cabal",
-      team2: "Criminal Syndicate",
-      team3: "Spider-Foes",
-    },
+    affiliation: ["Cabal", "Criminal Syndicate", "Spider-Foes"],
     attacks: {},
     superpowers: {
       power1: "Headbutt",
@@ -1821,10 +1709,7 @@ const characters = [
       mystic: 3,
     },
 
-    affiliation: {
-      team1: "Defenders",
-      team2: "Web Warriors",
-    },
+    affiliation: ["Defenders", "Web Warriors"],
     attacks: {},
     superpowers: {
       power1: "Strike",
@@ -1854,10 +1739,7 @@ const characters = [
       mystic: 2,
     },
 
-    affiliation: {
-      team1: "Cabal",
-      team2: "Crime Syndicate",
-    },
+    affiliation: ["Cabal", "Crime Syndicate"],
     attacks: {},
     superpowers: {
       power1: "Throwing Knife",
@@ -1886,9 +1768,7 @@ const characters = [
       mystic: 3,
     },
 
-    affiliation: {
-      team1: "Criminal Syndicate",
-    },
+    affiliation: ["Criminal Syndicate"],
     attacks: {},
     superpowers: {
       power1: "Sword Strike",
@@ -1919,9 +1799,7 @@ const characters = [
       mystic: 3,
     },
 
-    affiliation: {
-      team1: "Unaffiliated",
-    },
+    affiliation: ["Unaffiliated"],
     attacks: {},
     superpowers: {
       power1: "Hip Fire",
@@ -1951,9 +1829,7 @@ const characters = [
       mystic: 5,
     },
 
-    affiliation: {
-      team1: "Dark Dimension",
-    },
+    affiliation: ["Dark Dimension"],
     attacks: {},
     superpowers: {
       power1: "Shadow Bolt",
@@ -1985,9 +1861,7 @@ const characters = [
       mystic: 2,
     },
 
-    affiliation: {
-      team1: "Inhumans",
-    },
+    affiliation: ["Inhumans"],
     attacks: {},
     superpowers: {
       power1: "Energy Bolt",
@@ -2019,10 +1893,7 @@ const characters = [
       mystic: 3,
     },
 
-    affiliation: {
-      team1: "A-Force",
-      team2: "Inhumans",
-    },
+    affiliation: ["A-Force", "Inhumans"],
     attacks: {},
     superpowers: {
       power1: "Braid Bash",
@@ -2053,10 +1924,7 @@ const characters = [
       mystic: 3,
     },
 
-    affiliation: {
-      team1: "A-Force",
-      team2: "Inhumans",
-    },
+    affiliation: ["A-Force", "Inhumans"],
     attacks: {},
     superpowers: {
       power1: "Earth-Shaker",
@@ -2089,9 +1957,7 @@ const characters = [
       mystic: 3,
     },
 
-    affiliation: {
-      team1: "Inhumans",
-    },
+    affiliation: ["Inhumans"],
     attacks: {},
     superpowers: {
       power1: "Bite",
@@ -2107,7 +1973,7 @@ const characters = [
     expansion: "CP35",
   },
   {
-    _id: "60",
+    _id: "62",
     name: "Amazing Spider-Man",
     alias: "Peter Parker",
     statistics: {
@@ -2122,10 +1988,7 @@ const characters = [
       mystic: 3,
     },
 
-    affiliation: {
-      team1: "Defenders",
-      team2: "Web Warriors",
-    },
+    affiliation: ["Defenders", "Web Warriors"],
     attacks: {},
     superpowers: {
       power1: "Spider Strike",
@@ -2156,12 +2019,12 @@ const characters = [
       mystic: 3,
     },
 
-    affiliation: {
-      team1: "A-Force",
-      team2: "Criminal Syndicate",
-      team3: "Midnight Sons",
-      team4: "Web Warriors",
-    },
+    affiliation: [
+      "A-Force",
+      "Criminal Syndicate",
+      "Midnight Sons",
+      "Web Warriors",
+    ],
     attacks: {},
     superpowers: {
       power1: "Cat Claws",
@@ -2191,9 +2054,7 @@ const characters = [
       mystic: 3,
     },
 
-    affiliation: {
-      team1: "Avengers",
-    },
+    affiliation: ["Avengers"],
     attacks: {},
     superpowers: {
       power1: "Shield Throw",
@@ -2205,7 +2066,7 @@ const characters = [
       power7: "Flight",
     },
     baseType: "35mm",
-    image: 'images/home/CP38_Captai""name""rica.png',
+    image: "images/home/CP38_CaptainAmerica.png",
     expansion: "CP38",
   },
   {
@@ -2224,9 +2085,7 @@ const characters = [
       mystic: 3,
     },
 
-    affiliation: {
-      team1: "Avengers",
-    },
+    affiliation: ["Avengers"],
     attacks: {},
     superpowers: {
       power1: "Metal Storm",
@@ -2255,10 +2114,7 @@ const characters = [
       mystic: 3,
     },
 
-    affiliation: {
-      team1: "A-Force",
-      team2: "Avengers",
-    },
+    affiliation: ["A-Force", "Avengers"],
     attacks: {},
     superpowers: {
       power1: "Sensational Uppercut",
@@ -2290,12 +2146,7 @@ const characters = [
       mystic: 2,
     },
 
-    affiliation: {
-      team1: "Avengers",
-      team2: "Defenders",
-      team3: "Uncanny X-Men",
-      team4: "X-force",
-    },
+    affiliation: ["Avengers", "Defenders", "Uncanny X-Men", "X-force"],
     attacks: {},
     superpowers: {
       power1: "Adamantium Slash",
@@ -2312,7 +2163,7 @@ const characters = [
   {
     _id: "66",
     name: "Sabretooth",
-    alias: "Vicor Creed",
+    alias: "Victor Creed",
     statistics: {
       health: 6,
       speed: "L",
@@ -2325,11 +2176,7 @@ const characters = [
       mystic: 3,
     },
 
-    affiliation: {
-      team1: "Brotherhood of Evil Mutants",
-      team2: "Cabal",
-      team3: "X-Force",
-    },
+    affiliation: ["Brotherhood of Evil Mutants", "Cabal", "X-Force"],
     attacks: {},
     superpowers: {
       power1: "Claw Slash",
@@ -2359,9 +2206,7 @@ const characters = [
       mystic: 3,
     },
 
-    affiliation: {
-      team1: "Uncanny X-Men",
-    },
+    affiliation: ["Uncanny X-Men"],
     attacks: {},
     superpowers: {
       power1: "Optic Blast",
@@ -2391,11 +2236,7 @@ const characters = [
       mystic: 3,
     },
 
-    affiliation: {
-      team1: "A-Force",
-      team2: "Uncanny X-Men",
-      team3: "Wakanda",
-    },
+    affiliation: ["A-Force", "Uncanny X-Men", "Wakanda"],
     attacks: {},
     superpowers: {
       power1: "Lightning Bolt",
@@ -2428,10 +2269,7 @@ const characters = [
       mystic: 6,
     },
 
-    affiliation: {
-      team1: "Brotherhood of Mutants",
-      team2: "Cabal",
-    },
+    affiliation: ["Brotherhood of Mutants", "Cabal"],
     attacks: {},
     superpowers: {
       power1: "From the Ruins... (Affiliation: Brotherhood of Mutants)",
@@ -2460,9 +2298,7 @@ const characters = [
       mystic: 3,
     },
 
-    affiliation: {
-      team1: "Brotherhood of Mutants",
-    },
+    affiliation: ["Brotherhood of Mutants"],
     attacks: {},
     superpowers: {
       power1: "Tongue Lash",
@@ -2493,11 +2329,7 @@ const characters = [
       mystic: 3,
     },
 
-    affiliation: {
-      team1: "Avengers",
-      team2: "Inhumans",
-      team3: "Uncannny X-Men",
-    },
+    affiliation: ["Avengers", "Inhumans", "Uncannny X-Men"],
     attacks: {},
     superpowers: {
       power1: "Acrobatic Strike",
@@ -2527,10 +2359,7 @@ const characters = [
       mystic: 3,
     },
 
-    affiliation: {
-      team1: "Brotherhood of Mutants",
-      team2: "Cabal",
-    },
+    affiliation: ["Brotherhood of Mutants", "Cabal"],
     attacks: {},
     superpowers: {
       power1: "Pistol",
@@ -2561,10 +2390,7 @@ const characters = [
       mystic: 4,
     },
 
-    affiliation: {
-      team1: "Avengers",
-      team2: "X-Force",
-    },
+    affiliation: ["Avengers", "X-Force"],
     attacks: {},
     superpowers: {
       power1: "Stab",
@@ -2595,9 +2421,7 @@ const characters = [
       mystic: 2,
     },
 
-    affiliation: {
-      team1: "Cabal",
-    },
+    affiliation: ["Cabal"],
     attacks: {},
     superpowers: {
       power1: "Hydra Pistol",
@@ -2626,9 +2450,7 @@ const characters = [
       mystic: 4,
     },
 
-    affiliation: {
-      team1: "Cabal",
-    },
+    affiliation: ["Cabal"],
     attacks: {},
     superpowers: {
       power1: "Strike",
@@ -2661,11 +2483,7 @@ const characters = [
       mystic: 4,
     },
 
-    affiliation: {
-      team1: "Avengers",
-      team2: "Uncanny X-Men",
-      team3: "X-Force",
-    },
+    affiliation: ["Avengers", "Uncanny X-Men", "X-Force"],
     attacks: {},
     superpowers: {
       power1: "Plasma Rifle",
@@ -2697,11 +2515,7 @@ const characters = [
       mystic: 3,
     },
 
-    affiliation: {
-      team1: "A-Force",
-      team2: "Uncanny X-Men",
-      team3: "X-Force",
-    },
+    affiliation: ["A-Force", "Uncanny X-Men", "X-Force"],
     attacks: {},
     superpowers: {
       power1: "Automatic Pistols",
@@ -2730,11 +2544,7 @@ const characters = [
       mystic: 4,
     },
 
-    affiliation: {
-      team1: "Avengers",
-      team2: "Defenders",
-      team3: "Midnight Sons",
-    },
+    affiliation: ["Avengers", "Defenders", "Midnight Sons"],
     attacks: {},
     superpowers: {
       power1: "Katana",
@@ -2765,11 +2575,7 @@ const characters = [
       mystic: 3,
     },
 
-    affiliation: {
-      team1: "Defenders",
-      team2: "Midnight Sons",
-      team3: "Web Warriors",
-    },
+    affiliation: ["Defenders", "Midnight Sons", "Web Warriors"],
     attacks: {},
     superpowers: {
       power1: "Bo Staff",
@@ -2800,10 +2606,7 @@ const characters = [
       mystic: 3,
     },
 
-    affiliation: {
-      team1: "Avengers",
-      team2: "Defenders",
-    },
+    affiliation: ["Avengers", "Defenders"],
     attacks: {},
     superpowers: {
       power1: "Power Man Punch",
@@ -2833,11 +2636,7 @@ const characters = [
       mystic: 3,
     },
 
-    affiliation: {
-      team1: "Avengers",
-      team2: "Defenders",
-      team3: "Midnight Sons",
-    },
+    affiliation: ["Avengers", "Defenders", "Midnight Sons"],
     attacks: {},
     superpowers: {
       power1: "Chi Strike",
@@ -2867,11 +2666,7 @@ const characters = [
       mystic: 5,
     },
 
-    affiliation: {
-      team1: "Cabal",
-      team2: "Criminal Syndicate",
-      team3: "Spider-Foes",
-    },
+    affiliation: ["Cabal", "Criminal Syndicate", "Spider-Foes"],
     attacks: {},
     superpowers: {
       power1: "Hypnosis Gas",
@@ -2902,9 +2697,7 @@ const characters = [
       mystic: 1,
     },
 
-    affiliation: {
-      team1: "Spider-Foes",
-    },
+    affiliation: ["Spider-Foes"],
     attacks: {},
     superpowers: {
       power1: "Symbiote Tendrils",
@@ -2935,9 +2728,7 @@ const characters = [
       mystic: 3,
     },
 
-    affiliation: {
-      team1: "Avengers",
-    },
+    affiliation: ["Avengers"],
     attacks: {},
     superpowers: {
       power1: "Heavy Repulsor Blast",
@@ -2968,9 +2759,7 @@ const characters = [
       mystic: 3,
     },
 
-    affiliation: {
-      team1: "Avengers",
-    },
+    affiliation: ["Avengers"],
     attacks: {},
     superpowers: {
       power1: "Rapid Repulsor Blast",
@@ -3000,9 +2789,7 @@ const characters = [
       mystic: 5,
     },
 
-    affiliation: {
-      team1: "Uncanny X-Men",
-    },
+    affiliation: ["Uncanny X-Men"],
     attacks: {},
     superpowers: {
       power1: "Psionic Bolt",
@@ -3033,9 +2820,7 @@ const characters = [
       mystic: 4,
     },
 
-    affiliation: {
-      team1: "Cabal",
-    },
+    affiliation: ["Cabal"],
     attacks: {},
     superpowers: {
       power1: "Psionic Bolt",
@@ -3068,10 +2853,7 @@ const characters = [
       mystic: 4,
     },
 
-    affiliation: {
-      team1: "Cabal",
-      team2: "Criminal Syndicate",
-    },
+    affiliation: ["Cabal", "Criminal Syndicate"],
     attacks: {},
     superpowers: {
       power1: "Carbonadium Coils",
@@ -3086,8 +2868,34 @@ const characters = [
     image: "images/home/CP54_OmegaRed.png",
     expansion: "CP54",
   },
+
   {
     _id: "89",
+    name: "Nick Fury",
+    alias: "Nick Fury Jr.",
+    statistics: {
+      health: 6,
+      speed: "M",
+      height: 2,
+      points: 4,
+    },
+    defence: {
+      physical: 2,
+      energy: 2,
+      mystic: 2,
+    },
+
+    affiliation: [""],
+    attacks: {},
+    superpowers: {
+      power1: "",
+    },
+    baseType: "50mm",
+    image: "images/home/CP55_NickFury.png",
+    expansion: "CP55",
+  },
+  {
+    _id: "90",
     name: "Juggernaut",
     alias: "Cain Marko",
     statistics: {
@@ -3102,9 +2910,7 @@ const characters = [
       mystic: 5,
     },
 
-    affiliation: {
-      team1: "Brotherhood of Mutants",
-    },
+    affiliation: ["Brotherhood of Mutants"],
     attacks: {},
     superpowers: {
       power1: "Strike",
@@ -3120,7 +2926,7 @@ const characters = [
     expansion: "CP56",
   },
   {
-    _id: "90",
+    _id: "91",
     name: "Colossus",
     alias: "Piotr Rasputin",
     statistics: {
@@ -3135,9 +2941,7 @@ const characters = [
       mystic: 3,
     },
 
-    affiliation: {
-      team1: "X-Force",
-    },
+    affiliation: ["X-Force"],
     attacks: {},
     superpowers: {
       power1: "Strike",
@@ -3153,7 +2957,7 @@ const characters = [
     expansion: "CP57",
   },
   {
-    _id: "91",
+    _id: "92",
     name: "Magik",
     alias: "Illyana Rasputin",
     statistics: {
@@ -3168,9 +2972,7 @@ const characters = [
       mystic: 4,
     },
 
-    affiliation: {
-      team1: "Convocation",
-    },
+    affiliation: ["Convocation"],
     attacks: {},
     superpowers: {
       power1: "Bolts of Oshtur",
@@ -3184,7 +2986,7 @@ const characters = [
     expansion: "CP57",
   },
   {
-    _id: "92",
+    _id: "93",
     name: "Lizard",
     alias: "Curtis Connor",
     statistics: {
@@ -3199,9 +3001,7 @@ const characters = [
       mystic: 3,
     },
 
-    affiliation: {
-      team1: "Spider-Foes",
-    },
+    affiliation: ["Spider-Foes"],
     attacks: {},
     superpowers: {
       power1: "Tail Whip",
@@ -3216,7 +3016,7 @@ const characters = [
     expansion: "CP58",
   },
   {
-    _id: "93",
+    _id: "94",
     name: "Kraven",
     alias: "Sergei Nikolaevich Kravinoff",
     statistics: {
@@ -3231,10 +3031,7 @@ const characters = [
       mystic: 3,
     },
 
-    affiliation: {
-      team1: "Criminal Syndicate",
-      team2: "Spider-Foes",
-    },
+    affiliation: ["Criminal Syndicate", "Spider-Foes"],
     attacks: {},
     superpowers: {
       power1: "Kurri Strike",
@@ -3248,7 +3045,7 @@ const characters = [
     expansion: "CP58",
   },
   {
-    _id: "94",
+    _id: "97",
     name: "Gambit",
     alias: "Remy LeBeau",
     statistics: {
@@ -3263,9 +3060,7 @@ const characters = [
       mystic: 3,
     },
 
-    affiliation: {
-      team1: "TBD",
-    },
+    affiliation: ["TBD"],
     attacks: {},
     superpowers: {
       power1: "Bo Staff",
@@ -3280,7 +3075,7 @@ const characters = [
     expansion: "CP60",
   },
   {
-    _id: "95",
+    _id: "98",
     name: "Rogue",
     alias: "Anna Marie LeBeau",
     statistics: {
@@ -3295,9 +3090,7 @@ const characters = [
       mystic: 3,
     },
 
-    affiliation: {
-      team1: "TBD",
-    },
+    affiliation: ["TBD"],
     attacks: {},
     superpowers: {
       power1: "Absorbing Strike",
@@ -3314,7 +3107,7 @@ const characters = [
     expansion: "CP60",
   },
   {
-    _id: "96",
+    _id: "99",
     name: "Sin",
     alias: "Sinthea Schmidt",
     statistics: {
@@ -3329,10 +3122,7 @@ const characters = [
       mystic: 4,
     },
 
-    affiliation: {
-      team1: "Criminal Syndicate",
-      team2: "Cabal",
-    },
+    affiliation: ["Criminal Syndicate", "Cabal"],
     attacks: {},
     superpowers: {
       power1: "Automatic Pistol",
@@ -3348,7 +3138,7 @@ const characters = [
     expansion: "CP61",
   },
   {
-    _id: "97",
+    _id: "100",
     name: "Viper",
     alias: "Ophelia Sarkissian",
     statistics: {
@@ -3363,9 +3153,7 @@ const characters = [
       mystic: 3,
     },
 
-    affiliation: {
-      team1: "Cabal",
-    },
+    affiliation: ["Cabal"],
     attacks: {},
     superpowers: {
       power1: "Poisoned Blade",
@@ -3380,7 +3168,7 @@ const characters = [
     expansion: "CP61",
   },
   {
-    _id: "98",
+    _id: "101",
     name: "Ms. Marvel",
     alias: "Kamala Khan",
     statistics: {
@@ -3395,10 +3183,7 @@ const characters = [
       mystic: 3,
     },
 
-    affiliation: {
-      team1: "Avengers",
-      team2: "Inhumans",
-    },
+    affiliation: ["Avengers", "Inhumans"],
     attacks: {},
     superpowers: {
       power1: "Morpho-Punch",
@@ -3412,7 +3197,7 @@ const characters = [
     expansion: "CP62",
   },
   {
-    _id: "99",
+    _id: "102",
     name: "Ms. Marvel (Embiggened)",
     alias: "Kamala Khan",
     statistics: {
@@ -3427,10 +3212,7 @@ const characters = [
       mystic: 3,
     },
 
-    affiliation: {
-      team1: "Avengers",
-      team2: "Inhumans",
-    },
+    affiliation: ["Avengers", "Inhumans"],
     attacks: {},
     superpowers: {
       power1: "High Five",
@@ -3444,7 +3226,7 @@ const characters = [
     expansion: "CP62",
   },
   {
-    _id: "100",
+    _id: "103",
     name: "Scarlet Witch",
     alias: "Wanda Maximoff",
     statistics: {
@@ -3459,12 +3241,7 @@ const characters = [
       mystic: 4,
     },
 
-    affiliation: {
-      team1: "A-Force",
-      team2: "Avengers",
-      team3: "Defenders",
-      team4: "Brotherhood of Mutants",
-    },
+    affiliation: ["A-Force", "Avengers", "Defenders", "Brotherhood of Mutants"],
     attacks: {},
     superpowers: {
       power1: "Hex Bolt",
@@ -3480,7 +3257,7 @@ const characters = [
     expansion: "CP63",
   },
   {
-    _id: "101",
+    _id: "104",
     name: "Quicksilver",
     alias: "Pietro Maximoff",
     statistics: {
@@ -3495,11 +3272,7 @@ const characters = [
       mystic: 3,
     },
 
-    affiliation: {
-      team1: "Avengers",
-      team2: "Brotherhood of Mutants",
-      team3: "Inhumans",
-    },
+    affiliation: ["Avengers", "Brotherhood of Mutants", "Inhumans"],
     attacks: {},
     superpowers: {
       power1: "Supersonic Strike",
@@ -3514,7 +3287,7 @@ const characters = [
     expansion: "CP63",
   },
   {
-    _id: "102",
+    _id: "105",
     name: "Ancient One",
     alias: "Ancient One",
     statistics: {
@@ -3529,10 +3302,7 @@ const characters = [
       mystic: 5,
     },
 
-    affiliation: {
-      team1: "Convocation",
-      team2: "Defenders",
-    },
+    affiliation: ["Convocation", "Defenders"],
     attacks: {},
     superpowers: {
       power1: "Shards of Seraphim",
@@ -3548,7 +3318,7 @@ const characters = [
     expansion: "CP64",
   },
   {
-    _id: "103",
+    _id: "106",
     name: "Baron Mordo",
     alias: "Karl Amadeus Mordo",
     statistics: {
@@ -3563,10 +3333,7 @@ const characters = [
       mystic: 4,
     },
 
-    affiliation: {
-      team1: "Cabal",
-      team2: "Convocation",
-    },
+    affiliation: ["Cabal", "Convocation"],
     attacks: {},
     superpowers: {
       power1: "Staf of the Living Tribunal",
@@ -3583,7 +3350,7 @@ const characters = [
     expansion: "CP64",
   },
   {
-    _id: "104",
+    _id: "107",
     name: "Doctor Voodoo",
     alias: "Jericho Drumm",
     statistics: {
@@ -3598,11 +3365,7 @@ const characters = [
       mystic: 4,
     },
 
-    affiliation: {
-      team1: "Avengers",
-      team2: "Convocation",
-      team3: "Midnight Sons",
-    },
+    affiliation: ["Avengers", "Convocation", "Midnight Sons"],
     attacks: {},
     superpowers: {
       power1: "Sprit Venom",
@@ -3619,7 +3382,7 @@ const characters = [
     expansion: "CP65",
   },
   {
-    _id: "105",
+    _id: "108",
     name: "Hood (Normal)",
     alias: "Parker Robbins",
     statistics: {
@@ -3634,10 +3397,7 @@ const characters = [
       mystic: 3,
     },
 
-    affiliation: {
-      team1: "Cabal",
-      team2: "Crime Syndicate",
-    },
+    affiliation: ["Cabal", "Crime Syndicate"],
     attacks: {},
     superpowers: {
       power1: "Hex Shot",
@@ -3651,7 +3411,7 @@ const characters = [
     expansion: "CP65",
   },
   {
-    _id: "106",
+    _id: "109",
     name: "Hood (Possessed)",
     alias: "Parker Robbins",
     statistics: {
@@ -3666,10 +3426,7 @@ const characters = [
       mystic: 3,
     },
 
-    affiliation: {
-      team1: "Cabal",
-      team2: "Crime Syndicate",
-    },
+    affiliation: ["Cabal", "Crime Syndicate"],
     attacks: {},
     superpowers: {
       power1: "Razor Talons",
@@ -3683,9 +3440,9 @@ const characters = [
     expansion: "CP65",
   },
   {
-    _id: "107",
-    name: 'Doctor St"range", Sorcerer Supreme',
-    alias: 'Stephen Vincent St"range"',
+    _id: "110",
+    name: "Doctor Strange, Sorcerer Supreme",
+    alias: "Stephen Vincent Strange",
     statistics: {
       health: 6,
       speed: "M",
@@ -3698,11 +3455,7 @@ const characters = [
       mystic: 5,
     },
 
-    affiliation: {
-      team1: "Convocation",
-      team2: "Defenders",
-      team3: "Midnight Sons",
-    },
+    affiliation: ["Convocation", "Defenders", "Midnight Sons"],
     attacks: {},
     superpowers: {
       power1: "Baleful Bolts of Balthakk",
@@ -3715,11 +3468,11 @@ const characters = [
       power8: "Flight",
     },
     baseType: "50mm",
-    image: 'images/home/CP67_DoctorSt"range".png',
+    image: "images/home/CP67_DoctorStrange.png",
     expansion: "CP67",
   },
   {
-    _id: "108",
+    _id: "111",
     name: "Clea",
     alias: "Clea",
     statistics: {
@@ -3734,10 +3487,7 @@ const characters = [
       mystic: 4,
     },
 
-    affiliation: {
-      team1: "Convocation",
-      team2: "Defenders",
-    },
+    affiliation: ["Convocation", "Defenders"],
     attacks: {},
     superpowers: {
       power1: "Demon Claws of Denak",
@@ -3750,6 +3500,105 @@ const characters = [
     baseType: "50mm",
     image: "images/home/CP67_Clea.png",
     expansion: "CP67",
+  },
+  //CP68 Sanctum Sanctorum
+  //CP69 ?/?
+  //CP70 ?/?
+  {
+    _id: "116",
+    name: "Honey Badger",
+    alias: "Gabrielle Kinney",
+    statistics: {
+      health: 5,
+      speed: "M",
+      height: 2,
+      points: 2,
+    },
+    defence: {
+      physical: 3,
+      energy: 2,
+      mystic: 2,
+    },
+
+    affiliation: [""],
+    attacks: {
+      attack1: {
+        name: "Claw Slash",
+        range: 2,
+        damage: 5,
+        cost: 0,
+        type: "Physical",
+        attackDesc: [
+          "After this attack is resolved, this character gains power equal to the damage dealt",
+        ],
+        special: [
+          {
+            wildcardcost: "1",
+            skullcost: "",
+            critcost: "",
+            keyword: "Bleed",
+            text: "Bleed: After this attack is resolved, the target character gains the Bleed special condition",
+          },
+        ],
+      },
+    },
+    superpowers: {
+      power1: "Too Dangerous to Ignore",
+      power2: "Anklebiter",
+      power3: "Lil' Sis",
+      power4: "Healing Factor [1]",
+    },
+    baseType: "50mm",
+    image: "images/home/CP71_Honeybadger.png",
+    expansion: "CP71",
+  },
+  {
+    _id: "116",
+    name: "X-23",
+    alias: "Laura Kinney",
+    statistics: {
+      health: 5,
+      speed: "M",
+      height: 2,
+      points: 3,
+    },
+    defence: {
+      physical: 3,
+      energy: 3,
+      mystic: 2,
+    },
+
+    affiliation: [""],
+    attacks: {
+      attack1: {
+        name: "Adamantium Slash",
+        range: 2,
+        damage: 5,
+        cost: 0,
+        type: "Physical",
+        attackDesc: [
+          "After this attack is resolved, this character gains power equal to the damage dealt",
+        ],
+        special: [
+          {
+            wildcardcost: "1",
+            skullcost: "",
+            critcost: "",
+            keyword: "Bleed",
+            text: "Bleed: After this attack is resolved, the target character gains the Bleed special condition",
+          },
+        ],
+      },
+    },
+    superpowers: {
+      power1: "Too Dangerous to Ignore",
+      power2: "Anklebiter",
+      power3: "Lil' Sis",
+      power4: "Healing Factor [1]",
+    },
+    baseType: "50mm",
+    image: "images/home/CP71_Honeybadger.png",
+    expansion: "CP71",
   },
 ];
 
