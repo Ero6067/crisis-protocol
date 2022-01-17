@@ -3607,4 +3607,4 @@ const characters = [
   },
 ];
 
-export default characters;
+module.export = characters;

@@ -77,7 +77,7 @@ const CharacterScreen = () => {
                 </Col>
               </Row>
             </ListGroupItem>
-            {Object.values(character.attacks).map((att) => {
+            {character.attacks.map((att) => {
               return (
                 <ListGroupItem>
                   <Row>
@@ -102,13 +102,15 @@ const CharacterScreen = () => {
                       <i class="fas fa-sun"></i> {att.cost}
                     </Col>
                   </Row>
-                  {att.text ? <ul className="my-1">{att.text}</ul> : ""}
-                  {/* {Object.values(character.attacks.special).map((special) => {
-                    {
-                      console.log(special);
-                    }
-                    return special;
-                  })} */}
+                  {att.desc ? (
+                    <ul className="my-1">
+                      {att.desc.map((d) => {
+                        return <li>{d}</li>;
+                      })}
+                    </ul>
+                  ) : (
+                    ""
+                  )}
                 </ListGroupItem>
               );
             })}
