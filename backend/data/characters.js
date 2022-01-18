@@ -3607,4 +3607,4 @@ const characters = [
   },
 ];
 
-module.export = characters;
+module.exports = characters;

@@ -15,7 +15,7 @@ app.get("/api/characters", (req, res) => {
 
 app.get("/api/characters/:id", (req, res) => {
   const character = character.find((c) => c._id === req.params.id);
-  res.json(characters);
+  res.json(character);
 });
 
-app.listen(5000, console.log("Its Alive!!!"));
+app.listen(5000, console.log("Server running on port 5000"));
