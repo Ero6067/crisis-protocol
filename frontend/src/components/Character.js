@@ -1,5 +1,6 @@
-import { Link } from "react-router-dom";
-import { Card } from "react-bootstrap";
+import { useState, useEffect } from 'react'
+import { Link } from 'react-router-dom'
+import { Card } from 'react-bootstrap'
 const character = ({ character }) => {
   return (
     <Card className="my-3 p-2 rounded" bg="dark">
@@ -22,7 +23,7 @@ const character = ({ character }) => {
         </Card.Text>
       </Card.Body>
     </Card>
-  );
-};
+  )
+}
 
-export default character;
+export default character

@@ -1,18 +1,11 @@
-import { Link, useParams } from "react-router-dom";
-import {
-  Row,
-  Col,
-  Image,
-  Card,
-  Button,
-  ListGroupItem,
-  ListGroup,
-} from "react-bootstrap";
-import characters from "../characters";
+import { useState, useEffect } from 'react'
+import { Link, useParams } from 'react-router-dom'
+import { Row, Col, Image, ListGroupItem, ListGroup } from 'react-bootstrap'
+import characters from '../characters'
 
 const CharacterScreen = () => {
-  const params = useParams();
-  const character = characters.find((p) => p._id === params.id);
+  const params = useParams()
+  const character = characters.find((p) => p._id === params.id)
 
   return (
     <>
@@ -37,7 +30,7 @@ const CharacterScreen = () => {
             <ListGroupItem>
               <h3>Affiliation</h3>
               {Object.values(character.affiliation).map((affiliations) => {
-                return <div>{affiliations}</div>;
+                return <div>{affiliations}</div>
               })}
             </ListGroupItem>
             {/* Statistics */}
@@ -48,11 +41,11 @@ const CharacterScreen = () => {
                   <i class="fas fa-heartbeat"></i> {character.statistics.health}
                 </Col>
                 <Col>
-                  <i class="fas fa-angle-double-right"></i>{" "}
+                  <i class="fas fa-angle-double-right"></i>{' '}
                   {character.statistics.speed}
                 </Col>
                 <Col>
-                  <i class="fas fa-arrows-alt-v"></i>{" "}
+                  <i class="fas fa-arrows-alt-v"></i>{' '}
                   {character.statistics.height}
                 </Col>
                 <Col>
@@ -66,7 +59,7 @@ const CharacterScreen = () => {
               <h3>Defence</h3>
               <Row>
                 <Col>
-                  <i class="fas fa-fist-raised"></i>{" "}
+                  <i class="fas fa-fist-raised"></i>{' '}
                   {character.defence.physical}
                 </Col>
                 <Col>
@@ -82,14 +75,14 @@ const CharacterScreen = () => {
                 <ListGroupItem>
                   <Row>
                     <Col md={6}>
-                      {att.type === "Physical" ? (
+                      {att.type === 'Physical' ? (
                         <i class="fas fa-fist-raised"></i>
-                      ) : att.type === "Energy" ? (
+                      ) : att.type === 'Energy' ? (
                         <i class="fas fa-atom"></i>
                       ) : (
                         <i class="fas fa-eye"></i>
                       )}
-                      {" " + att.name}
+                      {' ' + att.name}
                     </Col>
 
                     <Col className="">
@@ -105,20 +98,20 @@ const CharacterScreen = () => {
                   {att.desc ? (
                     <ul className="my-1">
                       {att.desc.map((d) => {
-                        return <li>{d}</li>;
+                        return <li>{d}</li>
                       })}
                     </ul>
                   ) : (
-                    ""
+                    ''
                   )}
                 </ListGroupItem>
-              );
+              )
             })}
           </ListGroup>
         </Col>
       </Row>
     </>
-  );
-};
+  )
+}
 
-export default CharacterScreen;
+export default CharacterScreen
