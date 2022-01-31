@@ -1,11 +1,19 @@
 import { useState, useEffect } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { Row, Col, Image, ListGroupItem, ListGroup } from 'react-bootstrap'
-import characters from '../characters'
+import axios from 'axios'
+// import characters from '../characters'
 
-const CharacterScreen = () => {
-  const params = useParams()
-  const character = characters.find((p) => p._id === params.id)
+const CharacterScreen = ({ match }) => {
+  const [character, setCharacter] = useState({})
+  const { id } = useParams()
+  useEffect(() => {
+    const fetchCharacter = async () => {
+      const { data } = await axios.get(`/api/characters/${id}`)
+      setCharacter(data)
+    }
+    fetchCharacter()
+  }, [id])
 
   return (
     <>

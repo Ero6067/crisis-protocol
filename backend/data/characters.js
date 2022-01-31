@@ -1,5 +1,6 @@
 const characters = [
   {
+    // _id: 1,
     index: 'baron-zemo',
     name: 'Baron Zemo',
     alias: 'Helmut Zemo',
@@ -3820,4 +3821,4 @@ const characters = [
   },
 ]
 
-module.exports = characters
+export default characters

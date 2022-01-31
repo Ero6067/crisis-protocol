@@ -7,7 +7,6 @@ const HomeScreen = () => {
   const [characters, setCharacters] = useState([])
 
   useEffect(() => {
-    console.log('hello')
     const fetchCharacters = async () => {
       const { data } = await axios.get('/api/characters')
 
@@ -22,7 +21,7 @@ const HomeScreen = () => {
       <Row>
         {characters.map((character) => (
           <Col key={character.index} sm={12} md={6} lg={4} xl={3}>
-            <Character key={character._id} character={character} />
+            <Character character={character} />
           </Col>
         ))}
       </Row>
